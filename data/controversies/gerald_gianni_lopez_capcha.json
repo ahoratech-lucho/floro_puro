@@ -1,0 +1,25 @@
+{
+  "nombre": "GERALD GIANNI LOPEZ CAPCHA",
+  "slug": "gerald_gianni_lopez_capcha",
+  "searchedAt": "2026-03-15T00:50:22.423Z",
+  "analysis": {
+    "resumen": "Candidato a diputado numero 4 por Avanza Pais en Huanuco para las elecciones 2026. Tuvo observaciones documentales durante el proceso de calificacion por el JEE de Huanuco, aunque no se encontraron denuncias penales ni controversias mayores en las busquedas realizadas.",
+    "banderas_rojas": [
+      "Observaciones documentales en proceso de calificacion del JEE"
+    ],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Problemas documentales en registro de candidatura ante el JEE"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [],
+    "cambios_partido": [
+      "Avanza Pais (actual)"
+    ],
+    "nivel_riesgo": "bajo",
+    "fuentes": [
+      "https://tudiariohuanuco.pe/politica/elecciones-2026-jee-huanuco-excluye-una-lista-de-candidatos-y-18-estan-inadmisibles/",
+      "https://votoinformado.jne.gob.pe/hoja-vida/2980/25331980"
+    ]
+  }
+}

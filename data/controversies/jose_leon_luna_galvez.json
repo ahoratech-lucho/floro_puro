@@ -1,0 +1,51 @@
+{
+  "nombre": "JOSE LEON LUNA GALVEZ",
+  "slug": "jose_leon_luna_galvez",
+  "searchedAt": "2026-03-15T00:44:24.961Z",
+  "analysis": {
+    "resumen": "Empresario educativo, fundador de Podemos Perú y dueño de la Universidad Telesup. La fiscalía pide más de 22 años de prisión por liderar la organización criminal 'Los Gánsters de la Política'. Investigado por lavado de activos, organización criminal y cohecho. Telesup fue usada como vehículo para pagos ilegales a funcionarios del CNM y ONPE.",
+    "banderas_rojas": [
+      "Fiscalía pide más de 22 años de prisión",
+      "Sindicado como líder de organización criminal",
+      "Firmas falsas en inscripción de partido político",
+      "Universidad Telesup como vehículo de pagos ilegales",
+      "Presunta captura de organismos electorales (ONPE y CNM)",
+      "Vinculado a caso Odebrecht/OAS",
+      "Acusación involucra a 19 personas y 2 entidades jurídicas"
+    ],
+    "antecedentes_penales": [
+      "Sin sentencias condenatorias firmes registradas hasta la fecha",
+      "Poder Judicial anuló tres investigaciones fiscales en su contra recientemente"
+    ],
+    "controversias": [
+      "Organización criminal 'Los Gánsters de la Política': presunta captura de ONPE y CNM",
+      "Firmas falsas en inscripción de Podemos Perú incluyendo firmas de Paolo Guerrero, Claudio Pizarro, Gastón Acurio y Verónika Mendoza",
+      "Universidad Telesup: denegada licencia por Sunedu en 2019, 31 sanciones de Indecopi",
+      "Telesup usada para justificar pagos de S/1.3 millones a exmiembros del CNM",
+      "Lavado de activos vinculado a aportes ilegales de OAS y Odebrecht a campaña de Castañeda Lossio",
+      "Presunta influencia para elegir al jefe de la ONPE mediante sobornos",
+      "Incumplimiento de reglas del Poder Judicial durante investigación",
+      "Intentó ampararse en nueva ley del Parlamento para archivar proceso por crimen organizado",
+      "Acusación fiscal alcanza a 19 personas incluido su hijo José Luna Morales"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [
+      "Acusación fiscal por organización criminal y cohecho activo específico - pedido de 22 años y 8 meses",
+      "Investigación por lavado de activos - caso Lava Jato / Castañeda Lossio",
+      "Investigación por lavado de activos vinculado a inscripción de Podemos Perú",
+      "Caso 'Los Gánsters de la Política' - captura de organismos electorales",
+      "Poder Judicial anuló tres investigaciones fiscales recientemente"
+    ],
+    "cambios_partido": [
+      "Solidaridad Nacional (congresista)",
+      "Fundador de Podemos Perú"
+    ],
+    "nivel_riesgo": "muy alto",
+    "fuentes": [
+      "https://www.infobae.com/peru/2025/08/07/jose-luna-acusado-de-encabezar-organizacion-criminal-fiscalia-formaliza-pedido-de-mas-de-22-anos-contra-el-lider-de-podemos-peru/",
+      "https://elcomercio.pe/politica/justicia/jose-luna-galvez-ministerio-publico-pide-22-anos-de-prision-contra-congresista-por-supuesta-organizacion-criminal-que-opero-en-la-onpe-y-cnm-podemos-peru-ultimas-noticia/",
+      "https://rpp.pe/politica/judiciales/fiscalia-inicio-investigacion-preparatoria-a-jose-luna-galvez-y-otros-por-presunto-lavado-de-activos-por-caso-podemos-peru-noticia-1580918",
+      "https://convoca.pe/agenda-propia/congresista-luna-dueno-de-universidad-con-31-sanciones-de-indecopi-presidira-la"
+    ]
+  }
+}

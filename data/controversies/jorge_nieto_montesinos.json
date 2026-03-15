@@ -1,0 +1,42 @@
+{
+  "nombre": "JORGE NIETO MONTESINOS",
+  "slug": "jorge_nieto_montesinos",
+  "searchedAt": "2026-03-15T00:46:43.587Z",
+  "analysis": {
+    "resumen": "Sociologo y politico, fue Ministro de Cultura y Ministro de Defensa bajo PPK. Tiene investigacion fiscal formalizada por lavado de activos en el caso Odebrecht/OAS, vinculado al financiamiento ilegal de la campana contra la revocatoria de Susana Villaran en 2013. Habria recibido entre US$120,000 y US$129,000 de OAS.",
+    "banderas_rojas": [
+      "Investigacion fiscal formalizada por lavado de activos vinculado a Odebrecht y OAS",
+      "Habria recibido entre US$120,000 y US$129,000 de OAS por consultorias a Susana Villaran",
+      "Vinculacion con el caso de financiamiento ilegal de campana contra revocatoria de Villaran (2013)",
+      "Parentesco directo con Vladimiro Montesinos",
+      "Investigación por dinero presuntamente ilegal de OAS/Odebrecht",
+      "Vinculación con caso Lava Jato",
+      "Múltiples cambios de agrupación política"
+    ],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Investigacion preparatoria formalizada por lavado de activos - Caso Odebrecht/OAS",
+      "Vinculo con Susana Villaran y financiamiento ilegal de campana anti-revocatoria",
+      "Militancia juvenil en partidos de izquierda radical (Partido Comunista Revolucionario)",
+      "Sobrino de Vladimiro Montesinos Torres, condenado por corrupción",
+      "Investigación por presuntos US$129,000 recibidos de OAS/Odebrecht vinculados a campaña de No Revocatoria",
+      "Vínculo con gobierno de Dina Boluarte como exministro del gabinete PPK",
+      "Relaciones señaladas como peligrosas según investigaciones periodísticas",
+      "Fue número 1 de lista de George Forsyth antes de fundar su propio partido"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [
+      "Investigacion preparatoria formalizada por lavado de activos - Caso Odebrecht y OAS"
+    ],
+    "cambios_partido": [
+      "Militancia juvenil en Partido Comunista Revolucionario - Trinchera Roja",
+      "Ministro del gobierno de PPK (centro-derecha, 2016-2018)",
+      "Fundo Partido del Buen Gobierno (2019)"
+    ],
+    "nivel_riesgo": "alto",
+    "fuentes": [
+      "https://elcomercio.pe/politica/justicia/caso-odebrecht-fiscalia-formaliza-investigacion-villaran-glave-nieto/",
+      "https://larepublica.pe/politica/2026/03/04/jorge-nieto-montesinos-candidato-presidencial/"
+    ]
+  }
+}

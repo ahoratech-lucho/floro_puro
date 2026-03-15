@@ -1,0 +1,34 @@
+{
+  "nombre": "ABEL AUGUSTO REYES CAM",
+  "slug": "abel_reyes_cam",
+  "searchedAt": "2026-03-15T00:50:22.430Z",
+  "analysis": {
+    "resumen": "Congresista actual por Peru Libre representando Huanuco (2021-2026), busca la reeleccion al Senado. Fue elegido con 7,133 votos. Protagonizo un escandalo nacional al quedarse en Rusia por mas de 40 dias en 2022 y nuevamente en 2023, cuando intento permanecer hasta enero 2024 tras una conferencia parlamentaria. En 2022, tuvo la intencion de viajar a Crimea para apoyar la invasion rusa, aunque fue persuadido de desistir. Padece ataxia de Friedreich tipo I. Esta vinculado politicamente a Vladimir Cerron, profugo de la justicia. Fue excluido como candidato a diputado en las elecciones 2020 por omitir propiedades en su hoja de vida.",
+    "banderas_rojas": [
+      "Vinculacion politica con Vladimir Cerron (profugo de la justicia)",
+      "Estancias prolongadas y polemicas en Rusia",
+      "Intencion de viajar a Crimea para apoyar la invasion rusa",
+      "Exclusion previa de elecciones 2020 por omitir propiedades en hoja de vida",
+      "Vinculacion con mineria informal (Reinfo)"
+    ],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Estancia de mas de 40 dias en Rusia en 2022, con intencion de ir a Crimea",
+      "Permanencia prolongada en Rusia en 2023, pidiendo licencia por salud",
+      "Vinculo estrecho con Vladimir Cerron, lider de Peru Libre y profugo",
+      "Exclusion en elecciones 2020 por omision de bienes en hoja de vida",
+      "Candidatos de Peru Libre vinculados a mineria informal"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [],
+    "cambios_partido": [
+      "Peru Libre (actual)"
+    ],
+    "nivel_riesgo": "alto",
+    "fuentes": [
+      "https://www.infobae.com/peru/2023/10/06/el-vinculo-escondido-de-abel-reyes-con-rusia-congresista-ya-habia-estado-en-ese-pais-por-40-dias-en-el-2022/",
+      "https://elcomercio.pe/politica/congreso/congresista-de-peru-libre-abel-reyes-cam-se-queda-mas-tiempo-en-rusia-los-detalles-de-su-polemica-decision-noticia/",
+      "https://infocongresistasperu.pe/congresista/127"
+    ]
+  }
+}

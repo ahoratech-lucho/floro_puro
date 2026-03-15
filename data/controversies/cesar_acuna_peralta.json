@@ -1,0 +1,47 @@
+{
+  "nombre": "CESAR ACUÑA PERALTA",
+  "slug": "cesar_acuna_peralta",
+  "searchedAt": "2026-03-15T00:44:24.955Z",
+  "analysis": {
+    "resumen": "Empresario educativo, fundador y líder de Alianza para el Progreso (APP). Gobernador regional de La Libertad y exalcalde de Trujillo. Tiene 23 denuncias no declaradas al JNE, sentencia por alimentos, denuncias por violencia familiar, plagio de tesis doctoral y el escándalo 'Plata como Cancha'. Obligado judicialmente a pagar S/90,000 mensuales de pensión alimenticia.",
+    "banderas_rojas": [
+      "23 denuncias no declaradas al JNE",
+      "Plagio de tesis doctoral confirmado internacionalmente",
+      "Sentencia por pensión alimenticia de S/90,000 mensuales",
+      "Denuncias por violencia familiar con medidas de protección",
+      "Excluido de elecciones 2016 por compra de votos",
+      "Ausentismo extremo como gobernador regional"
+    ],
+    "antecedentes_penales": [
+      "Absuelto en caso 'Plata como Cancha' por inducción al voto y falsedad genérica (2017)",
+      "Sentencia por alimentos declarada en hoja de vida ante JNE"
+    ],
+    "controversias": [
+      "Plagio confirmado de tesis doctoral por la Universidad Complutense de Madrid",
+      "Escándalo 'Plata como Cancha': excluido de elecciones 2016 por entregar dádivas a comerciantes",
+      "Pensión alimenticia de S/90,000 mensuales ordenada por el Poder Judicial para hijo menor en Suiza",
+      "Medidas de protección por violencia familiar a favor de expareja e hijo (2018)",
+      "Denuncias por maltrato físico y psicológico: retención contra voluntad en vehículo (2018)",
+      "145 días fuera del cargo de gobernador en 2025 (30% del tiempo de gestión)",
+      "Familia Acuña involucrada en múltiples escándalos de plagio y tesis desaparecidas"
+    ],
+    "pension_alimenticia": "si - S/90,000 mensuales por mandato judicial del Poder Judicial",
+    "procesos_judiciales": [
+      "23 denuncias en fiscalías, principalmente del norte del país",
+      "Caso negociación incompatible por subvención de S/48,000 de fondos públicos (archivado en 2019)",
+      "Proceso penal en España por plagio de tesis doctoral",
+      "Medidas de protección por violencia familiar (2018)"
+    ],
+    "cambios_partido": [
+      "Fundador y líder permanente de Alianza para el Progreso (APP)"
+    ],
+    "nivel_riesgo": "muy alto",
+    "fuentes": [
+      "https://www.infobae.com/america/peru/2022/09/03/los-escandalos-politicos-y-legales-que-rodean-a-cesar-acuna-el-millonario-lider-de-app/",
+      "https://convoca.pe/convoca-verifica/reportaje/es-falso-que-cesar-acuna-no-haya-sido-denunciado-por-corrupcion",
+      "https://willax.pe/actualidad/poder-judicial-le-ordena-a-cesar-acuna-dar-una-pension-de-90-mil-soles-a-su-ultimo-hijo",
+      "https://www.infobae.com/peru/2026/03/10/cesar-acuna-registra-medidas-de-proteccion-por-violencia-familiar-pero-jee-decide-no-iniciar-proceso-sancionador/",
+      "https://altavoz.pe/politica/cesar-acuna-hoja-de-vida-ante-el-jne-revela-sentencia-por-alimentos-y-un-historial-de-denuncias-por-violencia-familiar/"
+    ]
+  }
+}

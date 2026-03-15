@@ -1,0 +1,28 @@
+{
+  "nombre": "LUIS ERNESTO PICON ALCANTARA",
+  "slug": "luis_ernesto_picon_alcantara",
+  "searchedAt": "2026-03-15T00:40:20.333Z",
+  "analysis": {
+    "resumen": "Hijo del congresista sentenciado Luis Picon Quedo y de Lilian Alcantara Leyva. Candidato numero 1 a diputado por Podemos Peru en Huanuco 2026. Sin antecedentes propios conocidos pero forma parte de una estrategia familiar para mantener poder politico.",
+    "banderas_rojas": [
+      "Candidatura aparentemente instrumental para perpetuar influencia de familia Picon",
+      "Padre con 136 delitos presuntos y multiples sentencias",
+      "Madre con 3 condenas por corrupcion"
+    ],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Hijo de congresista con multiples sentencias por corrupcion",
+      "Madre tambien candidata al Senado por el mismo partido",
+      "Aparente estrategia de dinastia politica"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [],
+    "cambios_partido": [
+      "Podemos Peru"
+    ],
+    "nivel_riesgo": "medio",
+    "fuentes": [
+      "https://pagina3.pe/portada/cuatro-millonarios-doce-sentenciados-y-22-golondrinos-postulan-a-senadores-y-diputados-por-huanuco/"
+    ]
+  }
+}

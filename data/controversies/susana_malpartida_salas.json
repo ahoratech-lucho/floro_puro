@@ -1,0 +1,28 @@
+{
+  "nombre": "SUSANA MALPARTIDA SALAS",
+  "slug": "susana_malpartida_salas",
+  "searchedAt": "2026-03-15T00:50:22.421Z",
+  "analysis": {
+    "resumen": "Candidata a diputada numero 2 por la alianza Venceremos en Huanuco. Previamente se desempeno como Jefa de Gabinete de Asesores del exministro Juan Silva Villegas en el Ministerio de Transportes y Comunicaciones (MTC), y fue candidata por Alianza para el Progreso (APP). Su vinculo con Juan Silva, quien es profugo de la justicia por casos de corrupcion durante el gobierno de Pedro Castillo, representa un riesgo reputacional significativo.",
+    "banderas_rojas": [
+      "Vinculacion laboral directa con el exministro Juan Silva (profugo por corrupcion)",
+      "Cambio de partido de APP a Venceremos"
+    ],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Fue jefa de gabinete de asesores del exministro Juan Silva, profugo de la justicia por corrupcion",
+      "Cambio de agrupacion politica de APP a Venceremos"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [],
+    "cambios_partido": [
+      "Alianza para el Progreso - APP (anterior)",
+      "Venceremos (actual)"
+    ],
+    "nivel_riesgo": "alto",
+    "fuentes": [
+      "https://gestion.pe/peru/politica/mtc-nombran-a-excanditada-al-congreso-de-alianza-para-el-progreso-como-jefa-de-asesores-cesar-acuna-nndc-noticia/",
+      "https://tudiariohuanuco.pe/politica/por-esperar-ultima-hora-no-completaron-a-registrar-a-candidatos-ante-el-jee-de-huanuco-para-las-eg-2026/"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "nombre": "PABLITO ARTURO CUYUBAMBA NINAHUANCA",
+  "slug": "pablito_arturo_cuyubamba_ninahuanca",
+  "searchedAt": "2026-03-15T00:50:22.422Z",
+  "analysis": {
+    "resumen": "Candidato a diputado numero 3 por la alianza Venceremos en Huanuco. Ingreso como reemplazo del candidato Gerardo Melendez Obregon, quien renuncio a la posicion numero 1 en la lista. No se encontraron denuncias, controversias ni antecedentes penales relevantes en las busquedas realizadas.",
+    "banderas_rojas": [],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Candidato de reemplazo, ingreso tras la renuncia de otro candidato"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [],
+    "cambios_partido": [
+      "Venceremos (actual)"
+    ],
+    "nivel_riesgo": "bajo",
+    "fuentes": [
+      "https://tudiariohuanuco.pe/politica/jne-declara-fundadas-apelaciones-para-inscribir-13-listas-de-candidatos-en-huanuco/"
+    ]
+  }
+}

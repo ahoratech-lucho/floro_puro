@@ -1,0 +1,21 @@
+{
+  "name": "radar-del-floro",
+  "version": "1.0.0",
+  "description": "Pipeline de scraping para Radar del Floro - juego satirico politico Peru 2026",
+  "scripts": {
+    "discover": "node scripts/01_discover_api.js",
+    "scrape": "node scripts/02_scrape_candidates.js",
+    "download": "node scripts/03_download_assets.js",
+    "controversies": "node scripts/04_search_controversies.js",
+    "caricatures": "node scripts/05_generate_caricatures.js",
+    "consolidate": "node scripts/06_consolidate_game_data.js",
+    "pipeline": "node scripts/01_discover_api.js && node scripts/02_scrape_candidates.js && node scripts/03_download_assets.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "canvas": "^3.2.1",
+    "pdf-parse": "^1.1.1",
+    "puppeteer": "^24.39.1",
+    "sharp": "^0.34.5"
+  }
+}

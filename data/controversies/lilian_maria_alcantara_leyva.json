@@ -1,0 +1,31 @@
+{
+  "nombre": "LILIAN MARIA ALCANTARA LEYVA",
+  "slug": "lilian_maria_alcantara_leyva",
+  "searchedAt": "2026-03-15T00:50:22.431Z",
+  "analysis": {
+    "resumen": "Candidata al Senado por Podemos Peru en Huanuco. Es medico cirujano pediatrico y oftalmologo. Es esposa del congresista Luis Picon Quedo, quien tiene tres sentencias en primera instancia por corrupcion (negociacion incompatible y colusion) como exgobernador regional de Huanuco. Picon fue condenado a 4 anos de prision suspendida y fue capturado como reo contumaz. Debido a sus sentencias, Picon no puede reelegirse, pero su esposa postula al Senado y su hijo Luis Picon Alcantara postula como diputado, ambos por Podemos Peru, configurando un caso de herencia politica familiar directa.",
+    "banderas_rojas": [
+      "Esposa de congresista sentenciado por corrupcion (Luis Picon Quedo)",
+      "Posible herencia politica familiar: esposa al Senado, hijo a Diputados",
+      "Documento de licencia ilegible presentado ante el JEE",
+      "Vinculo familiar con exgobernador condenado por negociacion incompatible y colusion"
+    ],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Candidatura vista como extension politica del congresista sentenciado Luis Picon Quedo",
+      "Configuracion familiar: esposa al Senado e hijo a Diputados por el mismo partido",
+      "Presento documento de licencia sin goce ilegible al JEE"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [],
+    "cambios_partido": [
+      "Podemos Peru (actual)"
+    ],
+    "nivel_riesgo": "alto",
+    "fuentes": [
+      "https://pagina3.pe/portada/cuatro-millonarios-doce-sentenciados-y-22-golondrinos-postulan-a-senadores-y-diputados-por-huanuco/",
+      "https://www.infobae.com/peru/2024/06/04/congresista-luis-picon-es-condenado-a-cuatro-anos-de-prision-suspendida-por-negociacion-incompatible/",
+      "https://elcomercio.pe/politica/perfil-luis-picon-quien-es-el-congresista-sentenciado-que-presidira-la-comision-de-salud-y-poblacion-podemos-peru-congreso-peru-condena-corrupcion-noticia/"
+    ]
+  }
+}

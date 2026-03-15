@@ -1,0 +1,23 @@
+{
+  "nombre": "ANITA CERPA DEL CASTILLO",
+  "slug": "anita_cerpa_del_castillo",
+  "searchedAt": "2026-03-15T00:50:22.435Z",
+  "analysis": {
+    "resumen": "Candidata a diputada numero 3 por Fuerza Popular en Huanuco. Excongresista con experiencia en el sector agrario, se desempeno como directora de Agro Rural y trabajo en la Comision Agraria del Parlamento. Inicio su campana conduciendo un tractor, evocando la imagen de Alberto Fujimori. No se encontraron denuncias penales ni controversias significativas mas alla de su afiliacion al fujimorismo.",
+    "banderas_rojas": [],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Campana evocando simbolismo fujimorista (tractor como Alberto Fujimori)"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [],
+    "cambios_partido": [
+      "Fuerza Popular (actual)"
+    ],
+    "nivel_riesgo": "bajo",
+    "fuentes": [
+      "https://diariocorreo.pe/edicion/huanuco/huanuco-candidata-causa-asombro-en-poblacion-al-iniciar-su-campana-conduciendo-un-tractor-noticia/",
+      "https://tudiariohuanuco.pe/politica/anita-cerpa-presento-sus-propuestas-como-candidata-a-diputada-por-huanuco/"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "nombre": "LUIS RAUL PICON QUEDO",
+  "slug": "luis_raul_picon_quedo",
+  "searchedAt": "2026-03-15T00:40:20.327Z",
+  "analysis": {
+    "resumen": "Congresista saliente por Huanuco (Podemos Peru) con multiples sentencias por corrupcion. Fue gobernador regional de Huanuco. Condenado por negociacion incompatible en caso de compra de ambulancias. Tiene 136 presuntos delitos en 78 carpetas fiscales. Capturado como reo contumaz. Su esposa e hijo postulan en 2026.",
+    "banderas_rojas": [
+      "Multiples sentencias condenatorias por corrupcion",
+      "136 delitos presuntos registrados en la Fiscalia",
+      "Declarado reo contumaz y capturado por la policia",
+      "Intento de perpetuar poder politico a traves de familiares",
+      "Inhabilitado para cargo publico"
+    ],
+    "antecedentes_penales": [
+      "Sentencia de 4 anios de prision suspendida por negociacion incompatible (caso ambulancias, 2024)",
+      "Sentencia de 4 anios y 8 meses por delitos contra la administracion publica (2025)",
+      "Sentencia por abuso de autoridad (2017)",
+      "Sentencia por delitos contra el patrimonio cultural (2021)"
+    ],
+    "controversias": [
+      "Capturado por la Policia Nacional como reo contumaz (octubre 2023)",
+      "Presidio la Comision de Salud pese a tener sentencias",
+      "Su esposa postula al Senado y su hijo a diputado por Podemos Peru en 2026"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [
+      "Caso ambulancias: compra irregular de 34-35 ambulancias por mas de S/ 9 millones",
+      "Caso megaobras: peculado por transferencia de S/ 87 millones",
+      "Multiples investigaciones por corrupcion, trafico de influencias y abuso de autoridad"
+    ],
+    "cambios_partido": [
+      "Podemos Peru"
+    ],
+    "nivel_riesgo": "muy alto",
+    "fuentes": [
+      "https://elcomercio.pe/politica/perfil-luis-picon",
+      "https://gestion.pe/peru/politica/congreso-condenan-luis-picon",
+      "https://larepublica.pe/politica/2025/03/24/poder-judicial-sentencia-a-congresista-luis-picon",
+      "https://rpp.pe/politica/congreso/luis-picon-capturado"
+    ]
+  }
+}

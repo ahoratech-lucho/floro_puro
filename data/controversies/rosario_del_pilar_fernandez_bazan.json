@@ -1,0 +1,36 @@
+{
+  "nombre": "ROSARIO DEL PILAR FERNANDEZ BAZAN",
+  "slug": "rosario_del_pilar_fernandez_bazan",
+  "searchedAt": "2026-03-15T00:48:24.105Z",
+  "analysis": {
+    "resumen": "Hermana de Arturo Fernandez Bazan, exalcalde de Trujillo condenado por difamacion agravada y actualmente profugo. Se nego a firmar Pacto Etico Electoral del JNE. Denunciada penalmente por agresion a policias y danio a sede judicial durante protesta a favor de su hermano. Formula vicepresidencial incluye a otro hermano.",
+    "banderas_rojas": [
+      "Hermana de Arturo Fernandez Bazan, condenado y profugo de la justicia",
+      "Denuncia penal por agresion a PNP y danio a sede judicial",
+      "Se nego a firmar el Pacto Etico Electoral del JNE",
+      "Partido creado para defender intereses de su hermano profugo",
+      "Formula incluye a otro hermano"
+    ],
+    "antecedentes_penales": [
+      "Denuncia penal por agresion a policias y danios a infraestructura judicial (diciembre 2025)"
+    ],
+    "controversias": [
+      "Lidero protesta violenta frente a sede judicial con agresiones a policias",
+      "Se nego a firmar Pacto Etico Electoral",
+      "Hermano es exalcalde condenado y profugo",
+      "Formula vicepresidencial incluye a otro hermano"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [
+      "Denuncia penal por agresion a PNP y danios a infraestructura judicial (2025)"
+    ],
+    "cambios_partido": [
+      "Un Camino Diferente"
+    ],
+    "nivel_riesgo": "alto",
+    "fuentes": [
+      "https://www.infobae.com/peru/2025/12/19/rosario-fernandez-niega-firmar-pacto-etico/",
+      "https://www.infobae.com/peru/2025/12/19/rosario-fernandez-denunciada-agredir-pnp/"
+    ]
+  }
+}

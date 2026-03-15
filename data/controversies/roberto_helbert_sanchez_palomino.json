@@ -1,0 +1,38 @@
+{
+  "nombre": "ROBERTO HELBERT SANCHEZ PALOMINO",
+  "slug": "roberto_helbert_sanchez_palomino",
+  "searchedAt": "2026-03-15T00:46:43.592Z",
+  "analysis": {
+    "resumen": "Psicologo y politico de izquierda, congresista (2021-2026) y presidente de Juntos por el Peru. Investigado por participacion en el fallido golpe de estado del 7 de diciembre de 2022 (excluido del proceso). Investigado por mochasueldos y delitos contra la administracion publica. Candidatura anunciada por Pedro Castillo desde su juicio.",
+    "banderas_rojas": [
+      "Investigado por participacion en intento de golpe de estado del 7 de diciembre de 2022",
+      "Acusacion de mochasueldos: cobro ilegal de cuotas del 20% a personal",
+      "Denuncia constitucional por contratacion irregular junto a Guido Bellido",
+      "Candidatura anunciada por Pedro Castillo (preso por intento de golpe)",
+      "Violacion del principio de neutralidad electoral"
+    ],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Participacion en reuniones previas al golpe de estado en Palacio de Gobierno",
+      "Investigacion por mochasueldos y delitos contra la administracion publica",
+      "Denuncia constitucional por contratacion irregular de asesor",
+      "Violacion de neutralidad electoral",
+      "Lealtad al expresidente Pedro Castillo"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [
+      "Investigacion por intento de golpe de estado (excluido por Corte Suprema)",
+      "Denuncia constitucional por contratacion irregular",
+      "Investigacion por mochasueldos",
+      "Sancion del JEE por violacion de neutralidad electoral"
+    ],
+    "cambios_partido": [
+      "Juntos por el Peru (presidente del partido)"
+    ],
+    "nivel_riesgo": "muy alto",
+    "fuentes": [
+      "https://www.infobae.com/peru/2025/01/30/roberto-sanchez-excluido-juicio-golpe/",
+      "https://www.infobae.com/peru/2024/08/12/roberto-sanchez-investigado-mochasueldos/"
+    ]
+  }
+}

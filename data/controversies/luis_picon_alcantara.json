@@ -1,0 +1,28 @@
+{
+  "nombre": "LUIS PICON ALCANTARA",
+  "slug": "luis_picon_alcantara",
+  "searchedAt": "2026-03-15T00:50:22.432Z",
+  "analysis": {
+    "resumen": "Candidato a diputado numero 1 por Podemos Peru en Huanuco. Es hijo del congresista sentenciado Luis Picon Quedo y de la candidata al Senado Lilian Alcantara Leyva. Su padre tiene tres sentencias en primera instancia por actos de corrupcion como exgobernador regional de Huanuco, incluyendo negociacion incompatible y colusion por favorecer a empresas en obras publicas y compras por mas de 96 millones de soles. La candidatura del hijo es vista como un intento de continuidad del poder politico familiar.",
+    "banderas_rojas": [
+      "Hijo de congresista con tres sentencias por corrupcion",
+      "Candidatura percibida como herencia politica familiar",
+      "Familia con historial de corrupcion en gobernacion regional de Huanuco"
+    ],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Candidatura familiar: padre sentenciado, madre candidata al Senado, hijo candidato a diputado",
+      "Percepcion de continuidad de poder politico del clan Picon"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [],
+    "cambios_partido": [
+      "Podemos Peru (actual)"
+    ],
+    "nivel_riesgo": "alto",
+    "fuentes": [
+      "https://pagina3.pe/portada/cuatro-millonarios-doce-sentenciados-y-22-golondrinos-postulan-a-senadores-y-diputados-por-huanuco/",
+      "https://www.infobae.com/peru/2024/06/04/congresista-luis-picon-es-condenado-a-cuatro-anos-de-prision-suspendida-por-negociacion-incompatible/"
+    ]
+  }
+}

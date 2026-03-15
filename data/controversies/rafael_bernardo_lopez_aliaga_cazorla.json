@@ -1,0 +1,51 @@
+{
+  "nombre": "RAFAEL BERNARDO LOPEZ ALIAGA CAZORLA",
+  "slug": "rafael_bernardo_lopez_aliaga_cazorla",
+  "searchedAt": "2026-03-15T00:44:24.958Z",
+  "analysis": {
+    "resumen": "Empresario y exalcalde de Lima. Líder de Renovación Popular y miembro del Opus Dei. Tiene 16 carpetas fiscales abiertas, investigación por lavado de activos vinculada a Panama Papers, y múltiples investigaciones por su gestión como alcalde. Conocido por declaraciones polémicas y desinformación sobre fraude electoral.",
+    "banderas_rojas": [
+      "16 carpetas fiscales abiertas",
+      "Investigación por lavado de activos vinculada a Panama Papers",
+      "Sociedades offshore en Panamá",
+      "Investigación por organización criminal",
+      "Destrucción de patrimonio histórico",
+      "Desinformación recurrente sobre fraude electoral",
+      "Candidatos de su partido con sentencias e investigaciones fiscales"
+    ],
+    "antecedentes_penales": [
+      "Sin sentencias condenatorias firmes registradas ante el JNE"
+    ],
+    "controversias": [
+      "Panama Papers: sociedades offshore constituidas a través de Mossack Fonseca",
+      "16 procesos judiciales con Lorenzo Sousa y 8 denuncias penales por disputas empresariales",
+      "Investigación por lavado de activos caso Caja Metropolitana con agravante de organización criminal",
+      "Promesas incumplidas como alcalde de Lima: 25 de 105 promesas sin cumplir",
+      "Declaraciones insistentes sobre fraude electoral en 2021 desmentidas por ONPE, Ministerio Público y OEA",
+      "Destrucción de casonas históricas con protección patrimonial en Lima",
+      "Apropiación denunciada del partido Solidaridad Nacional",
+      "9 candidatos de Renovación Popular con procesos por pensión de alimentos",
+      "Difusión de desinformación sobre COVID-19"
+    ],
+    "pension_alimenticia": "no - no se encontró proceso personal directo",
+    "procesos_judiciales": [
+      "Investigación preparatoria por lavado de activos - caso Panama Papers (ampliada 24 meses)",
+      "Investigación por destrucción de patrimonio cultural histórico de Lima",
+      "Investigación por presunto favorecimiento a empresa china en Vía Expresa Norte",
+      "Deuda con SUNAT judicializada",
+      "16 carpetas fiscales abiertas por diversos delitos"
+    ],
+    "cambios_partido": [
+      "Solidaridad Nacional (tomó control del partido tras muerte de Luis Castañeda Lossio)",
+      "Renovación Popular (fundador y líder)"
+    ],
+    "nivel_riesgo": "muy alto",
+    "fuentes": [
+      "https://www.idl-reporteros.pe/lopez-aliaga-y-los-panama-papers/",
+      "https://www.idl-reporteros.pe/la-investigacion-por-lavado-de-activos-que-afronta-lopez-aliaga/",
+      "https://www.infobae.com/peru/2025/10/13/las-promesas-incumplidas-de-rafael-lopez-aliaga-obras-a-medias-y-polemicas-mientras-fue-alcalde-de-lima/",
+      "https://www.infobae.com/peru/2026/02/15/fiscalia-abre-investigacion-contra-rafael-lopez-aliaga-por-destruccion-de-casonas-historicas-en-el-centro-de-lima/",
+      "https://larepublica.pe/politica/2025/12/21/cuatro-candidatos-cuentan-con-la-mayor-cantidad-de-investigaciones-fiscales-keiko-fujimori-rafael-lopez-aliaga-cesar-acuna-alex-gonzalez-castillo-hnews-1081380"
+    ]
+  }
+}

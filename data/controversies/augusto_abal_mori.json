@@ -1,0 +1,32 @@
+{
+  "nombre": "AUGUSTO ABAL MORI",
+  "slug": "augusto_abal_mori",
+  "searchedAt": "2026-03-15T00:50:22.424Z",
+  "analysis": {
+    "resumen": "Candidato al Senado por el Partido Morado, EXCLUIDO definitivamente por el JEE de Huanuco. Omitio declarar en su hoja de vida una sentencia condenatoria por trafico ilicito de drogas emitida en 2002 por el Juzgado Penal de Leoncio Prado (Tingo Maria), que le impuso siete anos y seis meses de pena privativa de libertad. Es uno de los casos mas graves de omision de antecedentes en Huanuco.",
+    "banderas_rojas": [
+      "Sentencia por trafico ilicito de drogas (7 anos y 6 meses de prision)",
+      "Omision deliberada de sentencia condenatoria en hoja de vida",
+      "Excluido del proceso electoral"
+    ],
+    "antecedentes_penales": [
+      "Sentencia condenatoria por trafico ilicito de drogas - Juzgado Penal de Leoncio Prado, Tingo Maria, 2002 - 7 anos y 6 meses de pena privativa de libertad"
+    ],
+    "controversias": [
+      "Intento ocultar sentencia por narcotrafico en su hoja de vida",
+      "Excluido por el JEE de Huanuco por omision de sentencia"
+    ],
+    "pension_alimenticia": "no",
+    "procesos_judiciales": [
+      "Sentencia firme por trafico ilicito de drogas (2002)"
+    ],
+    "cambios_partido": [
+      "Partido Morado (actual, excluido)"
+    ],
+    "nivel_riesgo": "muy alto",
+    "fuentes": [
+      "https://pagina3.pe/elecciones/jee-excluye-a-dos-candidatos-por-huanuco-que-omitieron-sentencias-en-sus-hojas-de-vida/",
+      "https://tudiariohuanuco.pe/politica/jee-huanuco-excluye-de-la-carrera-electoral-a-tres-candidatos-a-senador-y-diputado/"
+    ]
+  }
+}

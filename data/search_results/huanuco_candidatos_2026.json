@@ -1,0 +1,447 @@
+[
+  {
+    "nombre": "KARINA JULIZA BETETA RUBIN",
+    "slug": "karina_beteta_rubin",
+    "analysis": {
+      "resumen": "Excongresista por Huanuco (2006-2011 y 2016-2019) que postula como candidata a diputada por Fuerza Popular. Tiene multiples investigaciones fiscales abiertas, incluyendo lavado de activos, peculado doloso y falsedad ideologica. Fue cuestionada por omitir ocho expedientes judiciales en su hoja de vida ante el JEE, aunque finalmente se determino que la normativa solo exige declarar sentencias firmes, no procesos en curso. Cambio de partido politico de Union por el Peru (aliada de Humala) a Fuerza Popular (fujimorismo). Declaro patrimonio de 1.5 millones de soles. Ocupo cargos en el Congreso como jefa de la Oficina de Participacion Ciudadana y del Fondo Editorial pese a no ser congresista en ejercicio.",
+      "banderas_rojas": [
+        "Investigacion por lavado de activos en la Fiscalia del Callao",
+        "Investigacion por peculado doloso y falsedad ideologica por cobro irregular de gastos de representacion",
+        "Omision de ocho expedientes judiciales en hoja de vida",
+        "Cobro de gastos de representacion estando en el extranjero",
+        "Transfuguismo politico de Union por el Peru a Fuerza Popular"
+      ],
+      "antecedentes_penales": [
+        "Investigacion por lavado de activos (captacion y administracion de financiamiento partidario no justificado)",
+        "Investigacion por peculado doloso y falsedad ideologica por cobro irregular de gastos de representacion"
+      ],
+      "controversias": [
+        "Omitio declarar 8 expedientes judiciales en hoja de vida ante el JEE",
+        "Ocupo cargos en el Congreso (Fondo Editorial, Participacion Ciudadana) como excongresista vinculada al fujimorismo",
+        "Cobro gastos de representacion estando fuera del pais",
+        "Promocion de historieta criticada por apologia al fujimorismo"
+      ],
+      "pension_alimenticia": "no determinado",
+      "procesos_judiciales": [
+        "Investigacion fiscal por lavado de activos - Fiscalia del Callao",
+        "Investigacion preliminar por peculado doloso y falsedad ideologica",
+        "Ocho expedientes judiciales no declarados en hoja de vida"
+      ],
+      "cambios_partido": [
+        "Union por el Peru (2006-2011, alianza con Partido Nacionalista de Humala)",
+        "Fuerza Popular / Fuerza 2011 (2011-presente, fujimorismo)"
+      ],
+      "nivel_riesgo": "muy alto",
+      "fuentes": [
+        "https://ahora.com.pe/karina-beteta-en-la-mira-del-jee-podria-ser-excluida-por-omitir-ocho-expedientes-judiciales-en-hoja-de-vida/",
+        "https://elcomercio.pe/politica/congreso/karina-beteta-aliada-ollanta-humala-fujimorista-372600-noticia/",
+        "https://pagina3.pe/portada/cuatro-millonarios-doce-sentenciados-y-22-golondrinos-postulan-a-senadores-y-diputados-por-huanuco/",
+        "https://es.wikipedia.org/wiki/Karina_Beteta_Rub%C3%ADn"
+      ]
+    }
+  },
+  {
+    "nombre": "ADELA ANDREA ISLA VIGILIO",
+    "slug": "adela_andrea_isla_vigilio",
+    "analysis": {
+      "resumen": "Candidata a diputada numero 1 por Ahora Nacion en Huanuco. Fue inicialmente excluida por el JEE de Huanuco tras una tacha por omitir informacion sobre sus ingresos economicos en su declaracion jurada: declaro solo S/ 7,500 de ingresos como Subprefecta Provincial de Ambo pero omitio S/ 5,000 en servicios profesionales de cuarta categoria. Sin embargo, el JNE revoco la tacha y la restituyo en la carrera electoral, argumentando que el JEE aplico una ley derogada y debio solicitar correccion antes de excluirla.",
+      "banderas_rojas": [
+        "Omision de ingresos economicos en declaracion jurada",
+        "Tacha por informacion incompleta en hoja de vida (revocada por JNE)"
+      ],
+      "antecedentes_penales": [],
+      "controversias": [
+        "Excluida temporalmente por omitir ingresos de cuarta categoria en su declaracion jurada",
+        "Tacha presentada y resuelta a su favor por el JNE tras apelacion"
+      ],
+      "pension_alimenticia": "no determinado",
+      "procesos_judiciales": [],
+      "cambios_partido": [
+        "Ahora Nacion (actual)"
+      ],
+      "nivel_riesgo": "medio",
+      "fuentes": [
+        "https://pagina3.pe/politica/jne-anula-tacha-contra-candidata-de-ahora-nacion-por-huanuco/",
+        "https://tudiariohuanuco.pe/politica/candidata-a-diputado-de-ahora-nacion-es-excluida-por-tacha/"
+      ]
+    }
+  },
+  {
+    "nombre": "EDUARDO BERNARD TICERAN SALAZAR",
+    "slug": "eduardo_bernard_ticeran_salazar",
+    "analysis": {
+      "resumen": "Candidato a diputado numero 1 por la alianza Venceremos en Huanuco para las elecciones 2026. Originario de Monzon, provincia de Huamalies, Huanuco. Su experiencia laboral esta vinculada al sector de panificacion. No se encontraron denuncias, controversias significativas ni antecedentes penales en las busquedas realizadas.",
+      "banderas_rojas": [],
+      "antecedentes_penales": [],
+      "controversias": [],
+      "pension_alimenticia": "no determinado",
+      "procesos_judiciales": [],
+      "cambios_partido": [
+        "Venceremos (actual)"
+      ],
+      "nivel_riesgo": "bajo",
+      "fuentes": [
+        "https://tudiariohuanuco.pe/politica/por-esperar-ultima-hora-no-completaron-a-registrar-a-candidatos-ante-el-jee-de-huanuco-para-las-eg-2026/"
+      ]
+    }
+  },
+  {
+    "nombre": "SUSANA MALPARTIDA SALAS",
+    "slug": "susana_malpartida_salas",
+    "analysis": {
+      "resumen": "Candidata a diputada numero 2 por la alianza Venceremos en Huanuco. Previamente se desempeno como Jefa de Gabinete de Asesores del exministro Juan Silva Villegas en el Ministerio de Transportes y Comunicaciones (MTC), y fue candidata por Alianza para el Progreso (APP). Su vinculo con Juan Silva, quien es profugo de la justicia por casos de corrupcion durante el gobierno de Pedro Castillo, representa un riesgo reputacional significativo.",
+      "banderas_rojas": [
+        "Vinculacion laboral directa con el exministro Juan Silva (profugo por corrupcion)",
+        "Cambio de partido de APP a Venceremos"
+      ],
+      "antecedentes_penales": [],
+      "controversias": [
+        "Fue jefa de gabinete de asesores del exministro Juan Silva, profugo de la justicia por corrupcion",
+        "Cambio de agrupacion politica de APP a Venceremos"
+      ],
+      "pension_alimenticia": "no determinado",
+      "procesos_judiciales": [],
+      "cambios_partido": [
+        "Alianza para el Progreso - APP (anterior)",
+        "Venceremos (actual)"
+      ],
+      "nivel_riesgo": "alto",
+      "fuentes": [
+        "https://gestion.pe/peru/politica/mtc-nombran-a-excanditada-al-congreso-de-alianza-para-el-progreso-como-jefa-de-asesores-cesar-acuna-nndc-noticia/",
+        "https://tudiariohuanuco.pe/politica/por-esperar-ultima-hora-no-completaron-a-registrar-a-candidatos-ante-el-jee-de-huanuco-para-las-eg-2026/"
+      ]
+    }
+  },
+  {
+    "nombre": "PABLITO ARTURO CUYUBAMBA NINAHUANCA",
+    "slug": "pablito_arturo_cuyubamba_ninahuanca",
+    "analysis": {
+      "resumen": "Candidato a diputado numero 3 por la alianza Venceremos en Huanuco. Ingreso como reemplazo del candidato Gerardo Melendez Obregon, quien renuncio a la posicion numero 1 en la lista. No se encontraron denuncias, controversias ni antecedentes penales relevantes en las busquedas realizadas.",
+      "banderas_rojas": [],
+      "antecedentes_penales": [],
+      "controversias": [
+        "Candidato de reemplazo, ingreso tras la renuncia de otro candidato"
+      ],
+      "pension_alimenticia": "no determinado",
+      "procesos_judiciales": [],
+      "cambios_partido": [
+        "Venceremos (actual)"
+      ],
+      "nivel_riesgo": "bajo",
+      "fuentes": [
+        "https://tudiariohuanuco.pe/politica/jne-declara-fundadas-apelaciones-para-inscribir-13-listas-de-candidatos-en-huanuco/"
+      ]
+    }
+  },
+  {
+    "nombre": "GERALD GIANNI LOPEZ CAPCHA",
+    "slug": "gerald_gianni_lopez_capcha",
+    "analysis": {
+      "resumen": "Candidato a diputado numero 4 por Avanza Pais en Huanuco para las elecciones 2026. Tuvo observaciones documentales durante el proceso de calificacion por el JEE de Huanuco, aunque no se encontraron denuncias penales ni controversias mayores en las busquedas realizadas.",
+      "banderas_rojas": [
+        "Observaciones documentales en proceso de calificacion del JEE"
+      ],
+      "antecedentes_penales": [],
+      "controversias": [
+        "Problemas documentales en registro de candidatura ante el JEE"
+      ],
+      "pension_alimenticia": "no determinado",
+      "procesos_judiciales": [],
+      "cambios_partido": [
+        "Avanza Pais (actual)"
+      ],
+      "nivel_riesgo": "bajo",
+      "fuentes": [
+        "https://tudiariohuanuco.pe/politica/elecciones-2026-jee-huanuco-excluye-una-lista-de-candidatos-y-18-estan-inadmisibles/",
+        "https://votoinformado.jne.gob.pe/hoja-vida/2980/25331980"
+      ]
+    }
+  },
+  {
+    "nombre": "AUGUSTO ABAL MORI",
+    "slug": "augusto_abal_mori",
+    "analysis": {
+      "resumen": "Candidato al Senado por el Partido Morado, EXCLUIDO definitivamente por el JEE de Huanuco. Omitio declarar en su hoja de vida una sentencia condenatoria por trafico ilicito de drogas emitida en 2002 por el Juzgado Penal de Leoncio Prado (Tingo Maria), que le impuso siete anos y seis meses de pena privativa de libertad. Es uno de los casos mas graves de omision de antecedentes en Huanuco.",
+      "banderas_rojas": [
+        "Sentencia por trafico ilicito de drogas (7 anos y 6 meses de prision)",
+        "Omision deliberada de sentencia condenatoria en hoja de vida",
+        "Excluido del proceso electoral"
+      ],
+      "antecedentes_penales": [
+        "Sentencia condenatoria por trafico ilicito de drogas - Juzgado Penal de Leoncio Prado, Tingo Maria, 2002 - 7 anos y 6 meses de pena privativa de libertad"
+      ],
+      "controversias": [
+        "Intento ocultar sentencia por narcotrafico en su hoja de vida",
+        "Excluido por el JEE de Huanuco por omision de sentencia"
+      ],
+      "pension_alimenticia": "no",
+      "procesos_judiciales": [
+        "Sentencia firme por trafico ilicito de drogas (2002)"
+      ],
+      "cambios_partido": [
+        "Partido Morado (actual, excluido)"
+      ],
+      "nivel_riesgo": "muy alto",
+      "fuentes": [
+        "https://pagina3.pe/elecciones/jee-excluye-a-dos-candidatos-por-huanuco-que-omitieron-sentencias-en-sus-hojas-de-vida/",
+        "https://tudiariohuanuco.pe/politica/jee-huanuco-excluye-de-la-carrera-electoral-a-tres-candidatos-a-senador-y-diputado/"
+      ]
+    }
+  },
+  {
+    "nombre": "OSCAR OVIDIO DELGADO LINO",
+    "slug": "oscar_ovidio_delgado_lino",
+    "analysis": {
+      "resumen": "Candidato a diputado por Juntos por el Peru, EXCLUIDO definitivamente por el JEE de Huanuco. Omitio declarar una sentencia condenatoria de 2011 por incumplimiento de obligaciones alimentarias (pension alimenticia), emitida por el Juzgado Mixto de Pachitea, que le impuso dos anos de pena privativa de libertad condicional. Aunque declaro seis sentencias relacionadas con pension alimenticia, omitio esta sentencia especifica, lo que motivo su exclusion. Adicionalmente, la Policia de Seguridad del Estado abrio una investigacion en su contra.",
+      "banderas_rojas": [
+        "Sentencia por incumplimiento de obligacion alimentaria",
+        "Omision deliberada de sentencia en hoja de vida",
+        "Multiples sentencias por pension alimenticia (al menos 7)",
+        "Investigacion por la Policia de Seguridad del Estado",
+        "Excluido del proceso electoral"
+      ],
+      "antecedentes_penales": [
+        "Sentencia condenatoria por omision a la asistencia familiar - Juzgado Mixto de Pachitea, 2011 - 2 anos de pena privativa condicional",
+        "Seis sentencias adicionales relacionadas con pension alimenticia declaradas en hoja de vida"
+      ],
+      "controversias": [
+        "Omitio una de sus multiples sentencias por pension alimenticia en hoja de vida",
+        "Investigacion por la Policia de Seguridad del Estado"
+      ],
+      "pension_alimenticia": "si",
+      "procesos_judiciales": [
+        "Al menos 7 sentencias por incumplimiento de obligacion alimentaria",
+        "Investigacion por Policia de Seguridad del Estado"
+      ],
+      "cambios_partido": [
+        "Juntos por el Peru (actual, excluido)"
+      ],
+      "nivel_riesgo": "muy alto",
+      "fuentes": [
+        "https://pagina3.pe/elecciones/jee-excluye-a-dos-candidatos-por-huanuco-que-omitieron-sentencias-en-sus-hojas-de-vida/",
+        "https://tudiariohuanuco.pe/actualidad/policia-de-seguridad-del-estado-investigara-a-oscar-delgado-lino/"
+      ]
+    }
+  },
+  {
+    "nombre": "HILARION QUITO TRINIDAD",
+    "slug": "hilarion_quito_trinidad",
+    "analysis": {
+      "resumen": "Candidato al Senado por Progresemos, EXCLUIDO definitivamente por el JEE de Huanuco. Fue retirado de la contienda electoral tras comprobarse que tiene una sentencia condenatoria firme por trafico ilicito de drogas emitida por la Sala Penal Correccional de Lima. Es el tercer candidato excluido por el JEE Huanuco en el proceso electoral 2026.",
+      "banderas_rojas": [
+        "Sentencia firme por trafico ilicito de drogas",
+        "Excluido del proceso electoral 2026"
+      ],
+      "antecedentes_penales": [
+        "Sentencia condenatoria firme por trafico ilicito de drogas - Sala Penal Correccional de Lima"
+      ],
+      "controversias": [
+        "Intento postular al Senado teniendo sentencia por narcotrafico",
+        "Excluido por el JEE de Huanuco"
+      ],
+      "pension_alimenticia": "no determinado",
+      "procesos_judiciales": [
+        "Sentencia firme por trafico ilicito de drogas"
+      ],
+      "cambios_partido": [
+        "Progresemos (actual, excluido)"
+      ],
+      "nivel_riesgo": "muy alto",
+      "fuentes": [
+        "https://tudiariohuanuco.pe/politica/jee-huanuco-excluye-de-la-carrera-electoral-a-tres-candidatos-a-senador-y-diputado/",
+        "https://www.ahora.com.pe/jee-huanuco-siete-excluidos-y-25-en-lista-de-investigados/"
+      ]
+    }
+  },
+  {
+    "nombre": "CYNTHIA VANEZA PANDURO HUANCA",
+    "slug": "cynthia_panduro_huanca",
+    "analysis": {
+      "resumen": "Candidata a diputada numero 2 por el partido PRIN en Huanuco. Tuvo observaciones en su hoja de vida presentada ante el JNE, pero finalmente el JEE determino que no existe sentencia condenatoria acreditada en su contra, permitiendole continuar en la campana electoral. No se encontraron controversias mayores.",
+      "banderas_rojas": [
+        "Observaciones en hoja de vida ante el JNE (resueltas a su favor)"
+      ],
+      "antecedentes_penales": [],
+      "controversias": [
+        "Observaciones en curriculum vitae ante el JNE, resueltas favorablemente"
+      ],
+      "pension_alimenticia": "no determinado",
+      "procesos_judiciales": [],
+      "cambios_partido": [
+        "PRIN (actual)"
+      ],
+      "nivel_riesgo": "bajo",
+      "fuentes": [
+        "https://tudiariohuanuco.pe/politica/jee-huanuco-excluye-de-la-carrera-electoral-a-tres-candidatos-a-senador-y-diputado/",
+        "https://tudiariohuanuco.pe/politica/once-candidatos-a-senadores-y-diputados-en-huanuco-registran-observaciones-en-sus-hv/"
+      ]
+    }
+  },
+  {
+    "nombre": "ABEL AUGUSTO REYES CAM",
+    "slug": "abel_reyes_cam",
+    "analysis": {
+      "resumen": "Congresista actual por Peru Libre representando Huanuco (2021-2026), busca la reeleccion al Senado. Fue elegido con 7,133 votos. Protagonizo un escandalo nacional al quedarse en Rusia por mas de 40 dias en 2022 y nuevamente en 2023, cuando intento permanecer hasta enero 2024 tras una conferencia parlamentaria. En 2022, tuvo la intencion de viajar a Crimea para apoyar la invasion rusa, aunque fue persuadido de desistir. Padece ataxia de Friedreich tipo I. Esta vinculado politicamente a Vladimir Cerron, profugo de la justicia. Fue excluido como candidato a diputado en las elecciones 2020 por omitir propiedades en su hoja de vida.",
+      "banderas_rojas": [
+        "Vinculacion politica con Vladimir Cerron (profugo de la justicia)",
+        "Estancias prolongadas y polemicas en Rusia",
+        "Intencion de viajar a Crimea para apoyar la invasion rusa",
+        "Exclusion previa de elecciones 2020 por omitir propiedades en hoja de vida",
+        "Vinculacion con mineria informal (Reinfo)"
+      ],
+      "antecedentes_penales": [],
+      "controversias": [
+        "Estancia de mas de 40 dias en Rusia en 2022, con intencion de ir a Crimea",
+        "Permanencia prolongada en Rusia en 2023, pidiendo licencia por salud",
+        "Vinculo estrecho con Vladimir Cerron, lider de Peru Libre y profugo",
+        "Exclusion en elecciones 2020 por omision de bienes en hoja de vida",
+        "Candidatos de Peru Libre vinculados a mineria informal"
+      ],
+      "pension_alimenticia": "no determinado",
+      "procesos_judiciales": [],
+      "cambios_partido": [
+        "Peru Libre (actual)"
+      ],
+      "nivel_riesgo": "alto",
+      "fuentes": [
+        "https://www.infobae.com/peru/2023/10/06/el-vinculo-escondido-de-abel-reyes-con-rusia-congresista-ya-habia-estado-en-ese-pais-por-40-dias-en-el-2022/",
+        "https://elcomercio.pe/politica/congreso/congresista-de-peru-libre-abel-reyes-cam-se-queda-mas-tiempo-en-rusia-los-detalles-de-su-polemica-decision-noticia/",
+        "https://infocongresistasperu.pe/congresista/127"
+      ]
+    }
+  },
+  {
+    "nombre": "LILIAN MARIA ALCANTARA LEYVA",
+    "slug": "lilian_maria_alcantara_leyva",
+    "analysis": {
+      "resumen": "Candidata al Senado por Podemos Peru en Huanuco. Es medico cirujano pediatrico y oftalmologo. Es esposa del congresista Luis Picon Quedo, quien tiene tres sentencias en primera instancia por corrupcion (negociacion incompatible y colusion) como exgobernador regional de Huanuco. Picon fue condenado a 4 anos de prision suspendida y fue capturado como reo contumaz. Debido a sus sentencias, Picon no puede reelegirse, pero su esposa postula al Senado y su hijo Luis Picon Alcantara postula como diputado, ambos por Podemos Peru, configurando un caso de herencia politica familiar directa.",
+      "banderas_rojas": [
+        "Esposa de congresista sentenciado por corrupcion (Luis Picon Quedo)",
+        "Posible herencia politica familiar: esposa al Senado, hijo a Diputados",
+        "Documento de licencia ilegible presentado ante el JEE",
+        "Vinculo familiar con exgobernador condenado por negociacion incompatible y colusion"
+      ],
+      "antecedentes_penales": [],
+      "controversias": [
+        "Candidatura vista como extension politica del congresista sentenciado Luis Picon Quedo",
+        "Configuracion familiar: esposa al Senado e hijo a Diputados por el mismo partido",
+        "Presento documento de licencia sin goce ilegible al JEE"
+      ],
+      "pension_alimenticia": "no determinado",
+      "procesos_judiciales": [],
+      "cambios_partido": [
+        "Podemos Peru (actual)"
+      ],
+      "nivel_riesgo": "alto",
+      "fuentes": [
+        "https://pagina3.pe/portada/cuatro-millonarios-doce-sentenciados-y-22-golondrinos-postulan-a-senadores-y-diputados-por-huanuco/",
+        "https://www.infobae.com/peru/2024/06/04/congresista-luis-picon-es-condenado-a-cuatro-anos-de-prision-suspendida-por-negociacion-incompatible/",
+        "https://elcomercio.pe/politica/perfil-luis-picon-quien-es-el-congresista-sentenciado-que-presidira-la-comision-de-salud-y-poblacion-podemos-peru-congreso-peru-condena-corrupcion-noticia/"
+      ]
+    }
+  },
+  {
+    "nombre": "LUIS PICON ALCANTARA",
+    "slug": "luis_picon_alcantara",
+    "analysis": {
+      "resumen": "Candidato a diputado numero 1 por Podemos Peru en Huanuco. Es hijo del congresista sentenciado Luis Picon Quedo y de la candidata al Senado Lilian Alcantara Leyva. Su padre tiene tres sentencias en primera instancia por actos de corrupcion como exgobernador regional de Huanuco, incluyendo negociacion incompatible y colusion por favorecer a empresas en obras publicas y compras por mas de 96 millones de soles. La candidatura del hijo es vista como un intento de continuidad del poder politico familiar.",
+      "banderas_rojas": [
+        "Hijo de congresista con tres sentencias por corrupcion",
+        "Candidatura percibida como herencia politica familiar",
+        "Familia con historial de corrupcion en gobernacion regional de Huanuco"
+      ],
+      "antecedentes_penales": [],
+      "controversias": [
+        "Candidatura familiar: padre sentenciado, madre candidata al Senado, hijo candidato a diputado",
+        "Percepcion de continuidad de poder politico del clan Picon"
+      ],
+      "pension_alimenticia": "no determinado",
+      "procesos_judiciales": [],
+      "cambios_partido": [
+        "Podemos Peru (actual)"
+      ],
+      "nivel_riesgo": "alto",
+      "fuentes": [
+        "https://pagina3.pe/portada/cuatro-millonarios-doce-sentenciados-y-22-golondrinos-postulan-a-senadores-y-diputados-por-huanuco/",
+        "https://www.infobae.com/peru/2024/06/04/congresista-luis-picon-es-condenado-a-cuatro-anos-de-prision-suspendida-por-negociacion-incompatible/"
+      ]
+    }
+  },
+  {
+    "nombre": "WALTER LOZANO PAJUELO (BICA)",
+    "slug": "walter_lozano_pajuelo",
+    "analysis": {
+      "resumen": "Coronel PNP en retiro, fue candidato al Senado numero 1 por Ahora Nacion en Huanuco, pero fue EXCLUIDO definitivamente. El JNE confirmo la improcedencia de su candidatura mediante Resolucion N-252-2026. La exclusion se debio a que fue designado directamente por Alfonso Lopez Chau como candidato sin haber participado en las elecciones primarias del partido, y el partido no habia reservado la posicion numero 1 de la lista como requiere la normativa. Un militante del propio partido presento una tacha en su contra.",
+      "banderas_rojas": [
+        "Excluido definitivamente por el JNE",
+        "No participo en elecciones primarias del partido",
+        "Designacion cuestionada por miembros del propio partido",
+        "Tacha presentada por militante de su propio partido"
+      ],
+      "antecedentes_penales": [],
+      "controversias": [
+        "Designacion directa como candidato sin pasar por primarias",
+        "Tacha presentada por militante de Ahora Nacion contra su candidatura",
+        "Exclusion confirmada por el JNE tras apelacion"
+      ],
+      "pension_alimenticia": "no determinado",
+      "procesos_judiciales": [],
+      "cambios_partido": [
+        "Ahora Nacion (actual, excluido)"
+      ],
+      "nivel_riesgo": "alto",
+      "fuentes": [
+        "https://willax.pe/politica/tacha-walter-lozano-bica-senado-ahora-nacion-willax",
+        "https://www.infobae.com/peru/2026/02/12/walter-lozano-fuera-definitivamente-de-las-elecciones-jne-confirma-improcedencia-de-candidatura-de-bica/",
+        "https://larepublica.pe/politica/2026/02/12/walter-lozano-bica-queda-fuera-de-elecciones-jne-confirma-improcedencia-de-su-candidatura-al-senado-por-ahora-nacion-hnews-1133400"
+      ]
+    }
+  },
+  {
+    "nombre": "ANITA CERPA DEL CASTILLO",
+    "slug": "anita_cerpa_del_castillo",
+    "analysis": {
+      "resumen": "Candidata a diputada numero 3 por Fuerza Popular en Huanuco. Excongresista con experiencia en el sector agrario, se desempeno como directora de Agro Rural y trabajo en la Comision Agraria del Parlamento. Inicio su campana conduciendo un tractor, evocando la imagen de Alberto Fujimori. No se encontraron denuncias penales ni controversias significativas mas alla de su afiliacion al fujimorismo.",
+      "banderas_rojas": [],
+      "antecedentes_penales": [],
+      "controversias": [
+        "Campana evocando simbolismo fujimorista (tractor como Alberto Fujimori)"
+      ],
+      "pension_alimenticia": "no determinado",
+      "procesos_judiciales": [],
+      "cambios_partido": [
+        "Fuerza Popular (actual)"
+      ],
+      "nivel_riesgo": "bajo",
+      "fuentes": [
+        "https://diariocorreo.pe/edicion/huanuco/huanuco-candidata-causa-asombro-en-poblacion-al-iniciar-su-campana-conduciendo-un-tractor-noticia/",
+        "https://tudiariohuanuco.pe/politica/anita-cerpa-presento-sus-propuestas-como-candidata-a-diputada-por-huanuco/"
+      ]
+    }
+  },
+  {
+    "nombre": "MERI LUZ CRIOLLO MAYLLE",
+    "slug": "meri_luz_criollo_maylle",
+    "analysis": {
+      "resumen": "Candidata al Senado por Ahora Nacion en Huanuco. Su candidatura fue inicialmente declarada improcedente junto con la de Walter Lozano, dejando al partido fuera de la carrera senatorial en Huanuco. Sin embargo, tras apelacion, el JNE revoco la decision y ordeno su restitucion en la carrera electoral, determinando que su candidatura cumplia todos los requisitos. Los problemas iniciales estuvieron relacionados con irregularidades procesales en la sustitucion de candidatos dentro del partido.",
+      "banderas_rojas": [
+        "Candidatura inicialmente rechazada por irregularidades procesales del partido"
+      ],
+      "antecedentes_penales": [],
+      "controversias": [
+        "Inscripcion inicialmente declarada improcedente por el JEE",
+        "Restituida tras apelacion favorable ante el JNE"
+      ],
+      "pension_alimenticia": "no determinado",
+      "procesos_judiciales": [],
+      "cambios_partido": [
+        "Ahora Nacion (actual)"
+      ],
+      "nivel_riesgo": "bajo",
+      "fuentes": [
+        "https://ahora.com.pe/jee-huanuco-rechaza-lista-al-senado-de-ahora-nacion-por-incumplir-normas-internas/",
+        "https://larepublica.pe/politica/2026/02/08/jne-evaluo-apelacion-de-la-candidatura-de-walter-lozano-al-senado-declaro-fundado-en-parte-su-recurso-hnews-124576"
+      ]
+    }
+  }
+]

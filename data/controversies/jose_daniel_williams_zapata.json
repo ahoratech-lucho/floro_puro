@@ -1,0 +1,35 @@
+{
+  "nombre": "JOSE DANIEL WILLIAMS ZAPATA",
+  "slug": "jose_daniel_williams_zapata",
+  "searchedAt": "2026-03-15T00:46:43.588Z",
+  "analysis": {
+    "resumen": "General retirado, fue presidente del Congreso (2022). Vinculado a la masacre de Accomarca (1985) donde 69 campesinos fueron asesinados. Sentencia por homicidio calificado en fuero militar (proceso archivado definitivamente). Denunciado por la Fiscalia por ley de doble cobro sueldo-pension.",
+    "banderas_rojas": [
+      "Vinculacion con la masacre de Accomarca (1985) - 69 campesinos asesinados",
+      "Sentencia por homicidio calificado en fuero militar",
+      "Denuncia fiscal por ley de doble cobro sueldo-pension (2025)",
+      "Presunta omision de informacion en hoja de vida electoral"
+    ],
+    "antecedentes_penales": [
+      "Sentencia en fuero militar por homicidio calificado vinculada al caso Accomarca (proceso archivado)"
+    ],
+    "controversias": [
+      "Vinculacion a la masacre de Accomarca de 1985 durante conflicto armado interno",
+      "Procedimiento sancionador del JEE por omision de sentencia en hoja de vida (archivado)",
+      "Denuncia fiscal por doble cobro sueldo-pension para militares retirados"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [
+      "Sentencia militar por homicidio calificado - Caso Accomarca (archivado)",
+      "Denuncia fiscal por cobro simultaneo de sueldo y pension (2025)"
+    ],
+    "cambios_partido": [
+      "Avanza Pais (2021-presente)"
+    ],
+    "nivel_riesgo": "alto",
+    "fuentes": [
+      "https://larepublica.pe/politica/2026/02/10/jee-procedimiento-sancionador-jose-williams/",
+      "https://elcomercio.pe/politica/jee-archiva-proceso-jose-williams/"
+    ]
+  }
+}

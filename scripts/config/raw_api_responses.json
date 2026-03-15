@@ -1,0 +1,113 @@
+[
+  {
+    "url": "https://apiplataformaelectoral4.jne.gob.pe/api/v1/expediente/proceso-electoral",
+    "method": "GET",
+    "status": 200,
+    "timestamp": "2026-03-14T22:29:51.877Z",
+    "data": {
+      "pageIndex": 0,
+      "pageSize": 0,
+      "count": 0,
+      "messageLog": null,
+      "data": [
+        {
+          "idProcesoElectoral": 126,
+          "idProcesoElectoralInternas": 0,
+          "nombreProcesoElectoral": "ELECCIONES REGIONALES Y MUNICIPALES 2026",
+          "prefijoProcesoElectoral": "",
+          "siglasProcesoElectoral": "ERM.2026",
+          "idTipoProceso": 2
+        },
+        {
+          "idProcesoElectoral": 125,
+          "idProcesoElectoralInternas": 0,
+          "nombreProcesoElectoral": "ELECCIONES PRIMARIAS PARA LAS ELECCIONES GENERALES 2026",
+          "prefijoProcesoElectoral": "",
+          "siglasProcesoElectoral": "EPEG.2026",
+          "idTipoProceso": 84
+        },
+        {
+          "idProcesoElectoral": 124,
+          "idProcesoElectoralInternas": 0,
+          "nombreProcesoElectoral": "ELECCIONES GENERALES 2026",
+          "prefijoProcesoElectoral": "",
+          "siglasProcesoElectoral": "EG.2026",
+          "idTipoProceso": 3
+        },
+        {
+          "idProcesoElectoral": 123,
+          "idProcesoElectoralInternas": 0,
+          "nombreProcesoElectoral": "ELECCIONES INTERNAS PARA LAS ELECCIONES MUNICIPALES COMPLEMENTARIAS 2025",
+          "prefijoProcesoElectoral": "",
+          "siglasProcesoElectoral": "EIEMC.2025",
+          "idTipoProceso": 83
+        },
+        {
+          "idProcesoElectoral": 122,
+          "idProcesoElectoralInternas": 0,
+          "nombreProcesoElectoral": "ELECCIONES MUNICIPALES COMPLEMENTARIAS 2025",
+          "prefijoProcesoElectoral": "",
+          "siglasProcesoElectoral": "EMC.2025",
+          "idTipoProceso": 61
+        },
+        {
+          "idProcesoElectoral": 121,
+          "idProcesoElectoralInternas": 0,
+          "nombreProcesoElectoral": "CONSULTA POPULAR DE REVOCATORIA 2025",
+          "prefijoProcesoElectoral": "",
+          "siglasProcesoElectoral": "CPR.2025",
+          "idTipoProceso": 5
+        },
+        {
+          "idProcesoElectoral": 120,
+          "idProcesoElectoralInternas": 0,
+          "nombreProcesoElectoral": "ELECCIONES INTERNAS PARA LAS ELECCIONES MUNICIPALES COMPLEMENTARIAS 2024",
+          "prefijoProcesoElectoral": "",
+          "siglasProcesoElectoral": "EIEMC.2024",
+          "idTipoProceso": 83
+        },
+        {
+          "idProcesoElectoral": 119,
+          "idProcesoElectoralInternas": 0,
+          "nombreProcesoElectoral": "ELECCIONES MUNICIPALES COMPLEMENTARIAS 2024",
+          "prefijoProcesoElectoral": "",
+          "siglasProcesoElectoral": "EMC.2024",
+          "idTipoProceso": 61
+        },
+        {
+          "idProcesoElectoral": 118,
+          "idProcesoElectoralInternas": 0,
+          "nombreProcesoElectoral": "ELECCIONES INTERNAS PARA LAS ELECCIONES MUNICIPALES COMPLEMENTARIAS 2023",
+          "prefijoProcesoElectoral": "",
+          "siglasProcesoElectoral": "EIEMC.2023",
+          "idTipoProceso": 83
+        },
+        {
+          "idProcesoElectoral": 117,
+          "idProcesoElectoralInternas": 0,
+          "nombreProcesoElectoral": "ELECCIONES MUNICIPALES COMPLEMENTARIAS 2023",
+          "prefijoProcesoElectoral": "",
+          "siglasProcesoElectoral": "EMC.2023",
+          "idTipoProceso": 61
+        },
+        {
+          "idProcesoElectoral": 116,
+          "idProcesoElectoralInternas": 0,
+          "nombreProcesoElectoral": "SEGUNDA ELECCIÓN REGIONAL 2022",
+          "prefijoProcesoElectoral": "",
+          "siglasProcesoElectoral": "SER.2022",
+          "idTipoProceso": 2
+        },
+        {
+          "idProcesoElectoral": 113,
+          "idProcesoElectoralInternas": 0,
+          "nombreProcesoElectoral": "ELECCIONES REGIONALES Y MUNICIPALES 2022",
+          "prefijoProcesoElectoral": "",
+          "siglasProcesoElectoral": "ERM.2022",
+          "idTipoProceso": 2
+        }
+      ],
+      "totalPages": 0
+    }
+  }
+]

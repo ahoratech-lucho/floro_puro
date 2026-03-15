@@ -1,0 +1,36 @@
+{
+  "nombre": "ALEX GONZALES CASTILLO",
+  "slug": "alex_gonzales_castillo",
+  "searchedAt": "2026-03-15T00:48:24.102Z",
+  "analysis": {
+    "resumen": "Exalcalde de San Juan de Lurigancho, distrito mas poblado de Lima. Declaraciones xenofobas contra venezolanos condenadas por Defensoria del Pueblo. Solicitudes de suspension y vacancia por delegacion irregular de funciones. Vinculacion con Gustavo Sierra, detenido por extorsion y negociacion de cambios de zonificacion.",
+    "banderas_rojas": [
+      "Declaraciones xenofobas contra migrantes venezolanos condenadas por Defensoria",
+      "Solicitud de suspension admitida por JNE por delegacion irregular",
+      "Vinculacion con Gustavo Sierra, detenido por extorsion",
+      "Contratacion cuestionada de funcionarios con cargos de corrupcion",
+      "Uso irregular de fondos municipales"
+    ],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Llamo lumpen a migrantes venezolanos durante operativo",
+      "JNE admitio solicitud de suspension por delegacion ilegal",
+      "Vecinos pidieron su vacancia",
+      "Vinculado a Gustavo Sierra, detenido por extorsion y negociacion de zonificacion",
+      "Uso de cuenta de balance para pagar S/3.5 millones a empresa de limpieza"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [
+      "Solicitud de suspension ante JNE",
+      "Pedido de vacancia"
+    ],
+    "cambios_partido": [
+      "Partido Democrata Verde"
+    ],
+    "nivel_riesgo": "alto",
+    "fuentes": [
+      "https://elcomercio.pe/lima/sucesos/sjl-defensoria-condena-declaraciones-alcalde-alex-gonzales/",
+      "https://gestion.pe/peru/jne-admite-solicitud-suspension-alcalde-sjl/"
+    ]
+  }
+}

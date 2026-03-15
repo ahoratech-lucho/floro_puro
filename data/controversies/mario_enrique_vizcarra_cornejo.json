@@ -1,0 +1,38 @@
+{
+  "nombre": "MARIO ENRIQUE VIZCARRA CORNEJO",
+  "slug": "mario_enrique_vizcarra_cornejo",
+  "searchedAt": "2026-03-15T00:46:43.593Z",
+  "analysis": {
+    "resumen": "Politico tacneno y hermano del expresidente condenado Martin Vizcarra. Candidatura declarada improcedente por el JEE debido a condena firme por peculado (2005). Investigado por colusion agravada en caso 'Los Saqueadores de Ilabaya', con embargo preventivo de bienes por S/1.3 millones. Declaro que indultaria a su hermano Martin Vizcarra.",
+    "banderas_rojas": [
+      "Condena firme por peculado (corrupcion) - sentencia de 2005",
+      "Candidatura presidencial declarada improcedente por condena",
+      "Investigacion por colusion agravada en caso 'Los Saqueadores de Ilabaya'",
+      "Embargo preventivo de bienes por S/1.3 millones",
+      "Declaro que indultaria a su hermano Martin Vizcarra"
+    ],
+    "antecedentes_penales": [
+      "Condena firme por delito de peculado (2005)"
+    ],
+    "controversias": [
+      "Condena firme por peculado que invalido su candidatura",
+      "Investigacion por colusion agravada en caso 'Los Saqueadores de Ilabaya'",
+      "Embargo de inmuebles por S/1.3 millones",
+      "Declaracion de que indultaria a Martin Vizcarra"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [
+      "Condena firme por peculado (2005)",
+      "Investigacion por colusion agravada - Caso Los Saqueadores de Ilabaya",
+      "Embargo preventivo de bienes por S/1.3 millones"
+    ],
+    "cambios_partido": [
+      "Peru Primero (partido actual)"
+    ],
+    "nivel_riesgo": "muy alto",
+    "fuentes": [
+      "https://altavoz.pe/politica/mario-vizcarra-condena-corrupcion/",
+      "https://www.infobae.com/peru/2026/01/05/jee-declara-improcedente-mario-vizcarra/"
+    ]
+  }
+}

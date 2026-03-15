@@ -1,0 +1,25 @@
+{
+  "nombre": "CYNTHIA VANEZA PANDURO HUANCA",
+  "slug": "cynthia_panduro_huanca",
+  "searchedAt": "2026-03-15T00:50:22.429Z",
+  "analysis": {
+    "resumen": "Candidata a diputada numero 2 por el partido PRIN en Huanuco. Tuvo observaciones en su hoja de vida presentada ante el JNE, pero finalmente el JEE determino que no existe sentencia condenatoria acreditada en su contra, permitiendole continuar en la campana electoral. No se encontraron controversias mayores.",
+    "banderas_rojas": [
+      "Observaciones en hoja de vida ante el JNE (resueltas a su favor)"
+    ],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Observaciones en curriculum vitae ante el JNE, resueltas favorablemente"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [],
+    "cambios_partido": [
+      "PRIN (actual)"
+    ],
+    "nivel_riesgo": "bajo",
+    "fuentes": [
+      "https://tudiariohuanuco.pe/politica/jee-huanuco-excluye-de-la-carrera-electoral-a-tres-candidatos-a-senador-y-diputado/",
+      "https://tudiariohuanuco.pe/politica/once-candidatos-a-senadores-y-diputados-en-huanuco-registran-observaciones-en-sus-hv/"
+    ]
+  }
+}

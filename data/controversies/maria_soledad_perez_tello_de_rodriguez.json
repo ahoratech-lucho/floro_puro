@@ -1,0 +1,33 @@
+{
+  "nombre": "MARIA SOLEDAD PEREZ TELLO DE RODRIGUEZ",
+  "slug": "maria_soledad_perez_tello_de_rodriguez",
+  "searchedAt": "2026-03-15T00:46:43.587Z",
+  "analysis": {
+    "resumen": "Abogada y notaria, fue Ministra de Justicia bajo PPK y congresista (2011-2016). Enfrenta procedimiento del JEE por presunta omision de una sentencia laboral firme en su declaracion jurada. Denuncio una presunta red criminal dentro de su propio partido durante el proceso de inscripcion.",
+    "banderas_rojas": [
+      "Presunta omision de sentencia laboral firme en declaracion jurada de hoja de vida",
+      "Red criminal infiltrada en su propio partido durante proceso de inscripcion electoral",
+      "Conflicto interno por manejo de fondos de franja electoral (S/464 mil)"
+    ],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Omision de sentencia laboral de noviembre 2023 en hoja de vida electoral",
+      "Denuncia penal por red criminal dentro de Primero La Gente: trafico de datos, falsificacion",
+      "Dirigente desvio S/464 mil de franja electoral a su excanal Nativa Television"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [
+      "Sentencia laboral firme: condenada a pagar S/746.23 a Profuturo AFP",
+      "Procedimiento sancionador del JEE por omision de informacion en hoja de vida"
+    ],
+    "cambios_partido": [
+      "Congresista por alianza PPC-APP (2011-2016)",
+      "Fundo y lidera Primero La Gente para Elecciones 2026"
+    ],
+    "nivel_riesgo": "medio",
+    "fuentes": [
+      "https://larepublica.pe/politica/2026/03/08/marisol-perez-tello-omision-sentencia/",
+      "https://www.infobae.com/peru/2026/02/04/perez-tello-expulsion-miguel-del-castillo/"
+    ]
+  }
+}

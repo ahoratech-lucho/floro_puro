@@ -1,0 +1,44 @@
+{
+  "nombre": "RICARDO PABLO BELMONT CASSINELLI",
+  "slug": "ricardo_pablo_belmont_cassinelli",
+  "searchedAt": "2026-03-15T00:44:24.963Z",
+  "analysis": {
+    "resumen": "Empresario de medios, fundador de RBC Televisión y exalcalde de Lima (1990-1995). Postula por el Partido Cívico Obras. Acusado de estafa a los accionistas de RBC Televisión, donde 110,000 personas invirtieron y perdieron su dinero por dilución de acciones. Conocido por difundir teorías conspirativas.",
+    "banderas_rojas": [
+      "Acusaciones de estafa a 110,000 pequeños accionistas",
+      "Proceso penal por fraude en administración de personas jurídicas",
+      "Difusión de desinformación y teorías conspirativas",
+      "Candidato de 80 años con limitada estructura partidaria"
+    ],
+    "antecedentes_penales": [
+      "Sin sentencias condenatorias firmes por delitos dolosos según declaración al JNE",
+      "Proceso penal en Juzgado 29 de Lima por delitos contra el patrimonio y fraude en administración de personas jurídicas"
+    ],
+    "controversias": [
+      "Estafa a accionistas de RBC: 110,000 personas invirtieron US$2 millones que nunca recuperaron",
+      "Dilución de acciones para tomar control de RBC excluyendo a accionistas minoritarios",
+      "Asociación de 56,000 accionistas afectados aún reclama compensación",
+      "Difusión de teorías conspirativas sobre COVID-19",
+      "Despojo denunciado de planta transmisora de RBC",
+      "Disputas mediáticas y legales con Phillips Butters",
+      "Presunta estafa a 110,000 accionistas de RBC Television"
+    ],
+    "pension_alimenticia": "no - sin información de procesos de alimentos",
+    "procesos_judiciales": [
+      "Proceso penal en Juzgado 29 de Lima por delitos contra patrimonio y fraude en administración",
+      "Procesos judiciales de Asociación de Accionistas de RBC por compensación de daños",
+      "Disputas legales relacionadas con la junta de acreedores de RBC en Indecopi"
+    ],
+    "cambios_partido": [
+      "Obras (fundador, candidato a alcaldía de Lima 1989)",
+      "Partido Cívico Obras (actual)"
+    ],
+    "nivel_riesgo": "alto",
+    "fuentes": [
+      "https://www.infobae.com/peru/2024/11/11/ricardo-belmont-de-ser-dueno-de-un-canal-de-television-a-convertirse-en-alcalde-de-lima/",
+      "https://cosas.pe/de-fondo/229021/ricardo-belmont-y-la-historia-del-pueblo-que-no-recibio-su-dinero-por-rbc/",
+      "https://diariocorreo.pe/peru/accionistas-de-rbc-siguen-reclamando-su-diner-236687/",
+      "https://www.infobae.com/peru/2026/02/04/ricardo-belmont-en-carrera-electoral-perfil-completo-del-candidato-presidencial-del-partido-civico-obras/"
+    ]
+  }
+}

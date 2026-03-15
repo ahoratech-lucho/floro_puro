@@ -1,0 +1,23 @@
+{
+  "nombre": "RAFAEL JORGE BELAUNDE LLOSA",
+  "slug": "rafael_jorge_belaunde_llosa",
+  "searchedAt": "2026-03-15T00:46:43.591Z",
+  "analysis": {
+    "resumen": "Empresario y politico, nieto del expresidente Fernando Belaunde Terry. Sin antecedentes penales ni procesos judiciales. Sobrevivio atentado armado de sicarios en diciembre 2025.",
+    "banderas_rojas": [],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Atentado armado de sicarios contra su vehiculo en Cerro Azul (diciembre 2025)",
+      "Periodo muy breve como Ministro de Energia y Minas"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [],
+    "cambios_partido": [
+      "Libertad Popular (partido actual)"
+    ],
+    "nivel_riesgo": "bajo",
+    "fuentes": [
+      "https://www.infobae.com/peru/2025/12/02/rafael-belaunde-disparo-contra-sicarios/"
+    ]
+  }
+}

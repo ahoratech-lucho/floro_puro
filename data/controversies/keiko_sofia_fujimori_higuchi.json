@@ -1,0 +1,42 @@
+{
+  "nombre": "KEIKO SOFIA FUJIMORI HIGUCHI",
+  "slug": "keiko_sofia_fujimori_higuchi",
+  "searchedAt": "2026-03-15T00:44:24.949Z",
+  "analysis": {
+    "resumen": "Lideresa de Fuerza Popular, tres veces candidata presidencial. Enfrentó el caso Cócteles por presunto lavado de activos vinculado a Odebrecht. El TC anuló las imputaciones principales en octubre 2025 y el caso fue sobreseído en enero 2026, aunque subsisten cargos menores por falsas declaraciones ante la ONPE. Estuvo en prisión preventiva más de 16 meses.",
+    "banderas_rojas": [
+      "Caso Cócteles archivado por TC, no por absolución en juicio oral",
+      "Fiscalía había solicitado 35 años de prisión",
+      "28 candidatos sentenciados en listas de Fuerza Popular",
+      "Polarización política extrema asociada a su candidatura"
+    ],
+    "antecedentes_penales": [
+      "Sin sentencias condenatorias firmes por delitos dolosos según declaración al JNE"
+    ],
+    "controversias": [
+      "Prisión preventiva por más de 16 meses (2018-2020) durante investigación del caso Cócteles",
+      "Caso Cócteles: presunta recaudación ilegal mediante cenas de campaña para lavar aportes de Odebrecht y Credicorp",
+      "TC anuló imputaciones principales en octubre 2025 generando polémica sobre independencia judicial",
+      "Subsiste imputación por falsas declaraciones de aportes ante la ONPE y falsedad genérica",
+      "Inclusión de 28 candidatos con sentencias firmes en listas de Fuerza Popular para 2026",
+      "Herencia política del fujimorismo y asociación con el gobierno de Alberto Fujimori",
+      "Investigacion por enriquecimiento ilicito"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [
+      "Caso Cócteles: sobreseído en enero 2026 respecto a lavado de activos y organización criminal",
+      "Subsiste proceso por falsas declaraciones en procedimiento administrativo y falsedad genérica"
+    ],
+    "cambios_partido": [
+      "Fuerza Popular (antes Fuerza 2011) - ha sido su único partido como líder desde su fundación"
+    ],
+    "nivel_riesgo": "muy alto",
+    "fuentes": [
+      "https://www.infobae.com/peru/2026/02/23/keiko-fujimori-2026-hoja-de-vida-estudios-experiencia-y-patrimonio-de-la-candidata-presidencial-de-fuerza-popular/",
+      "https://larepublica.pe/politica/2026/03/09/keiko-fujimori-revelan-que-fuerza-popular-lleva-a-28-sentenciados-por-diversos-delitos-a-las-elecciones-2026-hnews-292797",
+      "https://es.wikipedia.org/wiki/Juicio_a_Keiko_Fujimori",
+      "https://lpderecho.pe/claves-sentencia-tc-anula-imputaciones-caso-cocteles-contra-keiko-fujimori-lavado-de-activos-y-organizacion-criminal/",
+      "https://gestion.pe/peru/keiko-fujimori-poder-judicial-archiva-de-forma-definitiva-el-caso-cocteles-noticia/"
+    ]
+  }
+}

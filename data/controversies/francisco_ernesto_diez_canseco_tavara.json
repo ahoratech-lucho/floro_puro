@@ -1,0 +1,29 @@
+{
+  "nombre": "FRANCISCO ERNESTO DIEZ-CANSECO TAVARA",
+  "slug": "francisco_ernesto_diez_canseco_tavara",
+  "searchedAt": "2026-03-15T00:46:43.590Z",
+  "analysis": {
+    "resumen": "Abogado, periodista y empresario, fue diputado por Lima (1985-1990). Denunciado por presunta estafa a agricultores bananeros de Piura como consultor de empresa Gronsa. Propuestas radicales como pena de muerte para presidentes corruptos.",
+    "banderas_rojas": [
+      "Denuncia por presunta estafa a agricultores bananeros de Piura (Gronsa)",
+      "US$30,000 de fondos de Comercio Justo sin destino determinado",
+      "Propuestas radicales: pena de muerte para presidentes corruptos"
+    ],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Presunta estafa a productores bananeros de Piura",
+      "Propuesta de pena de muerte para presidentes corruptos",
+      "Propuesta de restablecimiento general de la pena de muerte"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [],
+    "cambios_partido": [
+      "Diputado por Lima (1985-1990)",
+      "Fundo Peru Accion"
+    ],
+    "nivel_riesgo": "medio",
+    "fuentes": [
+      "https://archivo.peru21.pe/noticia/91049/diez-canseco-estafo-agricultores-piura"
+    ]
+  }
+}

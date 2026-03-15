@@ -1,0 +1,125 @@
+{
+  "discoveredAt": "2026-03-14T20:21:58.762Z",
+  "baseUrl": "https://plataformaelectoral.jne.gob.pe",
+  "totalCalls": 13,
+  "relevantEndpoints": [],
+  "allEndpoints": [
+    {
+      "url": "https://gc.kis.v2.scr.kaspersky-labs.com/7D8B79A2-8974-4D7B-A76A-F4F29624C06BV0Y_NF86C_5oRXx6CjHFtIqJkv98ZpigFtfyFLZS21HGszeSRhOy5FRsuLrBcP5RuEqc5GBtrtchrNeHDEb18w/init?data=eyJ1cmwiOiJodHRwczovL3BsYXRhZm9ybWFlbGVjdG9yYWwuam5lLmdvYi5wZS8iLCJwbHVnaW5zIjoid3NtJndudCZ2cyZ1YSZjYiIsImRhdGEiOnsiZGF0YSI6W3sicGx1Z2luIjoid3NtIiwicGFyYW1ldGVycyI6IntcInJlZmVycmVyXCI6XCJcIixcInN0dWJJZFwiOlwiXCJ9In0seyJwbHVnaW4iOiJ3bnQiLCJwYXJhbWV0ZXJzIjoie1wicmVmZXJyZXJcIjpcIlwifSJ9LHsicGx1Z2luIjoidWEiLCJwYXJhbWV0ZXJzIjoie30ifV19LCJpc1RvcExldmVsIjp0cnVlLCJwYWdlU3RhcnRUaW1lIjowLCJuYXZpZ2F0aW9uU3RhcnRUaW1lIjoxNzczNTE5NjQ4MTYxfQ%3D%3D&nocache=11704&tm=2026-03-14T20%3A20%3A48.666Z",
+      "method": "GET",
+      "status": 200,
+      "contentType": "text/plain",
+      "postData": null,
+      "responseSample": "{\"ajaxId\":\"33FD11A3-1751-4620-8998-D51F4AEB474D\",\"sessionId\":\"2E11E9E2-66A9-49C0-A58E-6F932A01A6EC\",\"resSignature\":\"E3E8934C-235A-4B0E-825A-35A08381A191\",\"rtl\":false,\"longPooling\":true,\"plugins\":[{\"name\":\"wsm\",\"settingsJson\":\"\",\"localizationDictionary\":null},{\"name\":\"wnt\",\"settingsJson\":\"\",\"localizationDictionary\":null},{\"name\":\"vs\",\"settingsJson\":\"\",\"localizationDictionary\":null},{\"name\":\"cb\",\"settingsJson\":\"\",\"localizationDictionary\":null}],\"enableTracing\":false}",
+      "timestamp": "2026-03-14T20:20:48.708Z"
+    },
+    {
+      "url": "https://gc.kis.v2.scr.kaspersky-labs.com/33FD11A3-1751-4620-8998-D51F4AEB474D/2E11E9E2-66A9-49C0-A58E-6F932A01A6EC/to/wsm.sessionActivated?tm=2026-03-14T20%3A20%3A48.699Z",
+      "method": "POST",
+      "status": 200,
+      "contentType": "text/plain",
+      "postData": "{\"result\":0,\"method\":\"wsm.sessionActivated\",\"parameters\":\"{\\\"title\\\":\\\"Plataforma Electoral\\\"}\"}",
+      "responseSample": "{\"result\":-2147483572,\"method\":\"wsm.sessionActivated\",\"parameters\":\"{\\\"title\\\":\\\"Plataforma Electoral\\\"}\"}",
+      "timestamp": "2026-03-14T20:20:48.719Z"
+    },
+    {
+      "url": "https://gc.kis.v2.scr.kaspersky-labs.com/33FD11A3-1751-4620-8998-D51F4AEB474D/2E11E9E2-66A9-49C0-A58E-6F932A01A6EC/to/wsm.onHashChange?tm=2026-03-14T20%3A20%3A49.548Z",
+      "method": "POST",
+      "status": 200,
+      "contentType": "text/plain",
+      "postData": "{\"result\":0,\"method\":\"wsm.onHashChange\",\"parameters\":\"{\\\"newLocationUrl\\\":\\\"aHR0cHM6Ly9wbGF0YWZvcm1hZWxlY3RvcmFsLmpuZS5nb2IucGUvYmFuZGVqYS9maWx0cm9z\\\",\\\"urlEncrypted\\\":true}\"}",
+      "responseSample": "{\"result\":0,\"method\":\"wsm.onHashChange\",\"parameters\":\"\"}",
+      "timestamp": "2026-03-14T20:20:49.563Z"
+    },
+    {
+      "url": "https://gc.kis.v2.scr.kaspersky-labs.com/7D8B79A2-8974-4D7B-A76A-F4F29624C06BOEPFuxGSVu9XDeBZ2ofh_EZIDIdz7gDlTt87Paok6mWTmCQ5qDNtHMZE21lH0OpSWCIdscSHCz7FLwLhOJM0MA/init?data=eyJ1cmwiOiJodHRwczovL3d3dy5nb29nbGUuY29tL3JlY2FwdGNoYS9lbnRlcnByaXNlL2FuY2hvcj9hcj0xJms9NkxjT0hVTXNBQUFBQUE1eXN5MDlDZE1wT2hIb0V1RnpIZG5zdW4yViZjbz1hSFIwY0hNNkx5OXdiR0YwWVdadmNtMWhaV3hsWTNSdmNtRnNMbXB1WlM1bmIySXVjR1U2TkRReiZobD1lcyZ2PXFtM1BTUkl4MTBwZWtjblM5RGpHbmpQVyZzaXplPWludmlzaWJsZSZhbmNob3ItbXM9MjAwMDAmZXhlY3V0ZS1tcz0zMDAwMCZjYj1jNHhsejdkaGpvcGwiLCJwbHVnaW5zIjoid3NtJndudCZ2cyZ1YSZjYiIsImRhdGEiOnsiZGF0YSI6W3sicGx1Z2luIjoid3NtIiwicGFyYW1ldGVycyI6IntcInJlZmVycmVyXCI6XCJodHRwczovL3BsYXRhZm9ybWFlbGVjdG9yYWwuam5lLmdvYi5wZS9cIixcInN0dWJJZFwiOlwiXCJ9In0seyJwbHVnaW4iOiJ3bnQiLCJwYXJhbWV0ZXJzIjoie1wicmVmZXJyZXJcIjpcImh0dHBzOi8vcGxhdGFmb3JtYWVsZWN0b3JhbC5qbmUuZ29iLnBlL1wifSJ9LHsicGx1Z2luIjoidWEiLCJwYXJhbWV0ZXJzIjoie30ifV19LCJpc1RvcExldmVsIjpmYWxzZSwicGFnZVN0YXJ0VGltZSI6MCwibmF2aWdhdGlvblN0YXJ0VGltZSI6MTc3MzUxOTY0OTQwN30%3D&nocache=1f6ff&tm=2026-03-14T20%3A20%3A49.813Z",
+      "method": "GET",
+      "status": 200,
+      "contentType": "text/plain",
+      "postData": null,
+      "responseSample": "{\"ajaxId\":\"33FD11A3-1751-4620-8998-D51F4AEB474D\",\"sessionId\":\"4ABBBC0C-F944-4342-BB40-6F5E35C304E2\",\"resSignature\":\"E3E8934C-235A-4B0E-825A-35A08381A191\",\"rtl\":false,\"longPooling\":true,\"plugins\":[{\"name\":\"wnt\",\"settingsJson\":\"\",\"localizationDictionary\":null},{\"name\":\"vs\",\"settingsJson\":\"\",\"localizationDictionary\":null},{\"name\":\"cb\",\"settingsJson\":\"\",\"localizationDictionary\":null}],\"enableTracing\":false}",
+      "timestamp": "2026-03-14T20:20:49.841Z"
+    },
+    {
+      "url": "https://apiplataformaelectoral4.jne.gob.pe/api/v1/expediente/proceso-electoral",
+      "method": "GET",
+      "status": 500,
+      "contentType": "application/json; charset=utf-8",
+      "postData": null,
+      "responseSample": "{\"messages\":[\"Se ha producido un error. Inténtelo nuevamente y si el problema persiste comuníquese con el Administrador del Sistema.\"],\"developerMessage\":null}",
+      "timestamp": "2026-03-14T20:20:49.966Z"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V4G7CEHEH5&gtm=45je63b1v878426892za200zd878426892&_p=1773519649256&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=235262948.1773519650&ul=es-es&sr=1920x1080&uaa=x86&uab=64&uafvl=Not-A.Brand%3B24.0.0.0%7CChromium%3B146.0.7680.76&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&tag_exp=103116026~103200004~115938466~115938469~116024733~117484252&sid=1773519649&sct=1&seg=0&dl=https%3A%2F%2Fplataformaelectoral.jne.gob.pe%2Fbandeja%2Ffiltros&dt=Plataforma%20Electoral&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1711",
+      "method": "POST",
+      "status": 204,
+      "contentType": "text/plain",
+      "postData": null,
+      "responseSample": null,
+      "timestamp": "2026-03-14T20:20:50.067Z"
+    },
+    {
+      "url": "https://gc.kis.v2.scr.kaspersky-labs.com/33FD11A3-1751-4620-8998-D51F4AEB474D/2E11E9E2-66A9-49C0-A58E-6F932A01A6EC/from?get&nocache=1c254&tm=2026-03-14T20%3A20%3A50.719Z",
+      "method": "GET",
+      "status": 200,
+      "contentType": "text/plain",
+      "postData": null,
+      "responseSample": "{\"result\":-2147483572,\"method\":\"\",\"parameters\":\"\"}",
+      "timestamp": "2026-03-14T20:20:50.742Z"
+    },
+    {
+      "url": "https://gc.kis.v2.scr.kaspersky-labs.com/7D8B79A2-8974-4D7B-A76A-F4F29624C06BBZGTvCHVJ_yNHbyT7QOKwSuZnQOENgjYeUXlk0UyCtMjms48EAZn6LNAFSPj5v53KhH5Q_7NWzR9rZp94v-MpA/init?data=eyJ1cmwiOiJodHRwczovL3BsYXRhZm9ybWFlbGVjdG9yYWwuam5lLmdvYi5wZS9jYW5kaWRhdG9zL2J1c3F1ZWRhL2J1c2NhciIsInBsdWdpbnMiOiJ3c20md250JnZzJnVhJmNiIiwiZGF0YSI6eyJkYXRhIjpbeyJwbHVnaW4iOiJ3c20iLCJwYXJhbWV0ZXJzIjoie1wicmVmZXJyZXJcIjpcIlwiLFwic3R1YklkXCI6XCJcIn0ifSx7InBsdWdpbiI6IndudCIsInBhcmFtZXRlcnMiOiJ7XCJyZWZlcnJlclwiOlwiXCJ9In0seyJwbHVnaW4iOiJ1YSIsInBhcmFtZXRlcnMiOiJ7fSJ9XX0sImlzVG9wTGV2ZWwiOnRydWUsInBhZ2VTdGFydFRpbWUiOjAsIm5hdmlnYXRpb25TdGFydFRpbWUiOjE3NzM1MTk2NTQ0MTd9&nocache=1f2d1&tm=2026-03-14T20%3A20%3A54.535Z",
+      "method": "GET",
+      "status": 200,
+      "contentType": "text/plain",
+      "postData": null,
+      "responseSample": "{\"ajaxId\":\"33FD11A3-1751-4620-8998-D51F4AEB474D\",\"sessionId\":\"724BBBB7-1E1B-4D4A-99BF-FB91FF2399AB\",\"resSignature\":\"E3E8934C-235A-4B0E-825A-35A08381A191\",\"rtl\":false,\"longPooling\":true,\"plugins\":[{\"name\":\"wsm\",\"settingsJson\":\"\",\"localizationDictionary\":null},{\"name\":\"wnt\",\"settingsJson\":\"\",\"localizationDictionary\":null},{\"name\":\"vs\",\"settingsJson\":\"\",\"localizationDictionary\":null},{\"name\":\"cb\",\"settingsJson\":\"\",\"localizationDictionary\":null}],\"enableTracing\":false}",
+      "timestamp": "2026-03-14T20:20:54.607Z"
+    },
+    {
+      "url": "https://gc.kis.v2.scr.kaspersky-labs.com/33FD11A3-1751-4620-8998-D51F4AEB474D/724BBBB7-1E1B-4D4A-99BF-FB91FF2399AB/to/wsm.sessionActivated?tm=2026-03-14T20%3A20%3A54.601Z",
+      "method": "POST",
+      "status": 200,
+      "contentType": "text/plain",
+      "postData": "{\"result\":0,\"method\":\"wsm.sessionActivated\",\"parameters\":\"{\\\"title\\\":\\\"Plataforma Electoral\\\"}\"}",
+      "responseSample": "{\"result\":-2147483572,\"method\":\"wsm.sessionActivated\",\"parameters\":\"{\\\"title\\\":\\\"Plataforma Electoral\\\"}\"}",
+      "timestamp": "2026-03-14T20:20:54.644Z"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V4G7CEHEH5&gtm=45je63b1v878426892za200zd878426892&_p=1773519654569&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=235262948.1773519650&ul=es-es&sr=1920x1080&uaa=x86&uab=64&uafvl=Not-A.Brand%3B24.0.0.0%7CChromium%3B146.0.7680.76&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=103116026~103200004~115616986~115938466~115938469~116024733~117484252&sid=1773519649&sct=1&seg=1&dl=https%3A%2F%2Fplataformaelectoral.jne.gob.pe%2Fcandidatos%2Fbusqueda%2Fbuscar&dt=Plataforma%20Electoral&en=page_view&_ee=1&tfd=237",
+      "method": "POST",
+      "status": 204,
+      "contentType": "text/plain",
+      "postData": null,
+      "responseSample": null,
+      "timestamp": "2026-03-14T20:20:54.992Z"
+    },
+    {
+      "url": "https://gc.kis.v2.scr.kaspersky-labs.com/33FD11A3-1751-4620-8998-D51F4AEB474D/724BBBB7-1E1B-4D4A-99BF-FB91FF2399AB/to/wsm.onHashChange?tm=2026-03-14T20%3A20%3A55.063Z",
+      "method": "POST",
+      "status": 200,
+      "contentType": "text/plain",
+      "postData": "{\"result\":0,\"method\":\"wsm.onHashChange\",\"parameters\":\"{\\\"newLocationUrl\\\":\\\"aHR0cHM6Ly9wbGF0YWZvcm1hZWxlY3RvcmFsLmpuZS5nb2IucGUvY2FuZGlkYXRvcy9idXNxdWVkYS9idXNjYXI=\\\",\\\"urlEncrypted\\\":true}\"}",
+      "responseSample": "{\"result\":0,\"method\":\"wsm.onHashChange\",\"parameters\":\"\"}",
+      "timestamp": "2026-03-14T20:20:55.068Z"
+    },
+    {
+      "url": "https://gc.kis.v2.scr.kaspersky-labs.com/7D8B79A2-8974-4D7B-A76A-F4F29624C06BURSSr4Lsl3aEPH7aDxCtTGt6z96kPhtp-AEyjNnaFj6y_2w9jbI1ZZXepBJEd1hxZVHEt2A0mwDJvnVYPlFvuQ/init?data=eyJ1cmwiOiJodHRwczovL3d3dy5nb29nbGUuY29tL3JlY2FwdGNoYS9lbnRlcnByaXNlL2FuY2hvcj9hcj0xJms9NkxjT0hVTXNBQUFBQUE1eXN5MDlDZE1wT2hIb0V1RnpIZG5zdW4yViZjbz1hSFIwY0hNNkx5OXdiR0YwWVdadmNtMWhaV3hsWTNSdmNtRnNMbXB1WlM1bmIySXVjR1U2TkRReiZobD1lcyZ2PXFtM1BTUkl4MTBwZWtjblM5RGpHbmpQVyZzaXplPWludmlzaWJsZSZhbmNob3ItbXM9MjAwMDAmZXhlY3V0ZS1tcz0zMDAwMCZjYj0zNTJkMzNtbGZleGYiLCJwbHVnaW5zIjoid3NtJndudCZ2cyZ1YSZjYiIsImRhdGEiOnsiZGF0YSI6W3sicGx1Z2luIjoid3NtIiwicGFyYW1ldGVycyI6IntcInJlZmVycmVyXCI6XCJodHRwczovL3BsYXRhZm9ybWFlbGVjdG9yYWwuam5lLmdvYi5wZS9cIixcInN0dWJJZFwiOlwiXCJ9In0seyJwbHVnaW4iOiJ3bnQiLCJwYXJhbWV0ZXJzIjoie1wicmVmZXJyZXJcIjpcImh0dHBzOi8vcGxhdGFmb3JtYWVsZWN0b3JhbC5qbmUuZ29iLnBlL1wifSJ9LHsicGx1Z2luIjoidWEiLCJwYXJhbWV0ZXJzIjoie30ifV19LCJpc1RvcExldmVsIjpmYWxzZSwicGFnZVN0YXJ0VGltZSI6MCwibmF2aWdhdGlvblN0YXJ0VGltZSI6MTc3MzUxOTY1NDY3OH0%3D&nocache=1ce7b&tm=2026-03-14T20%3A20%3A55.615Z",
+      "method": "GET",
+      "status": 200,
+      "contentType": "text/plain",
+      "postData": null,
+      "responseSample": "{\"ajaxId\":\"33FD11A3-1751-4620-8998-D51F4AEB474D\",\"sessionId\":\"FC4D40A3-FCFF-4377-BFEB-A57E04C342CF\",\"resSignature\":\"E3E8934C-235A-4B0E-825A-35A08381A191\",\"rtl\":false,\"longPooling\":true,\"plugins\":[{\"name\":\"wnt\",\"settingsJson\":\"\",\"localizationDictionary\":null},{\"name\":\"vs\",\"settingsJson\":\"\",\"localizationDictionary\":null},{\"name\":\"cb\",\"settingsJson\":\"\",\"localizationDictionary\":null}],\"enableTracing\":false}",
+      "timestamp": "2026-03-14T20:20:55.762Z"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V4G7CEHEH5&gtm=45je63b1v878426892za200zd878426892&_p=1773519654569&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=235262948.1773519650&ul=es-es&sr=1920x1080&uaa=x86&uab=64&uafvl=Not-A.Brand%3B24.0.0.0%7CChromium%3B146.0.7680.76&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=103116026~103200004~115616986~115938466~115938469~116024733~117484252&sid=1773519649&sct=1&seg=1&dl=https%3A%2F%2Fplataformaelectoral.jne.gob.pe%2Fcandidatos%2Fbusqueda%2Fbuscar&dt=Plataforma%20Electoral&en=scroll&epn.percent_scrolled=90&_et=3&tfd=5245",
+      "method": "POST",
+      "status": 204,
+      "contentType": "text/plain",
+      "postData": null,
+      "responseSample": null,
+      "timestamp": "2026-03-14T20:20:59.710Z"
+    }
+  ]
+}

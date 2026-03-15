@@ -1,0 +1,39 @@
+{
+  "nombre": "LUIS FERNANDO OLIVERA VEGA",
+  "slug": "luis_fernando_olivera_vega",
+  "searchedAt": "2026-03-15T00:48:24.093Z",
+  "analysis": {
+    "resumen": "Politico veterano, exministro de Justicia y Relaciones Exteriores durante gobierno de Toledo, fundador del FIM. Enfrenta juicio por colusion agravada en caso Interoceanica vinculado a Odebrecht. Detenido brevemente por difamacion contra gobernadora de Moquegua. Denuncias historicas por presunto consumo de estupefacientes.",
+    "banderas_rojas": [
+      "Procesado por colusion agravada en caso Interoceanica/Odebrecht",
+      "Detenido por difamacion contra gobernadora de Moquegua",
+      "Denuncias historicas por presunto consumo de drogas",
+      "Cuarto intento presidencial sin exito previo"
+    ],
+    "antecedentes_penales": [
+      "Proceso abierto por colusion agravada en caso Interoceanica - Odebrecht",
+      "Detenido y liberado por difamacion agravada"
+    ],
+    "controversias": [
+      "Caso Interoceanica: facilitar levantamiento de observaciones de Contraloria al contrato con Odebrecht",
+      "Difamacion contra gobernadora de Moquegua",
+      "Denuncia historica por presuntas encerronas con alcohol y drogas en Ayacucho",
+      "Difundio audios de Montesinos sobre presunto fraude electoral en 2021"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [
+      "Juicio por colusion agravada - caso Interoceanica/Odebrecht (en curso)",
+      "Proceso por difamacion agravada contra gobernadora de Moquegua"
+    ],
+    "cambios_partido": [
+      "Convergencia Democratica (1985)",
+      "Frente Independiente Moralizador - FIM (1990, fundador)",
+      "Frente de la Esperanza 2021 (2020, fundador)"
+    ],
+    "nivel_riesgo": "alto",
+    "fuentes": [
+      "https://www.infobae.com/peru/2026/02/22/fernando-olivera-perfil/",
+      "https://rpp.pe/politica/judiciales/fernando-olivera-colusion-agravada-interoceanica/"
+    ]
+  }
+}

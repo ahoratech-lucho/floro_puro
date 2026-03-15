@@ -1,0 +1,36 @@
+{
+  "nombre": "OSCAR OVIDIO DELGADO LINO",
+  "slug": "oscar_ovidio_delgado_lino",
+  "searchedAt": "2026-03-15T00:50:22.426Z",
+  "analysis": {
+    "resumen": "Candidato a diputado por Juntos por el Peru, EXCLUIDO definitivamente por el JEE de Huanuco. Omitio declarar una sentencia condenatoria de 2011 por incumplimiento de obligaciones alimentarias (pension alimenticia), emitida por el Juzgado Mixto de Pachitea, que le impuso dos anos de pena privativa de libertad condicional. Aunque declaro seis sentencias relacionadas con pension alimenticia, omitio esta sentencia especifica, lo que motivo su exclusion. Adicionalmente, la Policia de Seguridad del Estado abrio una investigacion en su contra.",
+    "banderas_rojas": [
+      "Sentencia por incumplimiento de obligacion alimentaria",
+      "Omision deliberada de sentencia en hoja de vida",
+      "Multiples sentencias por pension alimenticia (al menos 7)",
+      "Investigacion por la Policia de Seguridad del Estado",
+      "Excluido del proceso electoral"
+    ],
+    "antecedentes_penales": [
+      "Sentencia condenatoria por omision a la asistencia familiar - Juzgado Mixto de Pachitea, 2011 - 2 anos de pena privativa condicional",
+      "Seis sentencias adicionales relacionadas con pension alimenticia declaradas en hoja de vida"
+    ],
+    "controversias": [
+      "Omitio una de sus multiples sentencias por pension alimenticia en hoja de vida",
+      "Investigacion por la Policia de Seguridad del Estado"
+    ],
+    "pension_alimenticia": "si",
+    "procesos_judiciales": [
+      "Al menos 7 sentencias por incumplimiento de obligacion alimentaria",
+      "Investigacion por Policia de Seguridad del Estado"
+    ],
+    "cambios_partido": [
+      "Juntos por el Peru (actual, excluido)"
+    ],
+    "nivel_riesgo": "muy alto",
+    "fuentes": [
+      "https://pagina3.pe/elecciones/jee-excluye-a-dos-candidatos-por-huanuco-que-omitieron-sentencias-en-sus-hojas-de-vida/",
+      "https://tudiariohuanuco.pe/actualidad/policia-de-seguridad-del-estado-investigara-a-oscar-delgado-lino/"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "nombre": "FIORELLA GIANNINA MOLINELLI ARISTONDO",
+  "slug": "fiorella_giannina_molinelli_aristondo",
+  "searchedAt": "2026-03-15T00:46:43.589Z",
+  "analysis": {
+    "resumen": "Ingeniera industrial, fue presidenta ejecutiva de EsSalud. Acumula tres procesos fiscales activos: dos por colusion agravada y uno por abuso de autoridad. Caso principal 'El Club de las Farmaceuticas': presunta lider de organizacion criminal que se beneficio de adquisiciones por mas de S/28 millones durante pandemia COVID-19. Domicilio allanado en 2021, impedimento de salida del pais por 12 meses.",
+    "banderas_rojas": [
+      "Tres procesos fiscales activos (dos por colusion agravada, uno por abuso de autoridad)",
+      "Presunta lider de organizacion criminal 'El Club de las Farmaceuticas'",
+      "Adquisiciones irregulares por mas de S/28 millones durante pandemia COVID-19 en EsSalud",
+      "Allanamiento de domicilio (2021) e impedimento de salida del pais por 12 meses",
+      "Vinculacion al caso Kuntur Wasi junto a Martin Vizcarra",
+      "100% de fondos de franja electoral destinados a un solo medio regional"
+    ],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Caso 'El Club de las Farmaceuticas': organizacion criminal en EsSalud para compras irregulares durante COVID-19",
+      "Allanamiento de vivienda y oficinas de EsSalud por Fiscalia (2021)",
+      "Impedimento de salida del pais por 12 meses",
+      "Caso Kuntur Wasi junto a Martin Vizcarra",
+      "100% de fondos de franja electoral (S/1,698,899) a un solo medio"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [
+      "Investigacion por colusion agravada y organizacion criminal - Caso 'El Club de las Farmaceuticas'",
+      "Segunda investigacion por colusion agravada",
+      "Investigacion por abuso de autoridad (Ica, 2025)",
+      "Caso Kuntur Wasi - denuncia del MTC"
+    ],
+    "cambios_partido": [
+      "Fuerza y Libertad (partido actual)"
+    ],
+    "nivel_riesgo": "muy alto",
+    "fuentes": [
+      "https://elcomercio.pe/politica/molinelli-tres-procesos-fiscales/",
+      "https://gestion.pe/peru/molinelli-impedimento-salida-pais/"
+    ]
+  }
+}

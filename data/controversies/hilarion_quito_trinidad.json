@@ -1,0 +1,31 @@
+{
+  "nombre": "HILARION QUITO TRINIDAD",
+  "slug": "hilarion_quito_trinidad",
+  "searchedAt": "2026-03-15T00:50:22.427Z",
+  "analysis": {
+    "resumen": "Candidato al Senado por Progresemos, EXCLUIDO definitivamente por el JEE de Huanuco. Fue retirado de la contienda electoral tras comprobarse que tiene una sentencia condenatoria firme por trafico ilicito de drogas emitida por la Sala Penal Correccional de Lima. Es el tercer candidato excluido por el JEE Huanuco en el proceso electoral 2026.",
+    "banderas_rojas": [
+      "Sentencia firme por trafico ilicito de drogas",
+      "Excluido del proceso electoral 2026"
+    ],
+    "antecedentes_penales": [
+      "Sentencia condenatoria firme por trafico ilicito de drogas - Sala Penal Correccional de Lima"
+    ],
+    "controversias": [
+      "Intento postular al Senado teniendo sentencia por narcotrafico",
+      "Excluido por el JEE de Huanuco"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [
+      "Sentencia firme por trafico ilicito de drogas"
+    ],
+    "cambios_partido": [
+      "Progresemos (actual, excluido)"
+    ],
+    "nivel_riesgo": "muy alto",
+    "fuentes": [
+      "https://tudiariohuanuco.pe/politica/jee-huanuco-excluye-de-la-carrera-electoral-a-tres-candidatos-a-senador-y-diputado/",
+      "https://www.ahora.com.pe/jee-huanuco-siete-excluidos-y-25-en-lista-de-investigados/"
+    ]
+  }
+}

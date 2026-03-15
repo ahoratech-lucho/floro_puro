@@ -1,0 +1,39 @@
+{
+  "nombre": "PAUL DAVIS JAIMES BLANCO",
+  "slug": "paul_davis_jaimes_blanco",
+  "searchedAt": "2026-03-15T00:48:24.109Z",
+  "analysis": {
+    "resumen": "Abogado, fundador de Progresemos, exasesor del Congreso y exsecretario general del MIDAGRI. Dos denuncias policiales: violencia fisica intrafamiliar (2010) y amenaza con arma de fuego (2016). Contraloria determino que su designacion en MIDAGRI fue ilegal por no cumplir requisitos.",
+    "banderas_rojas": [
+      "Denuncia policial por violencia fisica intrafamiliar (2010)",
+      "Denuncia policial por amenaza con arma de fuego (2016)",
+      "Antecedentes policiales positivos por maltrato fisico",
+      "Designacion en MIDAGRI declarada ilegal por Contraloria",
+      "Minimiza denuncias por violencia"
+    ],
+    "antecedentes_penales": [
+      "Denuncia policial por agresion fisica intrafamiliar (2010)",
+      "Denuncia policial por amenaza con arma de fuego (2016)",
+      "Registro policial positivo por maltrato fisico - violencia familiar (2010)"
+    ],
+    "controversias": [
+      "Dos denuncias policiales por violencia",
+      "Contraloria determino que no cumplia requisitos para secretario general del MIDAGRI",
+      "Destituido de la Secretaria General del MIDAGRI",
+      "Minimiza denuncias de violencia alegando difamacion"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [
+      "Denuncia policial por agresion fisica intrafamiliar (2010)",
+      "Denuncia policial por amenaza con arma de fuego (2016)"
+    ],
+    "cambios_partido": [
+      "Progresemos (fundador)"
+    ],
+    "nivel_riesgo": "alto",
+    "fuentes": [
+      "https://larepublica.pe/politica/2025/12/15/paul-jaimes-minimiza-denuncias-violencia/",
+      "https://diariocorreo.pe/politica/midagri-funcionario-dos-denuncias-policiales/"
+    ]
+  }
+}

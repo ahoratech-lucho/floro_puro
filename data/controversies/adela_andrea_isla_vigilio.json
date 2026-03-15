@@ -1,0 +1,27 @@
+{
+  "nombre": "ADELA ANDREA ISLA VIGILIO",
+  "slug": "adela_andrea_isla_vigilio",
+  "searchedAt": "2026-03-15T00:50:22.419Z",
+  "analysis": {
+    "resumen": "Candidata a diputada numero 1 por Ahora Nacion en Huanuco. Fue inicialmente excluida por el JEE de Huanuco tras una tacha por omitir informacion sobre sus ingresos economicos en su declaracion jurada: declaro solo S/ 7,500 de ingresos como Subprefecta Provincial de Ambo pero omitio S/ 5,000 en servicios profesionales de cuarta categoria. Sin embargo, el JNE revoco la tacha y la restituyo en la carrera electoral, argumentando que el JEE aplico una ley derogada y debio solicitar correccion antes de excluirla.",
+    "banderas_rojas": [
+      "Omision de ingresos economicos en declaracion jurada",
+      "Tacha por informacion incompleta en hoja de vida (revocada por JNE)"
+    ],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Excluida temporalmente por omitir ingresos de cuarta categoria en su declaracion jurada",
+      "Tacha presentada y resuelta a su favor por el JNE tras apelacion"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [],
+    "cambios_partido": [
+      "Ahora Nacion (actual)"
+    ],
+    "nivel_riesgo": "medio",
+    "fuentes": [
+      "https://pagina3.pe/politica/jne-anula-tacha-contra-candidata-de-ahora-nacion-por-huanuco/",
+      "https://tudiariohuanuco.pe/politica/candidata-a-diputado-de-ahora-nacion-es-excluida-por-tacha/"
+    ]
+  }
+}

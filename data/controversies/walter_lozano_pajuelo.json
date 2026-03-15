@@ -1,0 +1,31 @@
+{
+  "nombre": "WALTER LOZANO PAJUELO (BICA)",
+  "slug": "walter_lozano_pajuelo",
+  "searchedAt": "2026-03-15T00:50:22.434Z",
+  "analysis": {
+    "resumen": "Coronel PNP en retiro, fue candidato al Senado numero 1 por Ahora Nacion en Huanuco, pero fue EXCLUIDO definitivamente. El JNE confirmo la improcedencia de su candidatura mediante Resolucion N-252-2026. La exclusion se debio a que fue designado directamente por Alfonso Lopez Chau como candidato sin haber participado en las elecciones primarias del partido, y el partido no habia reservado la posicion numero 1 de la lista como requiere la normativa. Un militante del propio partido presento una tacha en su contra.",
+    "banderas_rojas": [
+      "Excluido definitivamente por el JNE",
+      "No participo en elecciones primarias del partido",
+      "Designacion cuestionada por miembros del propio partido",
+      "Tacha presentada por militante de su propio partido"
+    ],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Designacion directa como candidato sin pasar por primarias",
+      "Tacha presentada por militante de Ahora Nacion contra su candidatura",
+      "Exclusion confirmada por el JNE tras apelacion"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [],
+    "cambios_partido": [
+      "Ahora Nacion (actual, excluido)"
+    ],
+    "nivel_riesgo": "alto",
+    "fuentes": [
+      "https://willax.pe/politica/tacha-walter-lozano-bica-senado-ahora-nacion-willax",
+      "https://www.infobae.com/peru/2026/02/12/walter-lozano-fuera-definitivamente-de-las-elecciones-jne-confirma-improcedencia-de-candidatura-de-bica/",
+      "https://larepublica.pe/politica/2026/02/12/walter-lozano-bica-queda-fuera-de-elecciones-jne-confirma-improcedencia-de-su-candidatura-al-senado-por-ahora-nacion-hnews-1133400"
+    ]
+  }
+}

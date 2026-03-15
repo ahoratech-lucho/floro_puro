@@ -1,0 +1,43 @@
+{
+  "nombre": "YONHY LESCANO ANCIETA",
+  "slug": "yonhy_lescano_ancieta",
+  "searchedAt": "2026-03-15T00:44:24.960Z",
+  "analysis": {
+    "resumen": "Excongresista de Acción Popular por múltiples períodos. Fue denunciado por acoso sexual contra una periodista en 2019, caso que fue archivado por la fiscalía. Suspendido 120 días por el Congreso. Renunció a Acción Popular en 2023 y fundó el partido Verdad y Honradez. Su hermana fue sentenciada por terrorismo.",
+    "banderas_rojas": [
+      "Denuncia de acoso sexual archivada pero con cuestionamientos sobre la resolución",
+      "Tergiversación del expediente fiscal para fines de campaña",
+      "Hermana sentenciada por terrorismo",
+      "Transfuguismo político tras décadas en Acción Popular"
+    ],
+    "antecedentes_penales": [
+      "Sin sentencias condenatorias firmes registradas"
+    ],
+    "controversias": [
+      "Denuncia de acoso sexual por periodista María del Pilar Rivera mediante mensajes de WhatsApp",
+      "Fiscalía archivó caso argumentando que mensajes no tenían connotación sexual, generando polémica",
+      "Tergiversó contenido del expediente fiscal para beneficio de su campaña según investigación de Ojo Público",
+      "Suspensión de 120 días por el Congreso",
+      "Hermana condenada por terrorismo (Sendero Luminoso)",
+      "Renunció a Acción Popular, partido histórico al que perteneció por décadas"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [
+      "Denuncia por acoso sexual archivada por la fiscalía",
+      "Juez determinó que no fue difamado con la denuncia de acoso"
+    ],
+    "cambios_partido": [
+      "Acción Popular (militante histórico, congresista por múltiples períodos)",
+      "Renunció a Acción Popular en 2023",
+      "Fundó partido Verdad y Honradez",
+      "Busca alianza con Cooperación Popular"
+    ],
+    "nivel_riesgo": "medio",
+    "fuentes": [
+      "https://www.infobae.com/america/peru/2022/09/29/caso-de-acoso-sexual-juez-concluye-que-no-difamaron-a-yonhy-lescano-con-denuncia/",
+      "https://ojo-publico.com/politica/elecciones-2021/las-mentiras-detras-del-archivo-la-denuncia-acoso-contra-lescano",
+      "https://rpp.pe/politica/judiciales/yonhy-lescano-periodista-que-denuncio-acoso-sexual-revelo-su-identidad-para-exigir-justicia-noticia-1249254",
+      "https://en.wikipedia.org/wiki/Yonhy_Lescano"
+    ]
+  }
+}

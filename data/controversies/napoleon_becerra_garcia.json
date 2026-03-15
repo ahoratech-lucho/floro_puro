@@ -1,0 +1,31 @@
+{
+  "nombre": "NAPOLEON BECERRA GARCIA",
+  "slug": "napoleon_becerra_garcia",
+  "searchedAt": "2026-03-15T00:48:24.100Z",
+  "analysis": {
+    "resumen": "Empresario nacido en Hualgayoc, fundador del PTE. Denunciado en 2025 por presunta violencia sexual contra companera durante evento politico en Piura. Plan de gobierno sin propuestas sobre prevencion de violencia contra la mujer.",
+    "banderas_rojas": [
+      "Denuncia por presunta violencia sexual durante evento politico en Piura (2025)",
+      "Plan de gobierno sin propuestas de prevencion de violencia contra la mujer",
+      "Presunta oferta de cargos politicos a cambio de relaciones sexuales"
+    ],
+    "antecedentes_penales": [
+      "Denuncia por presunta violencia sexual en Piura (2025)"
+    ],
+    "controversias": [
+      "Denunciado por presunta agresion sexual durante viaje politico a Piura",
+      "Partido no presenta propuestas contra violencia de genero"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [
+      "Denuncia por presunta violencia sexual en Piura (2025)"
+    ],
+    "cambios_partido": [
+      "Partido de los Trabajadores y Emprendedores - PTE (fundador)"
+    ],
+    "nivel_riesgo": "alto",
+    "fuentes": [
+      "https://larepublica.pe/politica/2025/06/27/napoleon-becerra-denunciado-ataque-sexual/"
+    ]
+  }
+}

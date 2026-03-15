@@ -1,0 +1,392 @@
+[
+  {
+    "tag": "INPUT",
+    "type": "text",
+    "id": "",
+    "name": "",
+    "class": "element__input ng-untouched ng-pristine ng-invalid",
+    "placeholder": "DNI / Nombre / Apellido",
+    "text": "",
+    "href": ""
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "button-menu-responsive",
+    "name": "",
+    "class": "menu-responsive",
+    "placeholder": "",
+    "text": "",
+    "href": ""
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "",
+    "name": "",
+    "class": "button button--is-four",
+    "placeholder": "",
+    "text": "Volver",
+    "href": ""
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "",
+    "name": "",
+    "class": "button button--is-primary",
+    "placeholder": "",
+    "text": "Buscar",
+    "href": ""
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "",
+    "name": "",
+    "class": "button button--is-primary",
+    "placeholder": "",
+    "text": "Cerrar",
+    "href": ""
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "",
+    "name": "",
+    "class": "logo__link",
+    "placeholder": "",
+    "text": "",
+    "href": "https://plataformaelectoral.jne.gob.pe/index.html"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Búsqueda por Número de Expediente",
+    "href": "https://plataformaelectoral.jne.gob.pe/expedientes/busqueda/buscar"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Búsqueda Avanzada de Expediente",
+    "href": "https://plataformaelectoral.jne.gob.pe/expedientes/busqueda-avanzada/buscar"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Programación de Audiencias",
+    "href": "https://plataformaelectoral.jne.gob.pe/expedientes/programacion-audiencia/buscar"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Búsqueda de Resoluciones o pronunciamientos",
+    "href": "https://plataformaelectoral.jne.gob.pe/expedientes/resolucion-pronunciamiento/buscar"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Búsqueda por Actas Electorales",
+    "href": "https://plataformaelectoral.jne.gob.pe/expedientes/acta/buscar"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Búsqueda de Nulidades por Número de Mesa o JEE",
+    "href": "https://plataformaelectoral.jne.gob.pe/expedientes/busqueda-avanzada-nulidad/buscar"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Búsqueda de Expediente de Actas por número de mesa",
+    "href": "https://plataformaelectoral.jne.gob.pe/expedientes/busqueda-avanzada-acta-nul/buscar"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Búsqueda de Autoridades Proclamadas",
+    "href": "https://plataformaelectoral.jne.gob.pe/expedientes/busqueda-autoridad/buscar"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Búsqueda de Candidato",
+    "href": "https://plataformaelectoral.jne.gob.pe/candidatos/busqueda/buscar"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Búsqueda Avanzada de Candidatos",
+    "href": "https://plataformaelectoral.jne.gob.pe/candidatos/busqueda-avanzada/buscar"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Planes de Gobierno",
+    "href": "https://plataformaelectoral.jne.gob.pe/candidatos/plan-gobierno-trabajo/buscar"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Candidatos con Expediente de Dádivas",
+    "href": "https://plataformaelectoral.jne.gob.pe/candidatos/expediente-dadivas/buscar"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Consulta de Personeros JEE",
+    "href": "https://plataformaelectoral.jne.gob.pe/pers-obser/personeros/buscar"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Consulta de Observadores",
+    "href": "https://plataformaelectoral.jne.gob.pe/pers-obser/observadores/buscar"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Ciudadanos para 3er Miembro JEE",
+    "href": "https://plataformaelectoral.jne.gob.pe/conformaciones/ciudadanos-tercer-miembro/buscar"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Comisiones de tachas - Elecciones 3er Miembro JEE",
+    "href": "https://plataformaelectoral.jne.gob.pe/conformaciones/ComisionTachas/buscar"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Resultados de elecciones 3er miembro JEE",
+    "href": "https://plataformaelectoral.jne.gob.pe/conformaciones/resultado-eleccion/buscar"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Jurados Electorales Especiales",
+    "href": "https://plataformaelectoral.jne.gob.pe/conformaciones/jurado-electoral/buscar"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Cantidad de Expedientes",
+    "href": "https://plataformaelectoral.jne.gob.pe/estadisticas/cantidad-expedientes/buscar"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Cantidad de Fórmula de Candidatos por JEE.",
+    "href": "https://plataformaelectoral.jne.gob.pe/estadisticas/cantidad-formula-candidato"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Cantidad de Expedientes de Actas Observadas",
+    "href": "https://plataformaelectoral.jne.gob.pe/estadisticas/cantidad-acta-obs/buscar"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Cantidad de Expedientes de Nulidad Electoral",
+    "href": "https://plataformaelectoral.jne.gob.pe/estadisticas/cantidad-acta-nul/buscar"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Casilla Electrónica",
+    "href": "https://casillaelectronica.jne.gob.pe/"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Sistema Declara",
+    "href": "https://declara.jne.gob.pe/"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Infografías Electorales",
+    "href": "https://infogob.jne.gob.pe/Analisis/Infografias"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Cronograma Electoral",
+    "href": "https://portal.jne.gob.pe/portal/Pagina/Ver/927/page/Procesos-Electorales"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Preguntas Frecuentes",
+    "href": "https://portal.jne.gob.pe/portal/Pagina/Ver/332/page/Preguntas-frecuentes"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Trámite Virtual de Dispensa",
+    "href": "https://dispensavirtual.jne.gob.pe/login"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Justificación y Dispensa Electoral",
+    "href": "https://portal.jne.gob.pe/portal/Pagina/Ver/215/page/Estado-de-tramite"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Multas Electorales",
+    "href": "https://multas.jne.gob.pe/login"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "InfoGob",
+    "href": "https://infogob.jne.gob.pe/"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Voto Informado",
+    "href": "https://votoinformado.jne.gob.pe/voto"
+  },
+  {
+    "tag": "A",
+    "type": "",
+    "id": "menu-item",
+    "name": "",
+    "class": "",
+    "placeholder": "",
+    "text": "Registros de Organizaciones Políticas",
+    "href": "https://sroppublico.jne.gob.pe/Consulta/OrganizacionPolitica"
+  }
+]

@@ -1,0 +1,889 @@
+{
+  "scrapedAt": "2026-03-14T23:45:15.138Z",
+  "source": "votoinformado.jne.gob.pe",
+  "election": "Peru 2026 - Elecciones Generales",
+  "region": "HUANUCO",
+  "total": 110,
+  "candidates": [
+    {
+      "nombre": "ADELA ANDREA ISLA VIGILIO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/972f82b7-a69f-4f1a-8903-187053d7b7eb.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "AHORA NACION - AN",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2980",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ABILIO ELOY TANTA TAQUIRE",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/26bc5ac9-af33-439e-b686-5365ba46e72f.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "AHORA NACION - AN",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2980",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "DAYANA MELISSA GERONIMO NUÑEZ",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/a3fb8291-4371-440b-937f-fd890102f162.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "AHORA NACION - AN",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2980",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "YEFERSON FELIPE MUNGUIA AYALA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/52111aa5-c759-41e4-890f-60b674c449a6.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "AHORA NACION - AN",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2980",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "EDUARDO BERNARD TICERAN SALAZAR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/e8fc3132-1842-4ac4-99ff-13ce099e520b.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "ALIANZA ELECTORAL VENCEREMOS",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3025",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "SUSANA MALPARTIDA SALAS",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/468d9eff-762f-46c6-b1fc-ae0a0c6e6131.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "ALIANZA ELECTORAL VENCEREMOS",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3025",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "PABLITO ARTURO CUYUBAMBA NINAHUANCA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/776f4982-c044-4b8c-b4d2-4698984315d7.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "ALIANZA ELECTORAL VENCEREMOS",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3025",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "PILAR MILAGROS VELA AGUIRRE",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/c84a70ce-a490-4cc2-b54d-84fcd3113dc0.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "ALIANZA ELECTORAL VENCEREMOS",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3025",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ELISA CRESPO RODRIGUEZ",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/4a9d9f54-de3f-419f-a6c3-9dd84a4c589e.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "ALIANZA PARA EL PROGRESO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1257",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "NOE SIMION SILVESTRE SALVADOR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/696957e7-38a4-4c41-9ed6-5230955b064f.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "ALIANZA PARA EL PROGRESO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1257",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "MAGALY AIMEE ALCALA QUISPE",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/75098ef2-ef85-4dd1-8e15-16e200495333.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "ALIANZA PARA EL PROGRESO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1257",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "IBER IVAN MUÑOZ VILLARREAL",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/3d175cb1-f949-4c41-b4a8-7feeec170368.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "ALIANZA PARA EL PROGRESO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1257",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "CELIA LUZ FUENTES REYNOSO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/316ea689-ebfd-45ee-8c4a-ad4e6a39a32f.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2173",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "GERALD GIANNI LOPEZ CAPCHA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/0c860521-cedc-40dd-a71d-b0a238552748.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2173",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ANITA SANCHEZ SALAZAR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/9bc69d48-bea7-45ff-871d-0e6b38b9fde6.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "FRENTE POPULAR AGRICOLA FIA DEL PERU",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2901",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "HECTOR EDUARDO ABAD GONZALES",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/f6abf275-3a46-4464-beb3-7298176da897.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "FRENTE POPULAR AGRICOLA FIA DEL PERU",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2901",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "MARTHA AIZANA AVELLANEDA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/8aae4908-bd35-4597-b44d-119e8df5e860.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "FRENTE POPULAR AGRICOLA FIA DEL PERU",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2901",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ERICK JHERSON TINCO CARRASCO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/af3dede4-d05a-44b5-a8a7-8124cd21b005.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "FRENTE POPULAR AGRICOLA FIA DEL PERU",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2901",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "KARINA JULIZA BETETA RUBIN",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/43176a37-cb6a-4724-be25-93f8b8855a1b.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "FUERZA POPULAR",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1366",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "JAVIER DAVID MEZA AYALA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/0a966132-93db-4f58-be08-daf3bb26328a.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "FUERZA POPULAR",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1366",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ANA CECILIA CERPA DEL CASTILLO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/1e68d473-9576-4e50-aca7-00cf73e1df76.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "FUERZA POPULAR",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1366",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "WILSON NAU ARIZA MENDOZA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/92e00259-2189-47c2-98d8-698665e36681.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "FUERZA POPULAR",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1366",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "NAYLAND SMITH CUEVA LEON",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/ca5bc1b7-0f30-4585-a048-fd3d71703037.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "FUERZA Y LIBERTAD",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3024",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "LIBNIT GRANDEZ VALERA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/5cab09d8-1c21-409b-8fa6-865dd0e59e28.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "FUERZA Y LIBERTAD",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3024",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "VALERIO CONAN MARTINEZ ESTEBAN",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/e047fb2d-cdaa-4efd-8c5b-741ffa8468a5.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "FUERZA Y LIBERTAD",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3024",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "NORICA YANGALI QUISPE",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/da5a718b-7580-42bb-9005-c1f717b8a5d3.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "FUERZA Y LIBERTAD",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3024",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "OSCAR OVIDIO DELGADO LINO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/29767998-07dc-43f3-9462-e26cf83d5063.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "JUNTOS POR EL PERU",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1264",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "YULI LILIANA AMBROSIO DOMINGUEZ",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/2efb6771-bcb3-4714-b266-fd7c6f05ec2c.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "JUNTOS POR EL PERU",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1264",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "MARCO ANTONIO FLORES VALDIZAN",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/6870c7f2-a2f8-4370-8dbe-ea07d50b8091.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "JUNTOS POR EL PERU",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1264",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ANA MARIA BEATRIZ CRUZ ESTEBAN",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/45074c01-04d4-4622-b179-5fa1d9a3993a.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "JUNTOS POR EL PERU",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1264",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "JORGE SIMON PEHOVAZ JARA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/f3a34508-dd32-4196-967d-be9507f6f431.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "LIBERTAD POPULAR",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2933",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "NEVIA LILIA SORIA LEYVA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/8d962aba-2749-4468-90ea-f78378a8e9d9.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "LIBERTAD POPULAR",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2933",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ROYER SANTELLE FERRER TARAZONA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/4c0cefbf-3768-44d7-a7f8-e7118b6d629e.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "LIBERTAD POPULAR",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2933",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "MARIA LOURDES ARTETA RODRIGUEZ",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/17a6eb1a-310c-48f7-8285-060f196e5758.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "LIBERTAD POPULAR",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2933",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "HECTOR FERNANDO ZAVALA SUAREZ",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/cdd02bd1-6de3-4357-8f30-70a4830106b2.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO APRISTA PERUANO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2930",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ERIKA VALESCA GARGATE DE LA CRUZ DE LOZANO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/1f6e6ead-ec54-4808-a7e0-f23702619c91.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO APRISTA PERUANO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2930",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "JORGE ALVARADO LINO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/7f67f0b5-3799-4bee-8c9e-d27cea6ba0e3.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO APRISTA PERUANO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2930",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ZULLY AUGUSTA ESTACIO DE MAGRO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/f55e006e-0ef4-4033-9fef-e99b5b21a352.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO APRISTA PERUANO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2930",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "MELVIN RILDO CESPEDES SOBRADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/def89a92-bade-4f52-b9af-b0ee0a2dce2e.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO CIVICO OBRAS",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2941",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "YOLA SANTILLAN VARA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/8ca4a015-0438-43b1-95f0-c1dd7b112e45.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO CIVICO OBRAS",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2941",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "RICHARD KRUSHEV CORDOVA CUELLAR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/d161475f-1b18-4e86-a322-c63e041e9eb3.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO CIVICO OBRAS",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2941",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "BETHYSOL CRUZ VARA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/5bb4255c-692b-479f-88ef-c0a697d95119.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO CIVICO OBRAS",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2941",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "SCHILLER ANDRES JUSTO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/0d0faea4-9b18-4549-8af9-34b39510b412.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO DEL BUEN GOBIERNO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2961",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "JANET YAURI SAMANIEGO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/00e4d656-251f-4dd5-9fc1-cf29fbe9879a.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO DEL BUEN GOBIERNO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2961",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "FERNANDO CONDEZO AMBROSIO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/f6a2fabd-0374-4955-8dd5-c785b187e255.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO DEL BUEN GOBIERNO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2961",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "KENY PINCO MENDOZA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/b2f9c821-dad9-4c7a-9f8f-fa95527a5b53.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO DEL BUEN GOBIERNO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2961",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "NORMA CATALINA FALCON GODOY",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/7a919a7d-4e38-4432-b7d6-fd70492a8816.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO DEMOCRATA VERDE",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2895",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "CERILO CABELLO POVES",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/3926eee8-53df-4d0f-a6be-3aedb5c70422.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO DEMOCRATA VERDE",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2895",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ROSA ESTHER GREY RIVERA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/d1f94749-6b4f-4cea-aee7-84f5595ddcee.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO DEMOCRATA VERDE",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2895",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "DANIEL FRANCISCO LEON BOZA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/21ac003e-3d38-49a9-97da-6b2e5f96955e.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO DEMOCRATA VERDE",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2895",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "NEIL ALEX JARAMILLO BRAVO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/7db31e87-4cab-4eff-8d12-a9b103888a36.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/14",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "YUNIA PUJAY HIPOLO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/3c5c7a55-b9da-428f-b791-9c1aa8a0960d.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/14",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "JUAN JOSE BERROSPI CASTILLO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/898e1ed8-42c9-4bcb-aeb3-acc737eff910.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/14",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "GABRIELA LUCERO ECHEVARRIA TAFUR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/f093aa18-92c0-48a3-aa57-3cbcebf0b1be.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/14",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "JOSE VICENTE RAMOS LALUPU",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/99dc4f93-8140-4ba0-b8b0-a9c5d4e3890c.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2857",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "PILAR COZ MEDINA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/5faef636-bd5d-468b-a535-6b8164ae43ac.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2857",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "JYOMAR YUNIOR FAUSTINO TOLENTINO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/f128bec7-a888-4b67-9803-bdf07c49cc0a.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2857",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ROCIO HERLINDA ROJAS TARAZONA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/23a8799b-33b9-428b-bac4-e7ab19807587.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2857",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "GERSON NILO RODRIGUEZ ORTEGA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/78acb7a7-2d85-45c0-98e2-898e3decd5d8.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO MORADO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2840",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "DELIA MICAELA TRUJILLO NATIVIDAD",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/6a672385-7e80-47b9-a24e-f92653af83ed.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO MORADO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2840",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "BLADIMIR APONTE ACUÑA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/aae72bbd-a2d4-44a7-9089-252055b448ca.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO MORADO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2840",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ANTONIA VILLANUEVA POLINAR",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/e8d06617-5a86-4cfb-bfbe-3ed110c7a069.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO MORADO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2840",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "GERLY RAMOS LEANDRO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/9808d6ab-a28d-482a-afd1-c9418af3fcdf.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO PAIS PARA TODOS",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2956",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "KAREN NARDY PARDAVE DAVILA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/32e9f34b-061f-40bf-865b-d782b9e2db79.jpeg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO PAIS PARA TODOS",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2956",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ARTURO VILLAVICENCIO HURTADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/bebc6248-649c-4d16-b574-b4f3ce3ce89f.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO PAIS PARA TODOS",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2956",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "LUCIA JANETH GARCIA ALVAREZ",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/92c5e98b-b429-4c66-a469-5ce020d5a6ec.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO PAIS PARA TODOS",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2956",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "JAVIER PEREYRA TRUJILLO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/8286c6c0-1598-4357-895c-5ae718aa2764.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO PATRIOTICO DEL PERU",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2869",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ROCIO TEODOCIA AYZANOA VIZCARRA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/f03cd962-1942-478c-a501-7eadaaff0f33.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO PATRIOTICO DEL PERU",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2869",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ALCIDES AQUINO HUAMAN",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/092a23ff-65e3-43ee-a555-5e65f122412c.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO PATRIOTICO DEL PERU",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2869",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "SONIA MARLENE AGREDA BERMUDEZ",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/991f5250-d4c2-4a1f-972e-f31a1b06f39e.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO PATRIOTICO DEL PERU",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2869",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "CHARITO MAMANI MATOS",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/d4a4243f-da6b-401e-9479-85e2e97e8f2d.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO POLITICO COOPERACION POPULAR",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2995",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "MAXVEL FELIX MAXI VELAZQUE",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/e8f61f06-086c-4b37-8b84-eb551ef2bbbe.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO POLITICO COOPERACION POPULAR",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2995",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ROCIO DEL PILAR RIVERA CARDENAS",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/432a0986-4e54-41d9-a436-2878862d3719.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO POLITICO COOPERACION POPULAR",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2995",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "SEGUNDINO SALVADOR PASCUAL",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/3b05fde5-6c13-4c85-8aea-052cd76f38f5.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO POLITICO COOPERACION POPULAR",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2995",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "LIMBER HAMILTON RODRIGUEZ JARA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/d3ae7bdf-e632-43fa-9546-7d703f025d38.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2985",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ZULMA LYLA CARDENAS COLLAZOS",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/ac2cbfc9-145f-45af-8344-f9d39c8d6fd8.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2985",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "SERGIO MARTIN VARGAS QUINTANA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/be419b9c-aa1c-4a4a-b04b-980f25b8fc81.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2985",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "MERCEDES ELENA RAMOS VILLANUEVA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/dd9afc01-dce2-419a-a392-b147b4677eca.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2218",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ROLANDO ROJAS LOPEZ",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/4f08b432-f95a-4f03-960c-7291cb57ce6b.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2218",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "NELLY SEDANO QUISPE",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/7ca8b0ff-c491-4fde-9c96-6e09f4acd22b.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2218",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ABEL DEMETRIO REYES MEZA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/84ca9093-4bbc-4b80-b113-96a54f984dac.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2218",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "GUIDO RUSVEL FALCON ROJAS",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/a7b72fcb-b51b-4e3a-85da-1f21b9bddce5.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO POLITICO PERU PRIMERO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2925",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ANA MARVELLY IZQUIERDO MEZARINO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/e70dc73c-bd77-4b75-ab51-434b1791e716.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO POLITICO PERU PRIMERO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2925",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "JAMES WALTER MAGARIÑO VASQUEZ",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/3dbe1419-76de-4544-839e-d8419f3ec408.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO POLITICO PERU PRIMERO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2925",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "CAROLINA PEREZ SILVA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/8e08f350-38cf-42ba-add2-7245554aae6f.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO POLITICO PERU PRIMERO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2925",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "VLADIMIR PAVEL FELIX FELIX",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/c61907f0-7c0f-4d18-8751-f661132d4d8b.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO POLITICO PRIN",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2921",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "CYNTHIA VANEZA PANDURO HUANCA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/00e7c00f-1aed-4fc9-bb60-f97d567a35c5.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO POLITICO PRIN",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2921",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "JULIO CESAR TICERAN ESPIRITU",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/466a26d9-6349-477b-a81f-e52c57719a38.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO POLITICO PRIN",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2921",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ROSSANGELLA ORTIZ NAVARRO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/b1b7c1bc-d2fd-4044-bcd7-2b3972670b56.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO SICREO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2935",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ARTURO PEDRO LING VENTURA PUN",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/f0d016d7-56a3-48c6-ad97-f934d77bd6a5.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO SICREO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2935",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "MARY ELIZABETH JULCA RAMIREZ",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/aff8ec56-81c6-4f4f-b784-b6292a3361e9.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO SICREO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2935",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "MIGUEL ANGEL ROMAN HUAMANI",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/afc6a723-8e1c-4c97-8566-a396bd751a6e.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PARTIDO SICREO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2935",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "CIRO ABEL SANCHEZ BALLARDO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/ec81c3d1-4ef2-4b43-a9e0-81c58f0aab54.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PERU MODERNO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2924",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ARACELI ADALID MEZA REYNOSO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/9f87d5b0-e1c4-4a38-adb5-af670445adb6.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PERU MODERNO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2924",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "EDILBERTO SANCHEZ DAZA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/cf1f7dbc-b19a-43b1-afbb-5df8c564f98b.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PERU MODERNO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2924",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "LUZ VIOLETA ORTEGA BERAUN",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/bd132b10-db4b-49cc-8376-2962c62d1eec.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PERU MODERNO",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2924",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "LUIS ERNESTO PICON ALCANTARA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/2f453fbd-9ed0-45ee-b90c-5f67dc953c5e.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PODEMOS PERU",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2731",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ADELINA MOYA MACHADO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/bcaf45ab-0265-49c0-b328-6645a31c0c98.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PODEMOS PERU",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2731",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "RICARDINA CASTAÑEDA FERNANDEZ",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/5c257b9b-376a-4ef6-b424-db0ea54f3927.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PROGRESEMOS",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2967",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "LUDWING FRITZ DEL CASTILLO PEREZ",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/f7e6129e-b340-46be-ad9e-444fdd26cdec.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PROGRESEMOS",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2967",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "ABIGAIL ANA DOMINGUEZ MARTIN",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/f00d0da1-c324-441a-97c0-4d7b9231c549.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PROGRESEMOS",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2967",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "LUIGI TACUCHI JIMENEZ",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/9bfa91a3-a6f4-455b-b10d-47042fb6bb70.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "PROGRESEMOS",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2967",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "SEGUNDO GARCIA TRUJILLO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/b30c95e6-5474-4fc7-bdd3-697b3acb432c.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "UN CAMINO DIFERENTE",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2998",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "MARITZA BENILDA JIMENEZ CATACORA",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/1fcf1e1c-88bc-40c9-a3fb-659b6b3e1933.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "UN CAMINO DIFERENTE",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2998",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "VICTOR RIVERA REMIGIO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/31007a6d-a186-4aec-8a79-e7486a1af2a6.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "UN CAMINO DIFERENTE",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2998",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "BREITZY LIZETH PURIZACA COLLAZOS",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/468ce479-e727-44e8-be26-77a4006cdaef.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "UN CAMINO DIFERENTE",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2998",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "RAQUEL MARGARITA ORDOÑEZ MATAZOGLIO",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/48bacd4e-149c-4731-8fff-66534d838cd8.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "UNIDAD NACIONAL",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3023",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "MARCO ANTONIO HUAMAN RAMIREZ",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/e31a0f94-1407-4ab5-9724-f11fa75df9c9.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "UNIDAD NACIONAL",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3023",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "DORIS LUZ FRETEL QUIROZ",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/75b9fd6d-95cd-4e2a-973c-a03e22cea0cb.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "UNIDAD NACIONAL",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3023",
+      "region": "HUANUCO"
+    },
+    {
+      "nombre": "PLINIO GAYOSO DOMINGUEZ ESPIRITU",
+      "foto": "https://mpesije.jne.gob.pe/apidocs/5ec7b6de-1277-40cc-a00a-c0b0c0b64ca7.jpg",
+      "cargo": "DIPUTADO",
+      "partido": "UNIDAD NACIONAL",
+      "partyLogo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3023",
+      "region": "HUANUCO"
+    }
+  ]
+}

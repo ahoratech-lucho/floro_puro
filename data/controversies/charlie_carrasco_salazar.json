@@ -1,0 +1,28 @@
+{
+  "nombre": "CHARLIE CARRASCO SALAZAR",
+  "slug": "charlie_carrasco_salazar",
+  "searchedAt": "2026-03-15T00:48:24.101Z",
+  "analysis": {
+    "resumen": "Abogado nacido en Andahuaylas, docente universitario. Sin antecedentes penales. Propuestas extremas: retirar a Peru de la Convencion Americana sobre Derechos Humanos, megacarceles con trabajo forzado, dar 48 horas a extranjeros para abandonar el pais.",
+    "banderas_rojas": [
+      "Propuesta de retirar a Peru de la Convencion Americana sobre Derechos Humanos",
+      "Propuesta de megacarceles con trabajo forzado",
+      "Propuesta de dar 48 horas a extranjeros para abandonar el pais",
+      "Discurso xenofobo contra poblacion migrante"
+    ],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Propuestas extremas que podrian violar tratados internacionales de derechos humanos",
+      "Discurso xenofobo contra poblacion migrante"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [],
+    "cambios_partido": [
+      "Partido Democrata Unido Peru"
+    ],
+    "nivel_riesgo": "medio",
+    "fuentes": [
+      "https://andina.pe/agencia/noticia-elecciones-2026-charlie-carrasco/"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+node_modules/
+.next/
+out/
+
+# Large image directories (regenerable via scripts)
+data/photos/
+data/caricatures/
+data/hojas-vida/
+landing/public/images/photos/
+landing/public/images/caricatures/
+landing/public/downloads/*.apk
+
+# Flutter
+flutter_app/build/
+flutter_app/.dart_tool/
+flutter_app/.packages
+
+# Temp files
+scripts/_*.js
+data/controversies/_*.json
+*.log

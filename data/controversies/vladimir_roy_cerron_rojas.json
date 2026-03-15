@@ -1,0 +1,50 @@
+{
+  "nombre": "VLADIMIR ROY CERRON ROJAS",
+  "slug": "vladimir_roy_cerron_rojas",
+  "searchedAt": "2026-03-15T00:44:24.959Z",
+  "analysis": {
+    "resumen": "Fundador y líder de Perú Libre, médico y exgobernador regional de Junín. Prófugo de la justicia desde octubre 2023 con orden de prisión preventiva. Sentenciado a 4 años y 8 meses por negociación incompatible. Investigado por lavado de activos, organización criminal y terrorismo. Considerado el ideólogo detrás del gobierno de Pedro Castillo.",
+    "banderas_rojas": [
+      "PRÓFUGO DE LA JUSTICIA con orden de prisión preventiva",
+      "Sentenciado por corrupción",
+      "Investigado por lavado de activos, terrorismo y organización criminal",
+      "Más de 2 años evadiendo la justicia",
+      "Prescribió 5 procesos penales y S/11 millones en reparaciones",
+      "Hace campaña política siendo prófugo"
+    ],
+    "antecedentes_penales": [
+      "Sentenciado a 4 años y 8 meses de prisión por negociación incompatible y aprovechamiento del cargo (caso saneamiento de La Oroya, 2019)",
+      "Invocó la 'Ley Soto' para prescribir cinco procesos penales y reparación de S/11 millones"
+    ],
+    "controversias": [
+      "Prófugo de la justicia por más de 2 años, evadiendo a las autoridades desde octubre 2023",
+      "Sentenciado por corrupción como gobernador regional de Junín",
+      "Caso 'Los Dinámicos del Centro': organización dedicada al tráfico de puestos y licencias de conducir",
+      "Investigación por terrorismo",
+      "Investigación por lavado de activos como presunto líder de organización criminal",
+      "Ideólogo del gobierno de Pedro Castillo, acusado de gobernar en las sombras",
+      "Intentó prescribir cinco procesos penales mediante la 'Ley Soto'",
+      "Hace política activamente en redes sociales pese a ser prófugo",
+      "Acudió al TC para anular prisión preventiva en su contra"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [
+      "Sentencia firme de 4 años y 8 meses por negociación incompatible (caso La Oroya)",
+      "Orden de prisión preventiva vigente - prófugo desde octubre 2023",
+      "Investigación por lavado de activos vinculado a Perú Libre",
+      "Investigación por terrorismo en Fiscalía de Huánuco",
+      "Caso 'Los Dinámicos del Centro' - organización criminal",
+      "Cinco procesos penales prescritos mediante Ley Soto"
+    ],
+    "cambios_partido": [
+      "Fundador y líder permanente de Perú Libre"
+    ],
+    "nivel_riesgo": "muy alto",
+    "fuentes": [
+      "https://elcomercio.pe/politica/vladimir-cerron-sus-principales-investigaciones-y-procesos-judiciales-peru-libre-gobierno-regional-de-junin-dinamicos-del-centro-terrorismo-lavado-de-activos-dinamicos-del-centro-noticia/",
+      "https://elcomercio.pe/politica/nuevo-reves-contra-vladimir-cerron-pj-confirma-que-el-profugo-candidato-presidencial-de-pl-seguira-con-orden-de-prision-preventiva-noticia/",
+      "https://www.infobae.com/peru/2023/08/28/vladimir-cerron-invoco-ley-soto-para-prescribir-cinco-procesos-penales-y-reparacion-de-s-11-millones/",
+      "https://caretas.pe/home_web/home_principal/dos-anos-profugo-vladimir-cerron-sigue-evadiendo-a-la-justicia-y-haciendo-politica-en-redes/"
+    ]
+  }
+}

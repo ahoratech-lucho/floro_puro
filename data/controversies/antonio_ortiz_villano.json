@@ -1,0 +1,22 @@
+{
+  "nombre": "ANTONIO ORTIZ VILLANO",
+  "slug": "antonio_ortiz_villano",
+  "searchedAt": "2026-03-15T00:48:24.107Z",
+  "analysis": {
+    "resumen": "Empresario, candidato por Salvemos al Peru. Elegido candidato tras sorteo con moneda al aire despues de empatar en primarias internas. Sin controversias publicas conocidas ni antecedentes penales.",
+    "banderas_rojas": [],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Elegido candidato mediante lanzamiento de moneda al aire tras empate en primarias"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [],
+    "cambios_partido": [
+      "Salvemos al Peru"
+    ],
+    "nivel_riesgo": "bajo",
+    "fuentes": [
+      "https://rpp.pe/politica/elecciones/antonio-ortiz-villano-moneda-al-aire/"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "nombre": "RONALD DARWIN ATENCIO SOTOMAYOR",
+  "slug": "ronald_darwin_atencio_sotomayor",
+  "searchedAt": "2026-03-15T00:48:24.111Z",
+  "analysis": {
+    "resumen": "Abogado nacido en Huanuco, candidato por alianza Venceremos. Abogado defensor de Pedro Castillo y Guillermo Bermejo. Vinculado a red de venta ilegal de tesis universitarias a traves del Centro Juridico Athena. Declaro que Maduro y Fidel Castro no son dictaduras. Presunta informacion falsa en hoja de vida.",
+    "banderas_rojas": [
+      "Vinculado a red de venta ilegal de tesis universitarias (Centro Juridico Athena)",
+      "Abogado defensor de Pedro Castillo (expresidente destituido)",
+      "Abogado de Guillermo Bermejo (procesado por afiliacion terrorista)",
+      "Declaro que Maduro y Fidel Castro no son dictaduras",
+      "Retorica incendiaria",
+      "Presunta informacion falsa en hoja de vida",
+      "Vinculacion con Daniel Ortega de Nicaragua"
+    ],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Centro Juridico Athena vinculado a venta ilegal de tesis por hasta S/ 5,900",
+      "Abogado defensor de Pedro Castillo tras golpe fallido",
+      "Reuniones en Palacio de Gobierno con Castillo antes de denunciar a Fiscal de la Nacion",
+      "Simpatia con regimenes autoritarios",
+      "JEE senalo presunta informacion falsa en hoja de vida"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [
+      "Observacion del JEE por presunta informacion falsa en hoja de vida"
+    ],
+    "cambios_partido": [
+      "Voces del Pueblo (alianza Venceremos)"
+    ],
+    "nivel_riesgo": "muy alto",
+    "fuentes": [
+      "https://www.infobae.com/peru/2026/01/12/ronald-atencio-venta-ilegal-tesis/",
+      "https://cosas.pe/politica/357110/ronald-atencio-candidato-venceremos/"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "nombre": "ELIZABETH MEDINA HERMOSILLA",
+  "slug": "elizabeth_medina_hermosilla",
+  "searchedAt": "2026-03-15T00:40:20.334Z",
+  "analysis": {
+    "resumen": "Congresista del Bloque Magisterial por Huanuco investigada por presunto cobro de coimas a alcaldes para gestionar presupuestos de obras municipales. Su vivienda fue allanada por el Ministerio Publico en septiembre 2024.",
+    "banderas_rojas": [
+      "Allanamiento de vivienda y oficinas por la fiscalia anticorrupcion",
+      "Colaborador eficaz declaro pagos de sobornos canalizados por su esposo",
+      "Esposo con pedido de 36 meses de prision preventiva",
+      "Busca reeleccion pese a investigaciones graves"
+    ],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Presunto cobro de 6% del costo de proyectos a alcaldes",
+      "Su esposo recibio dos pagos de S/ 136,000 como presuntos sobornos",
+      "Ministerio Publico pidio 36 meses de prision preventiva para su esposo"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [
+      "Investigacion por crimen organizado y corrupcion de funcionarios",
+      "Caso vinculado al Eficcop"
+    ],
+    "cambios_partido": [
+      "Bloque Magisterial"
+    ],
+    "nivel_riesgo": "muy alto",
+    "fuentes": [
+      "https://elcomercio.pe/politica/congreso/elizabeth-medina-investigada-por-cobro-de-coimas",
+      "https://larepublica.pe/politica/2024/09/11/allanan-vivienda-de-la-congresista-elizabeth-medina",
+      "https://www.infobae.com/peru/2024/09/11/ministerio-publico-allana-vivienda-de-congresista-elizabeth-medina"
+    ]
+  }
+}

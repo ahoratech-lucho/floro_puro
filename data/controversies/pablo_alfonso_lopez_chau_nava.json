@@ -1,0 +1,45 @@
+{
+  "nombre": "PABLO ALFONSO LOPEZ CHAU NAVA",
+  "slug": "pablo_alfonso_lopez_chau_nava",
+  "searchedAt": "2026-03-15T00:48:24.104Z",
+  "analysis": {
+    "resumen": "Economista, exrector de la UNI (2021-2025), exdirector del BCR. Tercero en encuestas. Investigacion fiscal por peculado y negociacion incompatible durante rectorado: desvio de fondos universitarios para campana politica, contratacion de militantes con dinero publico. Omitio en hoja de vida que estuvo preso y fue amnistiado. Articulo de 1989 elogiando a lider terrorista del MRTA Victor Polay. Contraloria ordeno auditar toda su gestion.",
+    "banderas_rojas": [
+      "Investigacion fiscal por peculado y negociacion incompatible en caso UNI",
+      "Desvio de fondos publicos de la UNI para campana politica",
+      "Contratacion de militantes de Ahora Nacion con fondos universitarios",
+      "Omitio en hoja de vida que estuvo preso y fue amnistiado",
+      "Informacion falsa en hoja de vida",
+      "Articulo de 1989 elogiando a lider terrorista del MRTA Victor Polay",
+      "Contraloria ordeno auditoria de su gestion en la UNI"
+    ],
+    "antecedentes_penales": [
+      "Estuvo preso en El Sexto y Lurigancho (1970, amnistiado)",
+      "Juicio por corrupcion en curso vinculado a gestion como rector de la UNI"
+    ],
+    "controversias": [
+      "Investigacion fiscal por peculado doloso y negociacion incompatible en la UNI",
+      "Presunto desvio de fondos universitarios para financiar campana presidencial",
+      "Contratos a militantes de Ahora Nacion sin necesidad real",
+      "Contratacion de amiga personal como secretaria general sin cumplir requisitos",
+      "No informo en hoja de vida sobre detencion y amnistia",
+      "Escribio articulo elogiando a Victor Polay del MRTA en 1989",
+      "Contraloria ordeno auditar contrataciones de su gestion"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [
+      "Investigacion fiscal por peculado doloso y negociacion incompatible",
+      "Juicio por corrupcion (jueza retraso inicio)",
+      "Auditoria de Contraloria a gestion en la UNI"
+    ],
+    "cambios_partido": [
+      "Ahora Nacion (fundador)"
+    ],
+    "nivel_riesgo": "muy alto",
+    "fuentes": [
+      "https://www.infobae.com/peru/2026/02/06/fiscalia-cita-lopez-chau-investigado-fondos-uni/",
+      "https://peru21.pe/investigacion/caso-uni-lopez-chau/",
+      "https://elcomercio.pe/politica/alfonso-lopez-chau-citado-fiscalia-anticorrupcion/"
+    ]
+  }
+}

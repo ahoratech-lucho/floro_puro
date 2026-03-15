@@ -1,0 +1,26 @@
+{
+  "nombre": "MERI LUZ CRIOLLO MAYLLE",
+  "slug": "meri_luz_criollo_maylle",
+  "searchedAt": "2026-03-15T00:50:22.436Z",
+  "analysis": {
+    "resumen": "Candidata al Senado por Ahora Nacion en Huanuco. Su candidatura fue inicialmente declarada improcedente junto con la de Walter Lozano, dejando al partido fuera de la carrera senatorial en Huanuco. Sin embargo, tras apelacion, el JNE revoco la decision y ordeno su restitucion en la carrera electoral, determinando que su candidatura cumplia todos los requisitos. Los problemas iniciales estuvieron relacionados con irregularidades procesales en la sustitucion de candidatos dentro del partido.",
+    "banderas_rojas": [
+      "Candidatura inicialmente rechazada por irregularidades procesales del partido"
+    ],
+    "antecedentes_penales": [],
+    "controversias": [
+      "Inscripcion inicialmente declarada improcedente por el JEE",
+      "Restituida tras apelacion favorable ante el JNE"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [],
+    "cambios_partido": [
+      "Ahora Nacion (actual)"
+    ],
+    "nivel_riesgo": "bajo",
+    "fuentes": [
+      "https://ahora.com.pe/jee-huanuco-rechaza-lista-al-senado-de-ahora-nacion-por-incumplir-normas-internas/",
+      "https://larepublica.pe/politica/2026/02/08/jne-evaluo-apelacion-de-la-candidatura-de-walter-lozano-al-senado-declaro-fundado-en-parte-su-recurso-hnews-124576"
+    ]
+  }
+}

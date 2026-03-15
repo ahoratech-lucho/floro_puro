@@ -1,0 +1,42 @@
+{
+  "nombre": "KARINA JULIZA BETETA RUBIN",
+  "slug": "karina_beteta_rubin",
+  "searchedAt": "2026-03-15T00:50:22.414Z",
+  "analysis": {
+    "resumen": "Excongresista por Huanuco (2006-2011 y 2016-2019) que postula como candidata a diputada por Fuerza Popular. Tiene multiples investigaciones fiscales abiertas, incluyendo lavado de activos, peculado doloso y falsedad ideologica. Fue cuestionada por omitir ocho expedientes judiciales en su hoja de vida ante el JEE, aunque finalmente se determino que la normativa solo exige declarar sentencias firmes, no procesos en curso. Cambio de partido politico de Union por el Peru (aliada de Humala) a Fuerza Popular (fujimorismo). Declaro patrimonio de 1.5 millones de soles. Ocupo cargos en el Congreso como jefa de la Oficina de Participacion Ciudadana y del Fondo Editorial pese a no ser congresista en ejercicio.",
+    "banderas_rojas": [
+      "Investigacion por lavado de activos en la Fiscalia del Callao",
+      "Investigacion por peculado doloso y falsedad ideologica por cobro irregular de gastos de representacion",
+      "Omision de ocho expedientes judiciales en hoja de vida",
+      "Cobro de gastos de representacion estando en el extranjero",
+      "Transfuguismo politico de Union por el Peru a Fuerza Popular"
+    ],
+    "antecedentes_penales": [
+      "Investigacion por lavado de activos (captacion y administracion de financiamiento partidario no justificado)",
+      "Investigacion por peculado doloso y falsedad ideologica por cobro irregular de gastos de representacion"
+    ],
+    "controversias": [
+      "Omitio declarar 8 expedientes judiciales en hoja de vida ante el JEE",
+      "Ocupo cargos en el Congreso (Fondo Editorial, Participacion Ciudadana) como excongresista vinculada al fujimorismo",
+      "Cobro gastos de representacion estando fuera del pais",
+      "Promocion de historieta criticada por apologia al fujimorismo"
+    ],
+    "pension_alimenticia": "no determinado",
+    "procesos_judiciales": [
+      "Investigacion fiscal por lavado de activos - Fiscalia del Callao",
+      "Investigacion preliminar por peculado doloso y falsedad ideologica",
+      "Ocho expedientes judiciales no declarados en hoja de vida"
+    ],
+    "cambios_partido": [
+      "Union por el Peru (2006-2011, alianza con Partido Nacionalista de Humala)",
+      "Fuerza Popular / Fuerza 2011 (2011-presente, fujimorismo)"
+    ],
+    "nivel_riesgo": "muy alto",
+    "fuentes": [
+      "https://ahora.com.pe/karina-beteta-en-la-mira-del-jee-podria-ser-excluida-por-omitir-ocho-expedientes-judiciales-en-hoja-de-vida/",
+      "https://elcomercio.pe/politica/congreso/karina-beteta-aliada-ollanta-humala-fujimorista-372600-noticia/",
+      "https://pagina3.pe/portada/cuatro-millonarios-doce-sentenciados-y-22-golondrinos-postulan-a-senadores-y-diputados-por-huanuco/",
+      "https://es.wikipedia.org/wiki/Karina_Beteta_Rub%C3%ADn"
+    ]
+  }
+}
