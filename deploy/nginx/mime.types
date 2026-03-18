@@ -1,0 +1,17 @@
+types {
+    text/html                             html htm;
+    text/css                              css;
+    text/javascript                       js mjs;
+    application/json                      json;
+    application/wasm                      wasm;
+    image/webp                            webp;
+    image/png                             png;
+    image/jpeg                            jpg jpeg;
+    image/gif                             gif;
+    image/svg+xml                         svg;
+    image/x-icon                          ico;
+    font/woff                             woff;
+    font/woff2                            woff2;
+    application/vnd.android.package-archive apk;
+    application/octet-stream              bin;
+}

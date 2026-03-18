@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editar Candidato - Radar del Floro Admin</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+  <header class="bg-red-700 text-white px-6 py-3 flex items-center justify-between">
+    <div class="flex items-center gap-4">
+      <a href="/admin/dashboard" class="text-red-200 hover:text-white text-sm">&larr; Volver al dashboard</a>
+      <h1 class="text-lg font-bold" id="page-title">Editar Candidato</h1>
+    </div>
+    <a href="/admin/logout" class="text-red-200 text-sm hover:text-white">Salir</a>
+  </header>
+
+  <div class="max-w-4xl mx-auto px-6 py-6">
+    <!-- Images -->
+    <div class="bg-white rounded shadow-sm p-6 mb-6">
+      <h2 class="text-sm font-bold text-gray-700 mb-4 uppercase tracking-wide">Imágenes</h2>
+      <div class="grid grid-cols-2 gap-6">
+        <!-- Photo -->
+        <div>
+          <label class="block text-sm font-medium text-gray-600 mb-2">Foto</label>
+          <div id="photo-preview" class="w-32 h-32 bg-gray-100 rounded border-2 border-dashed border-gray-300 flex items-center justify-center mb-2 overflow-hidden">
+            <span class="text-gray-400 text-xs">Sin foto</span>
+          </div>
+          <input type="file" id="photo-input" accept="image/*" class="text-sm" onchange="uploadImage('photo')">
+        </div>
+        <!-- Caricature -->
+        <div>
+          <label class="block text-sm font-medium text-gray-600 mb-2">Caricatura</label>
+          <div id="caricature-preview" class="w-32 h-32 bg-gray-100 rounded border-2 border-dashed border-gray-300 flex items-center justify-center mb-2 overflow-hidden">
+            <span class="text-gray-400 text-xs">Sin caricatura</span>
+          </div>
+          <input type="file" id="caricature-input" accept="image/*" class="text-sm" onchange="uploadImage('caricature')">
+        </div>
+      </div>
+    </div>
+
+    <!-- Basic Info -->
+    <div class="bg-white rounded shadow-sm p-6 mb-6">
+      <h2 class="text-sm font-bold text-gray-700 mb-4 uppercase tracking-wide">Información básica</h2>
+      <div class="grid grid-cols-2 gap-4">
+        <div>
+          <label class="block text-xs font-medium text-gray-500 mb-1">Nombre completo *</label>
+          <input type="text" id="nombre" required class="w-full border rounded px-3 py-2 text-sm">
+        </div>
+        <div>
+          <label class="block text-xs font-medium text-gray-500 mb-1">DNI</label>
+          <input type="text" id="dni" class="w-full border rounded px-3 py-2 text-sm">
+        </div>
+        <div>
+          <label class="block text-xs font-medium text-gray-500 mb-1">Partido</label>
+          <input type="text" id="partido" class="w-full border rounded px-3 py-2 text-sm">
+        </div>
+        <div>
+          <label class="block text-xs font-medium text-gray-500 mb-1">Cargo *</label>
+          <select id="cargo" class="w-full border rounded px-3 py-2 text-sm">
+            <option value="PRESIDENTE">Presidente</option>
+            <option value="SENADOR">Senador</option>
+            <option value="DIPUTADO">Diputado</option>
+            <option value="PARLAMENTO ANDINO">Parlamento Andino</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-xs font-medium text-gray-500 mb-1">Región</label>
+          <input type="text" id="region" class="w-full border rounded px-3 py-2 text-sm">
+        </div>
+        <div>
+          <label class="block text-xs font-medium text-gray-500 mb-1">Link JNE</label>
+          <input type="text" id="link_jne" class="w-full border rounded px-3 py-2 text-sm">
+        </div>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="bg-white rounded shadow-sm p-6 mb-6">
+      <h2 class="text-sm font-bold text-gray-700 mb-4 uppercase tracking-wide">Contenido del juego</h2>
+      <div class="space-y-4">
+        <div>
+          <label class="block text-xs font-medium text-gray-500 mb-1">Frase / Descripción</label>
+          <textarea id="frase" rows="3" class="w-full border rounded px-3 py-2 text-sm"></textarea>
+        </div>
+        <div>
+          <label class="block text-xs font-medium text-gray-500 mb-1">Frase del narrador</label>
+          <textarea id="frase_narrador" rows="2" class="w-full border rounded px-3 py-2 text-sm"></textarea>
+        </div>
+        <div>
+          <label class="block text-xs font-medium text-gray-500 mb-1">Patrón dominante</label>
+          <input type="text" id="patron_dominante" class="w-full border rounded px-3 py-2 text-sm">
+        </div>
+      </div>
+    </div>
+
+    <!-- Arrays (one per line) -->
+    <div class="bg-white rounded shadow-sm p-6 mb-6">
+      <h2 class="text-sm font-bold text-gray-700 mb-4 uppercase tracking-wide">Señales y controversias</h2>
+      <p class="text-xs text-gray-400 mb-4">Un elemento por línea</p>
+      <div class="grid grid-cols-2 gap-4">
+        <div>
+          <label class="block text-xs font-medium text-gray-500 mb-1">Señales de alerta</label>
+          <textarea id="senales" rows="4" class="w-full border rounded px-3 py-2 text-sm font-mono"></textarea>
+        </div>
+        <div>
+          <label class="block text-xs font-medium text-gray-500 mb-1">Controversias</label>
+          <textarea id="controversias" rows="4" class="w-full border rounded px-3 py-2 text-sm font-mono"></textarea>
+        </div>
+        <div>
+          <label class="block text-xs font-medium text-gray-500 mb-1">Antecedentes</label>
+          <textarea id="antecedentes" rows="3" class="w-full border rounded px-3 py-2 text-sm font-mono"></textarea>
+        </div>
+        <div>
+          <label class="block text-xs font-medium text-gray-500 mb-1">Procesos judiciales</label>
+          <textarea id="procesos_judiciales" rows="3" class="w-full border rounded px-3 py-2 text-sm font-mono"></textarea>
+        </div>
+        <div>
+          <label class="block text-xs font-medium text-gray-500 mb-1">Cambios de partido</label>
+          <textarea id="cambios_partido" rows="3" class="w-full border rounded px-3 py-2 text-sm font-mono"></textarea>
+        </div>
+        <div>
+          <label class="block text-xs font-medium text-gray-500 mb-1">Pensión alimenticia</label>
+          <input type="text" id="pension_alimenticia" class="w-full border rounded px-3 py-2 text-sm">
+        </div>
+      </div>
+    </div>
+
+    <!-- Fuentes -->
+    <div class="bg-white rounded shadow-sm p-6 mb-6">
+      <h2 class="text-sm font-bold text-gray-700 mb-4 uppercase tracking-wide">Fuentes (URLs)</h2>
+      <p class="text-xs text-gray-400 mb-2">Una URL por línea</p>
+      <textarea id="fuentes" rows="4" class="w-full border rounded px-3 py-2 text-sm font-mono" placeholder="https://..."></textarea>
+    </div>
+
+    <!-- Scoring -->
+    <div class="bg-white rounded shadow-sm p-6 mb-6">
+      <h2 class="text-sm font-bold text-gray-700 mb-4 uppercase tracking-wide">Puntuación</h2>
+      <div class="grid grid-cols-3 gap-4">
+        <div>
+          <label class="block text-xs font-medium text-gray-500 mb-1">Índice de Floro (0-100)</label>
+          <input type="number" id="indice_floro" min="0" max="100" class="w-full border rounded px-3 py-2 text-sm">
+        </div>
+        <div>
+          <label class="block text-xs font-medium text-gray-500 mb-1">Nivel</label>
+          <select id="nivel" class="w-full border rounded px-3 py-2 text-sm">
+            <option value="">—</option>
+            <option value="Alerta maxima">Alerta máxima</option>
+            <option value="Bandera roja">Bandera roja</option>
+            <option value="Mucho floro">Mucho floro</option>
+            <option value="Dudoso">Dudoso</option>
+            <option value="Pasa raspando">Pasa raspando</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-xs font-medium text-gray-500 mb-1">Respuesta ideal</label>
+          <select id="respuesta_ideal" class="w-full border rounded px-3 py-2 text-sm">
+            <option value="">—</option>
+            <option value="Puro floro">Puro floro</option>
+            <option value="Bandera roja">Bandera roja</option>
+            <option value="Sospechoso">Sospechoso</option>
+            <option value="Pasa raspando">Pasa raspando</option>
+          </select>
+        </div>
+      </div>
+      <h3 class="text-xs font-bold text-gray-600 mt-4 mb-2">Puntajes por eje</h3>
+      <div class="grid grid-cols-3 gap-3">
+        <div>
+          <label class="block text-xs text-gray-500">Incoherencia (0-25)</label>
+          <input type="number" id="p_incoherencia" min="0" max="25" class="w-full border rounded px-2 py-1 text-sm">
+        </div>
+        <div>
+          <label class="block text-xs text-gray-500">Promesas inviables (0-25)</label>
+          <input type="number" id="p_promesas" min="0" max="25" class="w-full border rounded px-2 py-1 text-sm">
+        </div>
+        <div>
+          <label class="block text-xs text-gray-500">Opacidad (0-20)</label>
+          <input type="number" id="p_opacidad" min="0" max="20" class="w-full border rounded px-2 py-1 text-sm">
+        </div>
+        <div>
+          <label class="block text-xs text-gray-500">Populismo (0-15)</label>
+          <input type="number" id="p_populismo" min="0" max="15" class="w-full border rounded px-2 py-1 text-sm">
+        </div>
+        <div>
+          <label class="block text-xs text-gray-500">Victimismo (0-10)</label>
+          <input type="number" id="p_victimismo" min="0" max="10" class="w-full border rounded px-2 py-1 text-sm">
+        </div>
+        <div>
+          <label class="block text-xs text-gray-500">Reciclaje político (0-5)</label>
+          <input type="number" id="p_reciclaje" min="0" max="5" class="w-full border rounded px-2 py-1 text-sm">
+        </div>
+      </div>
+    </div>
+
+    <!-- Save -->
+    <div class="flex gap-3 mb-10">
+      <button onclick="save()" id="save-btn" class="bg-red-600 text-white px-6 py-2 rounded font-medium hover:bg-red-700">
+        Guardar cambios
+      </button>
+      <a href="/admin/dashboard" class="border border-gray-300 px-6 py-2 rounded text-sm text-gray-600 hover:bg-gray-100">Cancelar</a>
+      <span id="save-status" class="text-sm text-green-600 self-center hidden">Guardado</span>
+    </div>
+  </div>
+
+  <script>
+    const isNew = location.pathname.includes('/new');
+    const candidateId = isNew ? null : location.pathname.split('/').filter(Boolean)[2];
+
+    if (isNew) {
+      document.getElementById('page-title').textContent = 'Nuevo Candidato';
+    }
+
+    // Helpers
+    function arrToText(arr) { return (arr || []).join('\n'); }
+    function textToArr(id) { return document.getElementById(id).value.split('\n').map(s => s.trim()).filter(Boolean); }
+    function val(id) { return document.getElementById(id).value; }
+    function setVal(id, v) { document.getElementById(id).value = v || ''; }
+
+    // Load existing candidate
+    async function loadCandidate() {
+      if (isNew) return;
+      const res = await fetch(`/admin/api/candidates/${candidateId}`);
+      if (!res.ok) { alert('Candidato no encontrado'); return; }
+      const c = await res.json();
+
+      setVal('nombre', c.nombre);
+      setVal('dni', c.dni);
+      setVal('partido', c.partido);
+      setVal('cargo', c.cargo);
+      setVal('region', c.region);
+      setVal('link_jne', c.link_jne);
+      setVal('frase', c.frase);
+      setVal('frase_narrador', c.frase_narrador);
+      setVal('patron_dominante', c.patron_dominante);
+      setVal('senales', arrToText(c.senales));
+      setVal('controversias', arrToText(c.controversias));
+      setVal('antecedentes', arrToText(c.antecedentes));
+      setVal('procesos_judiciales', arrToText(c.procesos_judiciales));
+      setVal('cambios_partido', arrToText(c.cambios_partido));
+      setVal('pension_alimenticia', c.pension_alimenticia);
+      setVal('fuentes', arrToText(c.fuentes));
+      setVal('indice_floro', c.indice_floro);
+      setVal('nivel', c.nivel);
+      setVal('respuesta_ideal', c.respuesta_ideal);
+
+      const p = c.puntajes || {};
+      setVal('p_incoherencia', p.incoherencia);
+      setVal('p_promesas', p.promesasInviables);
+      setVal('p_opacidad', p.opacidad);
+      setVal('p_populismo', p.populismo);
+      setVal('p_victimismo', p.victimismoEstrategico);
+      setVal('p_reciclaje', p.reciclajePolitico);
+
+      // Images
+      if (c.foto) {
+        document.getElementById('photo-preview').innerHTML =
+          `<img src="/images/${c.foto}" class="w-32 h-32 object-cover">`;
+      }
+      if (c.caricatura) {
+        document.getElementById('caricature-preview').innerHTML =
+          `<img src="/images/${c.caricatura}" class="w-32 h-32 object-cover">`;
+      }
+    }
+
+    // Save
+    async function save() {
+      const body = {
+        nombre: val('nombre'),
+        dni: val('dni'),
+        partido: val('partido'),
+        cargo: val('cargo'),
+        region: val('region'),
+        link_jne: val('link_jne'),
+        frase: val('frase'),
+        frase_narrador: val('frase_narrador'),
+        patron_dominante: val('patron_dominante'),
+        senales: textToArr('senales'),
+        controversias: textToArr('controversias'),
+        antecedentes: textToArr('antecedentes'),
+        procesos_judiciales: textToArr('procesos_judiciales'),
+        cambios_partido: textToArr('cambios_partido'),
+        pension_alimenticia: val('pension_alimenticia'),
+        fuentes: textToArr('fuentes'),
+        indice_floro: val('indice_floro'),
+        nivel: val('nivel'),
+        nivel_riesgo: val('nivel'),
+        respuesta_ideal: val('respuesta_ideal'),
+        puntajes: {
+          incoherencia: parseInt(val('p_incoherencia')) || 0,
+          promesasInviables: parseInt(val('p_promesas')) || 0,
+          opacidad: parseInt(val('p_opacidad')) || 0,
+          populismo: parseInt(val('p_populismo')) || 0,
+          victimismoEstrategico: parseInt(val('p_victimismo')) || 0,
+          reciclajePolitico: parseInt(val('p_reciclaje')) || 0,
+        },
+      };
+
+      if (!body.nombre || !body.cargo) {
+        alert('Nombre y cargo son obligatorios');
+        return;
+      }
+
+      const url = isNew ? '/admin/api/candidates' : `/admin/api/candidates/${candidateId}`;
+      const res = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body),
+      });
+
+      const data = await res.json();
+      if (data.ok) {
+        const status = document.getElementById('save-status');
+        status.classList.remove('hidden');
+        setTimeout(() => status.classList.add('hidden'), 2000);
+        if (isNew && data.id) {
+          location.href = `/admin/candidates/${data.id}/edit`;
+        }
+      } else {
+        alert('Error: ' + (data.error || 'desconocido'));
+      }
+    }
+
+    // Upload image
+    async function uploadImage(type) {
+      if (isNew) { alert('Primero guarda el candidato'); return; }
+      const input = document.getElementById(type === 'photo' ? 'photo-input' : 'caricature-input');
+      if (!input.files.length) return;
+
+      const form = new FormData();
+      form.append('image', input.files[0]);
+
+      const res = await fetch(`/admin/api/candidates/${candidateId}/${type}`, {
+        method: 'POST',
+        body: form,
+      });
+
+      const data = await res.json();
+      if (data.ok) {
+        const preview = document.getElementById(type === 'photo' ? 'photo-preview' : 'caricature-preview');
+        preview.innerHTML = `<img src="/images/${data.path}?t=${Date.now()}" class="w-32 h-32 object-cover">`;
+      } else {
+        alert('Error subiendo imagen');
+      }
+    }
+
+    loadCandidate();
+  </script>
+</body>
+</html>

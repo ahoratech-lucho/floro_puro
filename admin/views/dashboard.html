@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Radar del Floro Admin</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+  <!-- Header -->
+  <header class="bg-red-700 text-white px-6 py-3 flex items-center justify-between">
+    <div>
+      <h1 class="text-lg font-bold">Radar del Floro — Admin</h1>
+    </div>
+    <div class="flex items-center gap-4">
+      <a href="/admin/candidates/new" class="bg-white text-red-700 px-3 py-1 rounded text-sm font-medium hover:bg-red-50">+ Nuevo candidato</a>
+      <a href="/admin/logout" class="text-red-200 text-sm hover:text-white">Salir</a>
+    </div>
+  </header>
+
+  <!-- Stats -->
+  <div id="stats" class="max-w-7xl mx-auto px-6 py-4 grid grid-cols-4 gap-4">
+    <div class="bg-white rounded p-4 shadow-sm text-center">
+      <div id="stat-total" class="text-2xl font-bold text-gray-800">—</div>
+      <div class="text-xs text-gray-500">Total candidatos</div>
+    </div>
+    <div class="bg-white rounded p-4 shadow-sm text-center">
+      <div id="stat-foto" class="text-2xl font-bold text-green-600">—</div>
+      <div class="text-xs text-gray-500">Con foto</div>
+    </div>
+    <div class="bg-white rounded p-4 shadow-sm text-center">
+      <div id="stat-caricatura" class="text-2xl font-bold text-blue-600">—</div>
+      <div class="text-xs text-gray-500">Con caricatura</div>
+    </div>
+    <div class="bg-white rounded p-4 shadow-sm text-center">
+      <div id="stat-controversias" class="text-2xl font-bold text-red-600">—</div>
+      <div class="text-xs text-gray-500">Con controversias</div>
+    </div>
+  </div>
+
+  <!-- Filters -->
+  <div class="max-w-7xl mx-auto px-6 mb-4 flex gap-3 items-center">
+    <input type="text" id="search" placeholder="Buscar por nombre o partido..."
+      class="flex-1 border border-gray-300 rounded px-3 py-2 text-sm focus:ring-2 focus:ring-red-500 focus:outline-none">
+    <select id="cargo-filter" class="border border-gray-300 rounded px-3 py-2 text-sm">
+      <option value="TODOS">Todos los cargos</option>
+      <option value="PRESIDENTE">Presidente</option>
+      <option value="SENADOR">Senador</option>
+      <option value="DIPUTADO">Diputado</option>
+      <option value="PARLAMENTO ANDINO">Parlamento Andino</option>
+    </select>
+    <button onclick="loadCandidates(1)" class="bg-red-600 text-white px-4 py-2 rounded text-sm hover:bg-red-700">Buscar</button>
+  </div>
+
+  <!-- Table -->
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="bg-white rounded shadow-sm overflow-hidden">
+      <table class="w-full text-sm">
+        <thead class="bg-gray-100">
+          <tr>
+            <th class="px-4 py-2 text-left w-12">Foto</th>
+            <th class="px-4 py-2 text-left">Nombre</th>
+            <th class="px-4 py-2 text-left">Partido</th>
+            <th class="px-4 py-2 text-left">Cargo</th>
+            <th class="px-4 py-2 text-center">IF</th>
+            <th class="px-4 py-2 text-left">Nivel</th>
+            <th class="px-4 py-2 text-center">Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+
+    <!-- Pagination -->
+    <div id="pagination" class="flex justify-between items-center py-4 text-sm text-gray-600">
+      <span id="page-info"></span>
+      <div class="flex gap-2">
+        <button id="prev-btn" onclick="prevPage()" class="px-3 py-1 border rounded hover:bg-gray-100 disabled:opacity-50">Anterior</button>
+        <button id="next-btn" onclick="nextPage()" class="px-3 py-1 border rounded hover:bg-gray-100 disabled:opacity-50">Siguiente</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let currentPage = 1;
+
+    async function loadStats() {
+      const res = await fetch('/admin/api/stats');
+      const data = await res.json();
+      document.getElementById('stat-total').textContent = data.total;
+      document.getElementById('stat-foto').textContent = data.con_foto;
+      document.getElementById('stat-caricatura').textContent = data.con_caricatura;
+      document.getElementById('stat-controversias').textContent = data.con_controversias;
+    }
+
+    async function loadCandidates(page) {
+      currentPage = page || 1;
+      const search = document.getElementById('search').value;
+      const cargo = document.getElementById('cargo-filter').value;
+      const params = new URLSearchParams({ page: currentPage, limit: 50, cargo, search });
+
+      const res = await fetch(`/admin/api/candidates?${params}`);
+      const data = await res.json();
+
+      const tbody = document.getElementById('table-body');
+      tbody.innerHTML = data.candidates.map(c => `
+        <tr class="border-t hover:bg-gray-50">
+          <td class="px-4 py-2">
+            ${c.foto
+              ? `<img src="/images/${c.foto}" class="w-8 h-8 rounded object-cover" onerror="this.style.display='none'">`
+              : '<div class="w-8 h-8 bg-gray-200 rounded flex items-center justify-center text-gray-400 text-xs">—</div>'}
+          </td>
+          <td class="px-4 py-2 font-medium">${c.nombre}</td>
+          <td class="px-4 py-2 text-gray-600">${c.partido || '—'}</td>
+          <td class="px-4 py-2">
+            <span class="px-2 py-0.5 text-xs rounded ${cargoColor(c.cargo)}">${c.cargo}</span>
+          </td>
+          <td class="px-4 py-2 text-center font-bold ${c.indice_floro > 60 ? 'text-red-600' : c.indice_floro > 30 ? 'text-orange-500' : 'text-green-600'}">${c.indice_floro}</td>
+          <td class="px-4 py-2 text-xs">${c.nivel || '—'}</td>
+          <td class="px-4 py-2 text-center">
+            <a href="/admin/candidates/${c.id}/edit" class="text-blue-600 hover:underline text-xs mr-2">Editar</a>
+            <button onclick="deleteCand('${c.id}', '${c.nombre.replace(/'/g, "\\'")}')" class="text-red-600 hover:underline text-xs">Eliminar</button>
+          </td>
+        </tr>
+      `).join('');
+
+      document.getElementById('page-info').textContent =
+        `Mostrando ${(currentPage-1)*50 + 1}–${Math.min(currentPage*50, data.total)} de ${data.total}`;
+      document.getElementById('prev-btn').disabled = currentPage <= 1;
+      document.getElementById('next-btn').disabled = currentPage >= data.pages;
+    }
+
+    function cargoColor(cargo) {
+      const colors = {
+        'PRESIDENTE': 'bg-red-100 text-red-700',
+        'SENADOR': 'bg-blue-100 text-blue-700',
+        'DIPUTADO': 'bg-green-100 text-green-700',
+        'PARLAMENTO ANDINO': 'bg-purple-100 text-purple-700',
+      };
+      return colors[cargo] || 'bg-gray-100 text-gray-700';
+    }
+
+    function prevPage() { if (currentPage > 1) loadCandidates(currentPage - 1); }
+    function nextPage() { loadCandidates(currentPage + 1); }
+
+    async function deleteCand(id, name) {
+      if (!confirm(`Eliminar a "${name}"?`)) return;
+      await fetch(`/admin/api/candidates/${id}`, { method: 'DELETE' });
+      loadCandidates(currentPage);
+      loadStats();
+    }
+
+    // Enter key triggers search
+    document.getElementById('search').addEventListener('keydown', e => {
+      if (e.key === 'Enter') loadCandidates(1);
+    });
+
+    // Init
+    loadStats();
+    loadCandidates(1);
+  </script>
+</body>
+</html>

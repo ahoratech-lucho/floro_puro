@@ -29,16 +29,38 @@ class CardRepository {
   List<CandidateCard> cardsByCargo(String cargo) =>
       _allCards.where((c) => c.cargo == cargo).toList();
 
+  /// Get unique region types, optionally filtered by cargo
+  List<String> regionTypesForCargo([String? cargo]) {
+    var cards = _allCards;
+    if (cargo != null) {
+      cards = cards.where((c) => c.cargo == cargo).toList();
+    }
+    return cards
+        .map((c) => c.region ?? '')
+        .toSet()
+        .where((r) => r.isNotEmpty)
+        .toList()
+      ..sort();
+  }
+
+  /// Get unique region types (all)
+  List<String> get regionTypes => regionTypesForCargo();
+
   /// Select cards for a round with guaranteed interesting cards mixed in
   List<CandidateCard> selectRound({
     int count = cardsPerRound,
     String? cargoFilter,
+    String? regionFilter,
     bool onlyInteresting = false,
   }) {
     List<CandidateCard> pool = _allCards;
 
     if (cargoFilter != null) {
       pool = pool.where((c) => c.cargo == cargoFilter).toList();
+    }
+
+    if (regionFilter != null) {
+      pool = pool.where((c) => c.region == regionFilter).toList();
     }
 
     if (onlyInteresting) {

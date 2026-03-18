@@ -21,6 +21,8 @@ class CandidateCard {
   final String patronDominante;
   final String fraseNarrador;
   final List<String> fuentes;
+  final String? dni;
+  final String? linkJNE;
 
   CandidateCard({
     required this.id,
@@ -45,6 +47,8 @@ class CandidateCard {
     required this.patronDominante,
     required this.fraseNarrador,
     required this.fuentes,
+    this.dni,
+    this.linkJNE,
   });
 
   factory CandidateCard.fromJson(Map<String, dynamic> json) {
@@ -60,7 +64,9 @@ class CandidateCard {
       senales: List<String>.from(json['senales'] ?? []),
       antecedentes: List<String>.from(json['antecedentes'] ?? []),
       controversias: List<String>.from(json['controversias'] ?? []),
-      pensionAlimenticia: json['pensionAlimenticia'] ?? 'no determinado',
+      pensionAlimenticia: (json['pensionAlimenticia'] is String)
+          ? json['pensionAlimenticia']
+          : (json['pensionAlimenticia'] == true ? 'sí' : 'no determinado'),
       procesosJudiciales: List<String>.from(json['procesosJudiciales'] ?? []),
       cambiosPartido: List<String>.from(json['cambiosPartido'] ?? []),
       indiceFloro: (json['indiceFloro'] ?? 0).toInt(),
@@ -73,10 +79,36 @@ class CandidateCard {
       patronDominante: json['patronDominante'] ?? 'Sin patron dominante',
       fraseNarrador: json['fraseNarrador'] ?? '',
       fuentes: List<String>.from(json['fuentes'] ?? []),
+      dni: json['dni'],
+      linkJNE: json['linkJNE'],
     );
   }
 
-  bool get hasControversies => senales.isNotEmpty || indiceFloro > 20;
+  /// Whether the frase is a real quote vs generic placeholder
+  bool get hasRealFrase =>
+      frase.isNotEmpty &&
+      !frase.startsWith('Candidato de') &&
+      !frase.startsWith('Candidata de') &&
+      frase.length > 20;
+
+  /// Whether patronDominante is a real pattern vs placeholder
+  bool get hasRealPatron =>
+      patronDominante.isNotEmpty &&
+      patronDominante != 'Sin patron dominante';
+
+  bool get hasControversies =>
+      controversias.isNotEmpty ||
+      antecedentes.isNotEmpty ||
+      procesosJudiciales.isNotEmpty ||
+      senales.isNotEmpty ||
+      indiceFloro > 20;
+
+  /// Number of total red flags (for badge display)
+  int get totalRedFlags =>
+      controversias.length +
+      antecedentes.length +
+      procesosJudiciales.length +
+      senales.length;
 
   String get caricatureWebpId {
     if (caricatura == null) return id;

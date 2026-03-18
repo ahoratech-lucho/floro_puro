@@ -2,13 +2,33 @@ node_modules/
 .next/
 out/
 
+# Environment / secrets
+.env
+.env.*
+.env.local
+*.env
+admin/.env
+landing/.env.local
+landing/.vercel/
+
 # Large image directories (regenerable via scripts)
 data/photos/
 data/caricatures/
 data/hojas-vida/
+data/imagenes_generadas/
 landing/public/images/photos/
+landing/public/images/photos_webp/
 landing/public/images/caricatures/
+landing/public/images/caricaturas_ai/
+landing/public/images/caricaturas_webp/
+landing/public/images/photos.rar
 landing/public/downloads/*.apk
+
+# Data enrichment (regenerable)
+data/enrichment_results/
+
+# Deploy SSL keys (sensitive)
+deploy/ssl/
 
 # Flutter
 flutter_app/build/
@@ -19,3 +39,57 @@ flutter_app/.packages
 scripts/_*.js
 data/controversies/_*.json
 *.log
+temp_docx/
+
+# Scripts (utility/one-time, not needed in repo)
+scripts/08_cartoonize.js
+scripts/09_caricature_ai.js
+scripts/09b_caricature_replicate.js
+scripts/09c_test_models.js
+scripts/09d_test_face_models.js
+scripts/09e_generate_41.js
+scripts/09f_gemini_test.js
+scripts/09g_banana_generate.js
+scripts/10_optimize_webp.js
+scripts/11_extract_regions.js
+scripts/11b_scrape_regions.js
+scripts/11c_scrape_regions.js
+scripts/11d_apply_regions_excel.js
+scripts/11e_fix_regions.js
+scripts/11f_remove_improcedentes.js
+scripts/12_add_missing_regions.js
+scripts/12_download_missing_photos.js
+scripts/12b_fix_regions_correct.js
+scripts/12b_generate_huanuco_caricatures.js
+scripts/12c_apply_parlamento_andino.js
+scripts/12c_generate_all_caricatures.js
+scripts/12d_apply_senadores.js
+scripts/12e_fuzzy_senadores.js
+scripts/12f_apply_sen_unico.js
+scripts/13_add_controversias.js
+scripts/13b_add_more_controversias.js
+scripts/13c_huanuco_deep.js
+scripts/14_enrich_candidates_ai.js
+scripts/check_completeness.js
+scripts/check_controversias.js
+scripts/check_huanuco.js
+scripts/check_nulls.js
+scripts/check_stats.js
+scripts/debug_match.js
+scripts/debug_sen.js
+scripts/download_party_logos.js
+scripts/image_server.js
+scripts/read_excel.js
+scripts/run_overnight.js
+scripts/test_filters.js
+serve_images.js
+serve_images.py
+
+# Data temp files
+data/candidate_regions.json
+data/caricature_progress.json
+data/important_slugs.json
+data/overnight_log.txt
+
+# Claude config
+.claude/

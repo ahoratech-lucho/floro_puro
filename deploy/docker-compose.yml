@@ -1,0 +1,64 @@
+services:
+  nginx:
+    image: nginx:alpine
+    container_name: radardelfloro
+    ports:
+      - "3011:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./site:/usr/share/nginx/html:ro
+      - ./images:/usr/share/nginx/images:ro
+    depends_on:
+      - backend
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "2"
+
+  backend:
+    build: ./admin
+    container_name: radardelfloro_api
+    environment:
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_USER=postgres
+      - DB_PASSWORD=${DB_PASSWORD:-radarfloro2026}
+      - DB_NAME=radarfloro
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-admin2026}
+      - SESSION_SECRET=${SESSION_SECRET:-radar-floro-session-secret-change-me}
+      - PORT=3000
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "2"
+
+  db:
+    image: postgres:16-alpine
+    container_name: radardelfloro_db
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=${DB_PASSWORD:-radarfloro2026}
+      - POSTGRES_DB=radarfloro
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "2"
+
+volumes:
+  pgdata:

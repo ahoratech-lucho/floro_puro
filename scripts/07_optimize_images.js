@@ -13,8 +13,9 @@ const path = require('path');
 
 const PHOTOS_SRC = path.join(__dirname, '..', 'data', 'photos');
 const CARICATURES_SRC = path.join(__dirname, '..', 'data', 'caricatures');
-const PHOTOS_DEST = path.join(__dirname, '..', 'landing', 'public', 'images', 'photos');
-const CARICATURES_DEST = path.join(__dirname, '..', 'landing', 'public', 'images', 'caricatures');
+// Output to deploy/images/ (Docker serves from here)
+const PHOTOS_DEST = path.join(__dirname, '..', 'deploy', 'images', 'photos_webp');
+const CARICATURES_DEST = path.join(__dirname, '..', 'deploy', 'images', 'caricaturas_webp');
 
 const args = process.argv.slice(2);
 const CARICATURES_ONLY = args.includes('--caricatures-only');

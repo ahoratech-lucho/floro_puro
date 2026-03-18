@@ -74,8 +74,8 @@ class _FloroMeterState extends State<FloroMeter>
           mainAxisSize: MainAxisSize.min,
           children: [
             SizedBox(
-              width: 120,
-              height: 70,
+              width: 180,
+              height: 100,
               child: CustomPaint(
                 painter: _GaugePainter(
                   progress: _animation.value,
@@ -83,20 +83,32 @@ class _FloroMeterState extends State<FloroMeter>
                 ),
               ),
             ),
-            const SizedBox(height: 4),
+            const SizedBox(height: 2),
             Text(
-              '${(widget.score).toString()}/100',
+              '${widget.score}',
               style: TextStyle(
                 color: color,
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
+                fontSize: 36,
+                fontWeight: FontWeight.w900,
+                height: 1,
               ),
             ),
-            Text(
-              'Índice de Floro',
-              style: TextStyle(
-                color: Colors.grey[500],
-                fontSize: 11,
+            const SizedBox(height: 2),
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+              decoration: BoxDecoration(
+                color: color.withAlpha(20),
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(color: color.withAlpha(60)),
+              ),
+              child: Text(
+                widget.nivel.toUpperCase(),
+                style: TextStyle(
+                  color: color,
+                  fontSize: 12,
+                  fontWeight: FontWeight.w800,
+                  letterSpacing: 1,
+                ),
               ),
             ),
           ],
@@ -114,46 +126,105 @@ class _GaugePainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
-    final center = Offset(size.width / 2, size.height);
-    final radius = size.width / 2 - 8;
+    final center = Offset(size.width / 2, size.height - 4);
+    final radius = size.width / 2 - 12;
 
-    // Background arc
+    // Background arc — full semicircle with color zones
     final bgPaint = Paint()
-      ..color = Colors.white.withOpacity(0.1)
       ..style = PaintingStyle.stroke
-      ..strokeWidth = 10
+      ..strokeWidth = 14
       ..strokeCap = StrokeCap.round;
 
-    canvas.drawArc(
-      Rect.fromCircle(center: center, radius: radius),
-      math.pi,
-      math.pi,
-      false,
-      bgPaint,
-    );
+    // Draw colored zone segments (green → yellow → orange → red)
+    final zones = [
+      (colorPasaRaspando.withAlpha(50), 0.0, 0.25),
+      (colorDudoso.withAlpha(50), 0.25, 0.50),
+      (colorMuchoFloro.withAlpha(50), 0.50, 0.75),
+      (colorAccentRed.withAlpha(50), 0.75, 1.0),
+    ];
 
-    // Progress arc
-    final fgPaint = Paint()
-      ..color = color
-      ..style = PaintingStyle.stroke
-      ..strokeWidth = 10
-      ..strokeCap = StrokeCap.round;
+    for (final zone in zones) {
+      bgPaint.color = zone.$1;
+      canvas.drawArc(
+        Rect.fromCircle(center: center, radius: radius),
+        math.pi + math.pi * zone.$2,
+        math.pi * (zone.$3 - zone.$2),
+        false,
+        bgPaint,
+      );
+    }
 
-    canvas.drawArc(
-      Rect.fromCircle(center: center, radius: radius),
-      math.pi,
-      math.pi * progress,
-      false,
-      fgPaint,
-    );
+    // Progress arc (main color)
+    if (progress > 0.01) {
+      final fgPaint = Paint()
+        ..color = color
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = 14
+        ..strokeCap = StrokeCap.round;
 
-    // Needle dot
+      canvas.drawArc(
+        Rect.fromCircle(center: center, radius: radius),
+        math.pi,
+        math.pi * progress,
+        false,
+        fgPaint,
+      );
+    }
+
+    // Needle
     final angle = math.pi + math.pi * progress;
+    final needleLen = radius - 6;
     final needleEnd = Offset(
-      center.dx + radius * math.cos(angle),
-      center.dy + radius * math.sin(angle),
+      center.dx + needleLen * math.cos(angle),
+      center.dy + needleLen * math.sin(angle),
     );
-    canvas.drawCircle(needleEnd, 5, Paint()..color = Colors.white);
+
+    // Needle line
+    final needlePaint = Paint()
+      ..color = colorTextPrimary
+      ..strokeWidth = 2.5
+      ..strokeCap = StrokeCap.round;
+    canvas.drawLine(center, needleEnd, needlePaint);
+
+    // Center circle
+    canvas.drawCircle(center, 6, Paint()..color = colorTextPrimary);
+    canvas.drawCircle(center, 3.5, Paint()..color = Colors.white);
+
+    // Tip dot
+    canvas.drawCircle(needleEnd, 4, Paint()..color = colorTextPrimary);
+    canvas.drawCircle(needleEnd, 2, Paint()..color = Colors.white);
+
+    // Scale labels
+    final labelStyle = TextPainter(textDirection: TextDirection.ltr);
+
+    void drawLabel(String text, double pct) {
+      final a = math.pi + math.pi * pct;
+      final labelRadius = radius + 14;
+      final pos = Offset(
+        center.dx + labelRadius * math.cos(a),
+        center.dy + labelRadius * math.sin(a),
+      );
+      labelStyle
+        ..text = TextSpan(
+          text: text,
+          style: const TextStyle(
+            color: colorTextMuted,
+            fontSize: 9,
+            fontWeight: FontWeight.w500,
+          ),
+        )
+        ..layout();
+      labelStyle.paint(
+        canvas,
+        Offset(pos.dx - labelStyle.width / 2, pos.dy - labelStyle.height / 2),
+      );
+    }
+
+    drawLabel('0', 0.0);
+    drawLabel('25', 0.25);
+    drawLabel('50', 0.5);
+    drawLabel('75', 0.75);
+    drawLabel('100', 1.0);
   }
 
   @override
