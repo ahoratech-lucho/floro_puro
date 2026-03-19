@@ -30,10 +30,20 @@ data/enrichment_results/
 # Deploy SSL keys (sensitive)
 deploy/ssl/
 
-# Flutter
-flutter_app/build/
-flutter_app/.dart_tool/
-flutter_app/.packages
+# Flutter app (radar_floro_build → app/)
+app/build/
+app/.dart_tool/
+app/.packages
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/windows/
+app/linux/
+app/macos/
+app/ios/
+app/.idea/
+
+# Old flutter_app (eliminated)
+flutter_app/
 
 # Temp files
 scripts/_*.js

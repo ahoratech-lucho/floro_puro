@@ -18,6 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
+      <head>
+        <link rel="icon" href="/favicon.png" type="image/png" />
+      </head>
       <body className="bg-[#FAF6F1] text-gray-900 antialiased">
         {children}
       </body>
