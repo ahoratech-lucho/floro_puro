@@ -14,6 +14,7 @@ const DATA_DIR = path.join(__dirname, '..', 'data');
 const DETAILED_FILE = path.join(DATA_DIR, 'candidates_detailed.json');
 const CANDIDATES_FILE = path.join(DATA_DIR, 'candidates.json');
 const CONTROVERSIES_DIR = path.join(DATA_DIR, 'controversies');
+const ENRICHMENT_DIR = path.join(DATA_DIR, 'enrichment_results');
 const PHOTOS_DIR = path.join(DATA_DIR, 'photos');
 const CARICATURES_DIR = path.join(DATA_DIR, 'caricatures');
 const OUTPUT_FILE = path.join(DATA_DIR, 'game_data.json');
@@ -27,6 +28,13 @@ const SCORING = {
   victimismoEstrategico: { max: 10 },
   reciclajePolitico: { max: 5 }
 };
+
+// Helper: ensure value is array
+function toArraySafe(val) {
+  if (Array.isArray(val)) return val;
+  if (typeof val === 'string' && val.length > 0) return [val];
+  return [];
+}
 
 function consolidate() {
   console.log('=== Consolidacion de Datos para Radar del Floro ===\n');
@@ -44,17 +52,74 @@ function consolidate() {
 
   console.log(`Candidatos base: ${candidates.length}`);
 
+  // Count enrichment files available
+  let enrichmentCount = 0;
+  if (fs.existsSync(ENRICHMENT_DIR)) {
+    enrichmentCount = fs.readdirSync(ENRICHMENT_DIR).filter(f => f.endsWith('.json')).length;
+  }
+  let controversyCount = 0;
+  if (fs.existsSync(CONTROVERSIES_DIR)) {
+    controversyCount = fs.readdirSync(CONTROVERSIES_DIR).filter(f => f.endsWith('.json')).length;
+  }
+  console.log(`Archivos en controversies/: ${controversyCount}`);
+  console.log(`Archivos en enrichment_results/: ${enrichmentCount}`);
+
+  let fromControversies = 0;
+  let fromEnrichment = 0;
+  let noData = 0;
+
   const gameCards = [];
 
   for (let i = 0; i < candidates.length; i++) {
     const c = candidates[i];
     const id = c.dni || slugify(c.nombre) || `candidato_${i}`;
 
-    // Cargar controversias si existen
+    // Cargar controversias: primero controversies/, luego enrichment_results/
     let controversy = null;
+    const slugId = slugify(c.nombre);
+
+    // 1. Buscar en controversies/ por DNI o slug (formato antiguo: .analysis)
     const contFile = path.join(CONTROVERSIES_DIR, `${id}.json`);
+    const contFileSlug = path.join(CONTROVERSIES_DIR, `${slugId}.json`);
     if (fs.existsSync(contFile)) {
       controversy = JSON.parse(fs.readFileSync(contFile, 'utf8')).analysis;
+    } else if (slugId && slugId !== id && fs.existsSync(contFileSlug)) {
+      controversy = JSON.parse(fs.readFileSync(contFileSlug, 'utf8')).analysis;
+    }
+
+    // Track source
+    const fromContDir = !!controversy;
+
+    // 2. Si no se encontro, buscar en enrichment_results/ (formato nuevo: .enrichment)
+    if (!controversy) {
+      const enrichFile = path.join(ENRICHMENT_DIR, `${slugId}.json`);
+      const enrichFileId = path.join(ENRICHMENT_DIR, `${id}.json`);
+      let enrichData = null;
+      if (slugId && fs.existsSync(enrichFile)) {
+        enrichData = JSON.parse(fs.readFileSync(enrichFile, 'utf8')).enrichment;
+      } else if (fs.existsSync(enrichFileId)) {
+        enrichData = JSON.parse(fs.readFileSync(enrichFileId, 'utf8')).enrichment;
+      }
+
+      // Normalizar formato enrichment -> formato controversy
+      if (enrichData) {
+        controversy = {
+          controversias: enrichData.controversias || [],
+          banderas_rojas: enrichData.senales || [],
+          antecedentes_penales: enrichData.antecedentes || [],
+          procesos_judiciales: enrichData.procesosJudiciales || [],
+          cambios_partido: enrichData.cambiosPartido || [],
+          pension_alimenticia: enrichData.pensionAlimenticia === true ? 'si' : (enrichData.pensionAlimenticia === false ? 'no' : (enrichData.pensionAlimenticia || 'no determinado')),
+          resumen: enrichData.frase || '',
+          nivel_riesgo: (enrichData.patronDominante || '').toLowerCase() === 'peligroso' ? 'muy alto' :
+                        (enrichData.patronDominante || '').toLowerCase() === 'florero' ? 'alto' :
+                        (enrichData.patronDominante || '').toLowerCase() === 'sospechoso' ? 'medio' : 'bajo',
+          fuentes: enrichData.fuentes || [],
+          // Preserve enrichment-specific fields
+          _fraseNarrador: enrichData.fraseNarrador || '',
+          _patronDominante: enrichData.patronDominante || '',
+        };
+      }
     }
 
     // Verificar assets
@@ -87,13 +152,13 @@ function consolidate() {
       // Frase de campana o declaracion
       frase: controversy?.resumen || `Candidato de ${c.partido || 'partido no identificado'}`,
 
-      // Senales de alerta
-      senales: controversy?.banderas_rojas || [],
-      antecedentes: controversy?.antecedentes_penales || [],
-      controversias: controversy?.controversias || [],
+      // Senales de alerta (ensure arrays)
+      senales: toArraySafe(controversy?.banderas_rojas),
+      antecedentes: toArraySafe(controversy?.antecedentes_penales),
+      controversias: toArraySafe(controversy?.controversias),
       pensionAlimenticia: controversy?.pension_alimenticia || 'no determinado',
-      procesosJudiciales: controversy?.procesos_judiciales || [],
-      cambiosPartido: controversy?.cambios_partido || [],
+      procesosJudiciales: toArraySafe(controversy?.procesos_judiciales),
+      cambiosPartido: toArraySafe(controversy?.cambios_partido),
 
       // Puntajes
       indiceFloro: scores.total,
@@ -112,12 +177,17 @@ function consolidate() {
 
       // Juego
       respuestaIdeal: idealResponse,
-      patronDominante: dominantPattern,
-      fraseNarrador: narratorPhrase,
+      patronDominante: controversy?._patronDominante || dominantPattern,
+      fraseNarrador: controversy?._fraseNarrador || narratorPhrase,
 
       // Fuentes
       fuentes: controversy?.fuentes || []
     };
+
+    // Count sources
+    if (controversy && fromContDir) fromControversies++;
+    else if (controversy && !fromContDir) fromEnrichment++;
+    else noData++;
 
     gameCards.push(card);
   }
@@ -157,6 +227,10 @@ function consolidate() {
 
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2));
 
+  console.log(`\n=== Fuentes de datos ===`);
+  console.log(`  Desde controversies/: ${fromControversies}`);
+  console.log(`  Desde enrichment_results/: ${fromEnrichment}`);
+  console.log(`  Sin datos: ${noData}`);
   console.log(`\n=== Resultado ===`);
   console.log(`Total cartas: ${stats.total}`);
   console.log(`Con foto: ${stats.conFoto}`);
@@ -181,18 +255,25 @@ function calculateScores(candidate, controversy) {
     return { ...scores, total: 0 };
   }
 
-  const flags = (controversy.banderas_rojas || []).map(f => f.toLowerCase());
-  const antecedentes = controversy.antecedentes_penales || [];
-  const controversias = controversy.controversias || [];
-  const cambios = controversy.cambios_partido || [];
-  const procesos = controversy.procesos_judiciales || [];
-  const riesgo = controversy.nivel_riesgo || '';
+  // Ensure all fields are arrays (some enrichment files have strings instead)
+  const toArray = (val) => {
+    if (Array.isArray(val)) return val;
+    if (typeof val === 'string' && val.length > 0) return [val];
+    return [];
+  };
+
+  const flags = toArray(controversy.banderas_rojas).map(f => String(f).toLowerCase());
+  const antecedentes = toArray(controversy.antecedentes_penales);
+  const controversias = toArray(controversy.controversias);
+  const cambios = toArray(controversy.cambios_partido);
+  const procesos = toArray(controversy.procesos_judiciales);
+  const riesgo = String(controversy.nivel_riesgo || '');
 
   // Concatenar todo el texto para busqueda amplia
-  const allText = [...flags, ...(controversias.map(c => c.toLowerCase())),
-    ...(antecedentes.map(a => a.toLowerCase())),
-    ...(procesos.map(p => p.toLowerCase())),
-    (controversy.resumen || '').toLowerCase()
+  const allText = [...flags, ...(controversias.map(c => String(c).toLowerCase())),
+    ...(antecedentes.map(a => String(a).toLowerCase())),
+    ...(procesos.map(p => String(p).toLowerCase())),
+    String(controversy.resumen || '').toLowerCase()
   ].join(' | ');
 
   // Incoherencia (max 25)

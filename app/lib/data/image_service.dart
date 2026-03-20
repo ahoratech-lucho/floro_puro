@@ -101,11 +101,7 @@ class ImageService {
   }
 
   static Widget _loading({double? width, double? height}) {
-    return Container(
-      width: width, height: height,
-      color: const Color(0xFFF0ECE6),
-      child: Center(child: CircularProgressIndicator(strokeWidth: 2, color: colorTextMuted)),
-    );
+    return _PulsingLoader(width: width, height: height);
   }
 
   static Widget caricature(String slug, {double? width, double? height, BoxFit fit = BoxFit.cover}) {
@@ -114,7 +110,50 @@ class ImageService {
       caricatureUrl(slug),
       width: width, height: height, fit: fit,
       loadingBuilder: (c, child, progress) => progress == null ? child : _loading(width: width, height: height),
-      errorBuilder: (c, e, s) => _placeholder(slug, width: width, height: height),
+      errorBuilder: (c, e, s) => _saturatedPhoto(slug, width: width, height: height, fit: fit),
+    );
+  }
+
+  /// Fallback: photo with saturated/stylized filter when no caricature exists
+  static Widget _saturatedPhoto(String slug, {double? width, double? height, BoxFit fit = BoxFit.cover}) {
+    return Stack(
+      children: [
+        ColorFiltered(
+          colorFilter: const ColorFilter.matrix(<double>[
+            1.4, 0.1, 0.1, 0, -20,   // R: boost red
+            0.1, 1.3, 0.1, 0, -20,   // G: boost green
+            0.1, 0.1, 1.5, 0, -30,   // B: boost blue
+            0,   0,   0,   1,   0,   // A: unchanged
+          ]),
+          child: Image.network(
+            photoUrl(slug),
+            width: width, height: height, fit: fit,
+            loadingBuilder: (c, child, progress) => progress == null ? child : _loading(width: width, height: height),
+            errorBuilder: (c, e, s) => _placeholder(slug, width: width, height: height),
+          ),
+        ),
+        // "Próximamente" badge
+        Positioned(
+          bottom: 4,
+          right: 4,
+          child: Container(
+            padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 2),
+            decoration: BoxDecoration(
+              color: const Color(0xCC000000),
+              borderRadius: BorderRadius.circular(3),
+            ),
+            child: const Text(
+              'PRÓXIMAMENTE',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 7,
+                fontWeight: FontWeight.w700,
+                letterSpacing: 0.5,
+              ),
+            ),
+          ),
+        ),
+      ],
     );
   }
 
@@ -125,6 +164,63 @@ class ImageService {
       width: width, height: height, fit: fit,
       loadingBuilder: (c, child, progress) => progress == null ? child : _loading(width: width, height: height),
       errorBuilder: (c, e, s) => _placeholder(slug, width: width, height: height),
+    );
+  }
+}
+
+class _PulsingLoader extends StatefulWidget {
+  final double? width;
+  final double? height;
+  const _PulsingLoader({this.width, this.height});
+
+  @override
+  State<_PulsingLoader> createState() => _PulsingLoaderState();
+}
+
+class _PulsingLoaderState extends State<_PulsingLoader>
+    with SingleTickerProviderStateMixin {
+  late AnimationController _controller;
+  late Animation<double> _opacityAnim;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(
+      duration: const Duration(milliseconds: 1000),
+      vsync: this,
+    )..repeat(reverse: true);
+    _opacityAnim = Tween<double>(begin: 0.3, end: 0.7).animate(
+      CurvedAnimation(parent: _controller, curve: Curves.easeInOut),
+    );
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return AnimatedBuilder(
+      animation: _opacityAnim,
+      builder: (context, child) {
+        return Container(
+          width: widget.width,
+          height: widget.height,
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color.fromRGBO(210, 200, 185, _opacityAnim.value),
+                Color.fromRGBO(230, 220, 205, _opacityAnim.value * 0.8),
+                Color.fromRGBO(210, 200, 185, _opacityAnim.value),
+              ],
+            ),
+          ),
+        );
+      },
     );
   }
 }

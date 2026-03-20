@@ -4,10 +4,13 @@ import 'data/score_service.dart';
 import 'data/theme_service.dart';
 import 'data/sound_service.dart';
 import 'data/security_service.dart';
+import 'data/tutorial_service.dart';
 import 'screens/home_screen.dart';
+import 'screens/tutorial_screen.dart';
 import 'utils/constants.dart';
 
 final themeService = ThemeService();
+final routeObserver = RouteObserver<ModalRoute<void>>();
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -43,6 +46,7 @@ class _RadarDelFloroAppState extends State<RadarDelFloroApp> {
     return MaterialApp(
       title: 'Radar del Floro',
       debugShowCheckedModeBanner: false,
+      navigatorObservers: [routeObserver],
       themeMode: themeService.themeMode,
       theme: ThemeData(
         brightness: Brightness.light,
@@ -158,9 +162,12 @@ class _LoadingScreenState extends State<LoadingScreen>
       }
 
       await ScoreService.init();
+      await TutorialService.init();
       await _repository.loadCards();
       if (mounted) {
-        setState(() => _loading = false);
+        setState(() {
+          _loading = false;
+        });
       }
     } catch (e) {
       if (mounted) {

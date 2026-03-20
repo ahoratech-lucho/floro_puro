@@ -51,17 +51,12 @@ class _ExploreScreenState extends State<ExploreScreen> {
       body: SafeArea(
         child: Column(
           children: [
-            // Header
+            // Header (no back button — this is a tab)
             Container(
               color: colorBgWhite,
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
               child: Row(
                 children: [
-                  GestureDetector(
-                    onTap: () => Navigator.of(context).pop(),
-                    child: const Icon(Icons.arrow_back, color: colorTextPrimary, size: 22),
-                  ),
-                  const SizedBox(width: 12),
                   const Expanded(
                     child: Text(
                       'Explorar Candidatos',
@@ -231,10 +226,19 @@ class _ExploreScreenState extends State<ExploreScreen> {
         ),
         child: Row(
           children: [
-            // Photo
+            // Caricature (fallback: saturated photo)
             ClipRRect(
               borderRadius: BorderRadius.circular(6),
-              child: ImageService.photo(card.photoWebpId, width: 48, height: 48),
+              child: SizedBox(
+                width: 48,
+                height: 48,
+                child: ImageService.caricature(
+                  card.caricatureWebpId,
+                  width: 48,
+                  height: 48,
+                  fit: BoxFit.cover,
+                ),
+              ),
             ),
             const SizedBox(width: 12),
             // Info

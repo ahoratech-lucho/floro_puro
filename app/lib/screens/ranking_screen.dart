@@ -34,17 +34,12 @@ class _RankingScreenState extends State<RankingScreen> {
       body: SafeArea(
         child: Column(
           children: [
-            // Header
+            // Header (no back button — this is a tab)
             Container(
               color: colorBgWhite,
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
               child: Row(
                 children: [
-                  GestureDetector(
-                    onTap: () => Navigator.of(context).pop(),
-                    child: const Icon(Icons.arrow_back, color: colorTextPrimary, size: 22),
-                  ),
-                  const SizedBox(width: 12),
                   const Expanded(
                     child: Text(
                       'RANKING DEL FLORO',
@@ -164,10 +159,14 @@ class _RankingScreenState extends State<RankingScreen> {
             ),
             const SizedBox(width: 8),
 
-            // Photo
+            // Caricature (fallback: saturated photo)
             ClipRRect(
               borderRadius: BorderRadius.circular(6),
-              child: ImageService.photo(card.photoWebpId, width: 48, height: 48),
+              child: SizedBox(
+                width: 48,
+                height: 48,
+                child: ImageService.caricature(card.caricatureWebpId, width: 48, height: 48),
+              ),
             ),
             const SizedBox(width: 10),
 

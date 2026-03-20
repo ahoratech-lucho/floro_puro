@@ -110,7 +110,7 @@ class _CompareScreenState extends State<CompareScreen> {
                 children: [
                   ClipRRect(
                     borderRadius: BorderRadius.circular(6),
-                    child: ImageService.photo(card.photoWebpId, width: 36, height: 36),
+                    child: ImageService.caricature(card.caricatureWebpId, width: 36, height: 36),
                   ),
                   const SizedBox(width: 8),
                   Expanded(
@@ -687,7 +687,7 @@ class _CandidatePickerSheetState extends State<_CandidatePickerSheet> {
                   dense: true,
                   leading: ClipRRect(
                     borderRadius: BorderRadius.circular(6),
-                    child: ImageService.photo(c.photoWebpId, width: 38, height: 38),
+                    child: ImageService.caricature(c.caricatureWebpId, width: 38, height: 38),
                   ),
                   title: Text(
                     c.nombre,

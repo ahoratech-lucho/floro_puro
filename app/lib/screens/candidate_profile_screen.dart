@@ -67,7 +67,7 @@ class CandidateProfileScreen extends StatelessWidget {
                     _header(nivelColor),
                     const SizedBox(height: 16),
 
-                    // Floro meter + radar
+                    // Floro meter
                     Container(
                       width: double.infinity,
                       padding: const EdgeInsets.all(16),
@@ -79,25 +79,40 @@ class CandidateProfileScreen extends StatelessWidget {
                               fontWeight: FontWeight.w700, letterSpacing: 1.5)),
                           const SizedBox(height: 8),
                           FloroMeter(score: card.indiceFloro, nivel: card.nivel),
-                          const SizedBox(height: 16),
-                          Container(height: 0.5, color: colorDivider),
-                          const SizedBox(height: 12),
-                          Center(child: FloroRadarChart(card: card, size: 200)),
-                          const SizedBox(height: 12),
-                          Container(height: 0.5, color: colorDivider),
-                          const SizedBox(height: 12),
-                          const Align(
-                            alignment: Alignment.centerLeft,
-                            child: Text('DESGLOSE POR DIMENSIÓN',
-                              style: TextStyle(color: colorTextTertiary, fontSize: 11,
-                                fontWeight: FontWeight.w700, letterSpacing: 1)),
-                          ),
-                          const SizedBox(height: 12),
-                          DimensionBars(card: card),
                         ],
                       ),
                     ),
                     const SizedBox(height: 16),
+
+                    // Radar + Bars — only if puntajes data exists
+                    if (card.puntajes.values.any((v) => v > 0)) ...[
+                      Container(
+                        width: double.infinity,
+                        padding: const EdgeInsets.all(16),
+                        decoration: _cardDeco(),
+                        child: Column(
+                          children: [
+                            const Text('RADAR DE DIMENSIONES',
+                              style: TextStyle(color: colorTextTertiary, fontSize: 12,
+                                fontWeight: FontWeight.w700, letterSpacing: 1.5)),
+                            const SizedBox(height: 12),
+                            Center(child: FloroRadarChart(card: card, size: 200)),
+                            const SizedBox(height: 12),
+                            Container(height: 0.5, color: colorDivider),
+                            const SizedBox(height: 12),
+                            const Align(
+                              alignment: Alignment.centerLeft,
+                              child: Text('DESGLOSE POR DIMENSIÓN',
+                                style: TextStyle(color: colorTextTertiary, fontSize: 11,
+                                  fontWeight: FontWeight.w700, letterSpacing: 1)),
+                            ),
+                            const SizedBox(height: 12),
+                            DimensionBars(card: card),
+                          ],
+                        ),
+                      ),
+                      const SizedBox(height: 16),
+                    ],
 
                     // Patrón
                     if (card.hasRealPatron)
@@ -106,13 +121,23 @@ class CandidateProfileScreen extends StatelessWidget {
                           color: colorTextPrimary, fontSize: 16,
                           fontWeight: FontWeight.w600, height: 1.5))),
 
-                    // Frase candidato
-                    if (card.hasRealFrase && card.frase != card.fraseNarrador)
-                      _quote('El candidato dice', card.frase, colorAccentInk),
+                    // Frase candidato — usa _section() que ya funciona en Patrón
+                    if (card.hasRealFrase &&
+                        card.frase.trim().length > 15 &&
+                        card.frase.trim() != card.fraseNarrador.trim() &&
+                        RegExp(r'[a-záéíóúñA-ZÁÉÍÓÚÑ]').hasMatch(card.frase))
+                      _section(Icons.format_quote_outlined, 'El Candidato Dice', colorAccentInk,
+                        Text('"${card.frase.trim()}"', style: const TextStyle(
+                          color: colorTextPrimary, fontSize: 15,
+                          fontStyle: FontStyle.italic, height: 1.5))),
 
                     // Narrador
-                    if (card.fraseNarrador.isNotEmpty && card.fraseNarrador.length > 10)
-                      _quote('Nuestro análisis', card.fraseNarrador, colorAccentRed),
+                    if (card.fraseNarrador.trim().length > 15 &&
+                        RegExp(r'[a-záéíóúñA-ZÁÉÍÓÚÑ]').hasMatch(card.fraseNarrador))
+                      _section(Icons.search_outlined, 'Nuestro Análisis', colorAccentRed,
+                        Text('"${card.fraseNarrador.trim()}"', style: const TextStyle(
+                          color: colorTextPrimary, fontSize: 15,
+                          fontStyle: FontStyle.italic, height: 1.5))),
 
                     // Pensión
                     if (card.pensionAlimenticia == 'sí')
@@ -193,7 +218,7 @@ class CandidateProfileScreen extends StatelessWidget {
             children: [
               ClipRRect(
                 borderRadius: BorderRadius.circular(8),
-                child: ImageService.photo(card.photoWebpId, width: 80, height: 80),
+                child: ImageService.caricature(card.caricatureWebpId, width: 80, height: 80),
               ),
               const SizedBox(width: 14),
               Expanded(
@@ -307,29 +332,6 @@ class CandidateProfileScreen extends StatelessWidget {
     ));
   }
 
-  Widget _quote(String title, String quote, Color color) {
-    return Container(
-      width: double.infinity,
-      margin: const EdgeInsets.only(bottom: 16),
-      padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: colorBgWhite, borderRadius: BorderRadius.circular(12),
-        border: Border(
-          left: BorderSide(color: color, width: 4),
-          top: BorderSide(color: colorCardBorder, width: 0.5),
-          right: BorderSide(color: colorCardBorder, width: 0.5),
-          bottom: BorderSide(color: colorCardBorder, width: 0.5),
-        ),
-      ),
-      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        Text(title.toUpperCase(), style: TextStyle(color: color, fontSize: 11,
-          fontWeight: FontWeight.w700, letterSpacing: 1)),
-        const SizedBox(height: 8),
-        Text('"$quote"', style: const TextStyle(color: colorTextPrimary, fontSize: 16,
-          fontStyle: FontStyle.italic, height: 1.5)),
-      ]),
-    );
-  }
 
   Widget _pensionBadge() {
     return Container(
